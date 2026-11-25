@@ -8,6 +8,7 @@
 
 - 正式公网 Demo：<https://v08hlna9o1wc.aiworks.site/>
 - 官方项目页：<https://www.zhihu.com/project/detail/270773>
+- GitHub 代码仓库：<https://github.com/xuxihan612/zhihu-choice-demo>
 - 产品说明计划书：[product-plan.md](product-plan.md)
 - 核心优化验收报告：[core-optimization-acceptance.md](core-optimization-acceptance.md)
 - [演示视频 MP4](demo-video/知乎选哪边-演示视频.mp4) · [SRT 字幕](demo-video/demo.srt) · [ASS 字幕](demo-video/demo.ass)
