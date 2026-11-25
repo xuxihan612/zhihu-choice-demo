@@ -1,0 +1,109 @@
+{
+  "candidate_count": 26,
+  "source_type_counts": {
+    "Article": 20,
+    "Answer": 6
+  },
+  "host_distribution": {
+    "zhuanlan.zhihu.com": 20,
+    "www.zhihu.com": 6
+  },
+  "retrieval_method_counts": {
+    "public_page_browser": 26
+  },
+  "retrieved_at_range": {
+    "first": "2026-11-24T15:29:24.692Z",
+    "last": "2026-11-24T15:31:35.040Z"
+  },
+  "body_length_range": {
+    "min": 2527,
+    "max": 11754
+  },
+  "comparison_coverage": {
+    "contains_coffee_and_capsule_and_semi_auto": 26,
+    "note": "最终26条均同时包含“咖啡”“胶囊”“半自动”；是否足以进入黄金测试集仍待后续人工筛选。"
+  },
+  "verified_fields": [
+    "candidate_id",
+    "_api",
+    "Title",
+    "ContentType",
+    "ContentID",
+    "AuthorName",
+    "ContentText",
+    "Url",
+    "PublicDateText",
+    "PublicEditDate",
+    "AuthorAvatar（页面明确展示时）",
+    "Headline（页面明确展示时）",
+    "VoteUpCount（页面明确展示时）",
+    "CommentCount（页面明确展示时）",
+    "provenance"
+  ],
+  "unconfirmed_fields": {
+    "CreateTime": "公开页面仅展示日期文本，未暴露可验证的原始发布时间戳；全部置0。",
+    "EditTime": "公开页面仅展示编辑日期文本，未暴露可验证的原始编辑时间戳；全部置0；PublicDateText 保留页面原文。",
+    "AuthorSignature": "本批次未从公开渲染页取得，全部留空。",
+    "AuthorBadge": "本批次未从公开渲染页取得，全部留空。",
+    "AuthorBadgeText": "本批次未从公开渲染页取得，全部留空。",
+    "AuthorityLevel": "本批次未从公开渲染页取得，全部留空。",
+    "RankingScore": "非公开页面指标，全部置0，不表示真实排名分。",
+    "CommentInfoList": "未采集评论列表，全部置空数组。",
+    "VoteUpCount_not_exposed_candidate_ids": [
+      "Article:1974153806464972110",
+      "Article:2019422918380140161"
+    ],
+    "CommentCount_not_exposed_candidate_ids": [
+      "Article:1951680520401421765",
+      "Article:1974153806464972110",
+      "Article:2019422918380140161",
+      "Article:503076180",
+      "Article:687725263",
+      "Article:685808033",
+      "Answer:2711914420"
+    ],
+    "AuthorAvatar_missing_candidate_ids": [],
+    "Headline_missing_candidate_ids": [
+      "Article:1951680520401421765"
+    ]
+  },
+  "deduplication": {
+    "primary_key": "ContentType + ContentID",
+    "candidate_id_rule": "candidate_id = ContentType + ':' + ContentID",
+    "url_normalization": "去除 query 与尾斜杠，按 hostname 校验 allowlist；同 URL 不重复纳入。",
+    "article_alias_rule": "www.zhihu.com/tardis/zm/art/{id} 与 zhuanlan.zhihu.com/p/{id} 按 Article:{id} 视为同一来源。",
+    "answer_alias_rule": "规范 question/{qid}/answer/{aid} 与 tardis/bd/ans/{aid} 按 Answer:{aid} 视为同一来源。",
+    "body_hash_rule": "对 ContentText UTF-8 计算 SHA-256；完全相同正文不重复纳入。",
+    "unique_candidate_id_count": 26,
+    "unique_url_count": 26,
+    "unique_body_hash_count": 26,
+    "duplicate_candidate_id_count": 0,
+    "duplicate_url_count": 0,
+    "duplicate_body_hash_count": 0,
+    "excluded_sample_search_article_ids": [
+      "17707827183",
+      "700084027",
+      "2026313360724042073",
+      "714234013",
+      "653053995"
+    ],
+    "gold_set_overlap_check": "按禁读约束未打开 pipeline/tests/gold、pipeline/tests/fixtures、prototype/data/raw_candidates.json 或 runs/prepared-v1.json；已排除 sample_search.json 中5条示例来源，但未声称对不可见黄金案例完成ID级交叉核验。"
+  },
+  "validation": {
+    "passed": true,
+    "candidate_count": 26,
+    "checks": [
+      "顶层为JSON数组且候选数 >= 22",
+      "candidate_id 与 ContentType + ContentID 一致且唯一",
+      "URL 主机仅允许 zhihu.com、www.zhihu.com、zhuanlan.zhihu.com",
+      "ContentText 字符长度 80-12000",
+      "ContentText 包含咖啡且包含胶囊或半自动",
+      "无 HTML 标签或“内容加载中”等空壳占位",
+      "标题、作者、正文、URL 非空",
+      "URL、candidate_id、正文哈希均无重复",
+      "未包含 sample_search.json 中5条示例文章ID"
+    ]
+  },
+  "collection_failures": [],
+  "scope_note": "全部条目均为待筛选真实候选；未生成黄金标注、审核结论或入选结论。"
+}

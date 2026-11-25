@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="把知乎回答拆成主张、条件、代价和原文证据，帮你在胶囊机与半自动咖啡机之间做出可核对的选择。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232F5D50'/%3E%3Cpath d='M17 25h25v13c0 8-5 12-12 12s-13-4-13-12V25Z' fill='none' stroke='%23F7F3EC' stroke-width='4'/%3E%3Cpath d='M42 29h5c8 0 8 12 0 12h-5' fill='none' stroke='%23F7F3EC' stroke-width='4'/%3E%3C/svg%3E">
+<title>第一台咖啡机怎么选？｜知乎选哪边</title>
+<style>
+  :root{
+    --bg:#F7F3EC; --ink:#3B2A20; --green:#2F5D50; --clay:#9E5127;
+    --card:#FFFDFA; --line:rgba(59,42,32,.14); --muted:rgba(59,42,32,.70);
+    --soft:rgba(47,93,80,.07); --warm:rgba(193,112,58,.07);
+    --serif:"Songti SC","STSong","SimSun",serif;
+    --sans:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
+  button,select{font:inherit}
+  button,a,select{-webkit-tap-highlight-color:transparent}
+  button{cursor:pointer}
+  a{color:var(--green);text-underline-offset:3px}
+  ::selection{background:rgba(47,93,80,.2);color:var(--ink)}
+  :focus-visible{outline:3px solid rgba(193,112,58,.55);outline-offset:3px}
+  .wrap{max-width:1080px;margin:0 auto;padding:44px 26px 90px}
+  h1{font-family:var(--serif);font-size:38px;line-height:1.25;margin:0 0 10px;font-weight:600;letter-spacing:.5px;text-wrap:balance}
+  h2{font-family:var(--serif);font-size:24px;line-height:1.35;margin:0;font-weight:600;text-wrap:balance}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 20px}
+  .sub b{font-weight:600;color:var(--ink)}
+  .journey{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:0 0 30px;font-size:13px;color:var(--muted)}
+  .journey span{display:inline-flex;align-items:center;gap:7px}
+  .journey b{display:inline-grid;place-items:center;width:22px;height:22px;border:1px solid var(--line);border-radius:50%;font-size:11px;font-weight:600;color:var(--green);background:var(--card)}
+  .journey i{font-style:normal;color:rgba(59,42,32,.35)}
+  .section-heading{display:flex;justify-content:space-between;gap:24px;align-items:end;margin:0 0 14px}
+  .section-heading p{margin:0;max-width:520px;color:var(--muted);font-size:13px;text-align:right}
+  .conds{display:flex;flex-wrap:wrap;gap:22px;padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:14px}
+  .cond{min-width:220px;flex:1}
+  .cond h3{margin:0 0 8px;font-size:13px;font-weight:600;letter-spacing:1px;color:var(--muted)}
+  .pills{display:flex;flex-wrap:wrap;gap:7px}
+  .pill{font:inherit;font-size:13px;min-height:36px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);transition:border-color .16s,background .16s,color .16s}
+  .pill:hover{border-color:var(--ink);color:var(--ink)}
+  .pill[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#FBF7F0}
+  .flip{min-height:52px;margin:0 0 22px;padding:12px 15px;font-size:14px;color:var(--clay);display:flex;gap:10px;align-items:flex-start;background:var(--warm);border:1px solid rgba(193,112,58,.22);border-radius:12px}
+  .flip .dot{width:7px;height:7px;border-radius:50%;background:var(--clay);margin-top:9px;flex:none}
+  .flip b{font-weight:600;color:var(--ink)}
+  .decision-facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:5px;font-size:12px;color:var(--muted)}
+  .decision-facts strong{font-weight:600;color:var(--ink)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px 18px;transition:border-color .2s,box-shadow .2s;position:relative;min-width:0}
+  .card.win{border-color:var(--green);box-shadow:0 8px 24px rgba(47,93,80,.08)}
+  .card.tie{border-color:var(--clay)}
+  .card h2{font-size:26px;margin:0 0 2px;font-weight:600}
+  .tag{font-size:12px;color:var(--green);margin-bottom:14px}
+  .tag.tie{color:var(--clay)}
+  .tag.hide{visibility:hidden}
+  .bar{height:5px;border-radius:3px;background:rgba(59,42,32,.1);overflow:hidden;margin-bottom:16px}
+  .bar i{display:block;height:100%;background:var(--green);transition:width .25s ease-out}
+  .score{font-size:12px;color:var(--muted);margin:-8px 0 14px;font-variant-numeric:tabular-nums}
+  .sec{font-size:12px;letter-spacing:1px;color:var(--muted);margin:20px 0 6px}
+  .item{padding:11px 0;border-top:1px solid var(--line);font-size:14px}
+  .item:first-of-type{border-top:none}
+  .item .txt{display:block}
+  .item .txt em{font-style:normal;color:var(--muted)}
+  .rule-cond{font-size:12px;color:var(--green);margin-top:5px}
+  .srcs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .src{font-size:12px;min-height:32px;padding:4px 9px;border-radius:6px;background:var(--soft);color:var(--green);border:1px solid transparent;cursor:pointer;font-family:inherit;transition:background .16s,border-color .16s}
+  .src:hover{background:rgba(47,93,80,.15);border-color:rgba(47,93,80,.24)}
+  .src.guide{background:rgba(193,112,58,.1);color:var(--clay)}
+  .src.off{opacity:.4;text-decoration:line-through}
+  .gap{font-size:12px;color:var(--muted);margin-top:7px}
+  .evidence-hint{margin:12px 0 0;font-size:12px;color:var(--muted)}
+  .tools{display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center;margin-top:26px;font-size:13px;color:var(--muted)}
+  .switch{display:inline-flex;align-items:center;gap:8px;cursor:pointer;user-select:none;min-height:36px}
+  .switch input{width:36px;height:20px;appearance:none;background:rgba(59,42,32,.2);border-radius:999px;position:relative;transition:background .2s;cursor:pointer;flex:none}
+  .switch input::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .2s}
+  .switch input:checked{background:var(--green)}
+  .switch input:checked::after{transform:translateX(16px)}
+  .conflict-panel{margin-top:34px;padding-top:28px;border-top:1px solid var(--line)}
+  .conflict-panel .section-heading{margin-bottom:18px}
+  .conflict-empty{padding:16px 18px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:13px;background:rgba(255,253,250,.5)}
+  .versus{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .side{min-width:0;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+  .side.cap{border-top:3px solid var(--green)}
+  .side.semi{border-top:3px solid var(--clay)}
+  .side h3{margin:0 0 4px;font-family:var(--serif);font-size:20px;font-weight:600}
+  .side-note{margin:0 0 14px;color:var(--muted);font-size:12px}
+  .conflict-source{padding:14px 0;border-top:1px solid var(--line)}
+  .conflict-source:first-of-type{border-top:none;padding-top:4px}
+  .conflict-author{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:13px;margin-bottom:8px}
+  .conflict-author b{font-weight:600}
+  .conflict-author span{color:var(--muted);font-size:12px}
+  .conflict-claim{padding:10px 0 12px;border-top:1px dashed var(--line)}
+  .conflict-claim:first-of-type{border-top:none}
+  .conflict-claim p{margin:0 0 7px;font-size:13.5px}
+  .source-case{margin:8px 0 4px;padding:8px 10px;border-radius:8px;background:rgba(59,42,32,.035)}
+  .source-case>b{display:block;margin-bottom:4px;font-size:11px;color:var(--muted);font-weight:600}
+  .source-case .condition-list{margin:0}
+  .condition-list{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0}
+  .condition-chip{display:inline-block;padding:2px 7px;border-radius:5px;font-size:11px;line-height:1.6;background:rgba(59,42,32,.05);color:var(--muted)}
+  .condition-chip.match{background:var(--soft);color:var(--green)}
+  .condition-chip.different{background:var(--warm);color:var(--clay)}
+  .claim-cost{font-size:12px;color:var(--clay);margin:6px 0}
+  .mini-evidence{font-size:12px;color:var(--muted);white-space:pre-wrap;margin:6px 0 8px;overflow-wrap:anywhere}
+  .source-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:12px}
+  .text-button{border:none;background:none;padding:0;color:var(--green);font:inherit;text-decoration:underline;text-underline-offset:3px}
+  .pipeline{margin-top:38px;padding-top:28px;border-top:1px solid var(--line)}
+  .pipeline .section-heading{margin-bottom:16px}
+  .pipeline-controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:13px 15px;background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:16px;font-size:13px}
+  .pipeline-controls label{display:inline-flex;align-items:center;gap:8px;color:var(--muted)}
+  .pipeline-controls select{max-width:100%;min-height:36px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--ink);padding:5px 30px 5px 9px}
+  .pipeline-controls .offline{color:var(--green);font-size:12px}
+  .pipeline-flow{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}
+  .pipe-step{padding:20px;min-width:0}
+  .pipe-step:nth-child(odd){border-right:1px solid var(--line)}
+  .pipe-step:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .pipe-step h3{display:flex;gap:9px;align-items:center;margin:0 0 12px;font-size:15px;font-weight:600}
+  .pipe-step h3 span{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--soft);color:var(--green);font-size:12px;flex:none}
+  .pipe-step p{margin:0 0 10px;font-size:13px}
+  .pipe-kv{font-size:12px;color:var(--muted);margin-bottom:9px;overflow-wrap:anywhere}
+  .raw-text{font-size:13px;white-space:pre-wrap;margin:8px 0 12px;padding:11px 12px;background:rgba(59,42,32,.04);border-radius:8px;overflow-wrap:anywhere}
+  .structured{display:grid;gap:7px;margin:0}
+  .structured div{display:grid;grid-template-columns:76px 1fr;gap:8px;font-size:12.5px}
+  .structured dt{color:var(--muted)}
+  .structured dd{margin:0;overflow-wrap:anywhere}
+  .check-list{list-style:none;padding:0;margin:0;display:grid;gap:7px}
+  .check-list li{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;padding-bottom:6px;border-bottom:1px dashed var(--line)}
+  .check-list li:last-child{border-bottom:none;padding-bottom:0}
+  .pass{color:var(--green);font-weight:600;white-space:nowrap}
+  .na{color:var(--muted);white-space:nowrap}
+  .support-detail{font-size:12px;color:var(--muted);margin:8px 0 0}
+  .score-line{display:flex;flex-wrap:wrap;gap:8px 16px;margin:10px 0;font-size:12px;font-variant-numeric:tabular-nums}
+  .score-line b{font-weight:600}
+  .rule-score{padding:7px 9px;background:rgba(59,42,32,.04);border-radius:7px;font-size:12px;margin-top:7px}
+  .pipeline-note{font-size:12px;color:var(--muted);margin:12px 0 0}
+  .drawer-scrim{position:fixed;inset:0;z-index:19;background:rgba(59,42,32,.22);opacity:0;pointer-events:none;transition:opacity .26s ease-out}
+  .drawer-scrim.open{opacity:1;pointer-events:auto}
+  .drawer{position:fixed;top:0;right:0;width:min(460px,94vw);height:100%;background:#FFFDF9;border-left:1px solid var(--line);box-shadow:-14px 0 40px rgba(59,42,32,.12);transform:translateX(101%);transition:transform .26s ease-out;overflow-y:auto;padding:26px 26px 60px;z-index:20}
+  .drawer.open{transform:none}
+  .drawer-head{position:sticky;top:0;z-index:2;margin:-26px -26px 18px;padding:26px 26px 18px;background:#FFFDF9;border-bottom:1px solid var(--line);box-shadow:0 10px 18px -16px rgba(59,42,32,.5)}
+  .drawer .close{position:absolute;top:16px;right:16px;min-height:34px;font:inherit;font-size:14px;background:none;border:1px solid var(--line);border-radius:7px;padding:4px 10px;color:var(--muted);cursor:pointer}
+  .drawer h4{font-family:var(--serif);font-size:20px;margin:0 38px 6px 0;font-weight:600;line-height:1.45}
+  .kv{font-size:12px;color:var(--muted);margin-bottom:14px}
+  .original-link{display:inline-flex;align-items:center;min-height:36px;margin:0 0 16px;padding:5px 11px;border:1px solid rgba(47,93,80,.28);border-radius:7px;background:var(--soft);font-size:13px;text-decoration:none}
+  .original-link:hover{background:rgba(47,93,80,.14)}
+  .condbox{font-size:13px;background:rgba(59,42,32,.04);border-radius:10px;padding:12px 14px;margin-bottom:16px}
+  .condbox .miss{color:var(--clay)}
+  .condbox .ok{color:var(--green)}
+  .claim{border-top:1px solid var(--line);padding:16px 0 6px;scroll-margin-top:220px}
+  .claim:first-of-type{border-top:none}
+  .claim.claim-focus{background:rgba(47,93,80,.06);border-radius:8px;padding-left:10px;padding-right:10px}
+  .claim-meta{font-size:12px;color:var(--muted);margin-bottom:5px}
+  .claim-text{font-size:14px;margin:0 0 7px}
+  .claim-evidence{font-size:13px;white-space:pre-wrap;border-left:2px solid var(--green);padding-left:10px;margin:0 0 14px;color:var(--muted);overflow-wrap:anywhere}
+  .claim-status{font-size:12px;color:var(--green);margin:7px 0}
+  .trace-button{min-height:34px;border:1px solid rgba(47,93,80,.25);border-radius:7px;background:var(--soft);color:var(--green);font:inherit;font-size:12px;padding:5px 10px}
+  .trace-button:hover{background:rgba(47,93,80,.14)}
+  .drawer-body-open{overflow:hidden}
+  .foot{margin-top:36px;font-size:12px;color:var(--muted);line-height:1.9}
+  @media (max-width:760px){
+    .wrap{padding:28px 16px 70px}
+    h1{font-size:29px}
+    h2{font-size:21px}
+    .journey{margin-bottom:24px;gap:7px 9px}
+    .section-heading{display:block}
+    .section-heading p{text-align:left;margin-top:6px}
+    .conds{gap:18px;padding:16px}
+    .cond{min-width:100%}
+    .grid,.versus,.pipeline-flow{grid-template-columns:1fr}
+    .side{padding:16px}
+    .pipe-step:nth-child(odd){border-right:none}
+    .pipe-step{border-bottom:1px solid var(--line)}
+    .pipe-step:last-child{border-bottom:none}
+    .card{padding:19px 18px 16px}
+    .pipeline-controls{align-items:stretch}
+    .pipeline-controls label{display:grid;grid-template-columns:1fr;gap:4px;width:100%}
+    .pipeline-controls select{width:100%}
+    .structured div{grid-template-columns:68px 1fr}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *,*::before,*::after{transition:none!important}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title">第一台咖啡机怎么选？</h1>
+    <p class="sub" id="sub"></p>
+    <div class="journey" aria-label="使用路径">
+      <span><b>1</b>选你的条件</span><i aria-hidden="true">→</i>
+      <span><b>2</b>看推荐变化</span><i aria-hidden="true">→</i>
+      <span><b>3</b>核对主张与证据</span><i aria-hidden="true">→</i>
+      <span><b>4</b>回知乎原文</span>
+    </div>
+  </header>
+
+  <section aria-labelledby="conditionsTitle">
+    <div class="section-heading">
+      <h2 id="conditionsTitle">先对齐你的使用习惯</h2>
+      <p>只调整与你有关的条件。推荐、证据和冲突对比会一起更新。</p>
+    </div>
+    <div class="conds" id="conds"></div>
+  </section>
+
+  <div class="flip" id="flip" role="status" aria-live="polite">
+    <span class="dot" aria-hidden="true"></span>
+    <div><span id="flipText">先选你的情况，下面两张卡的顺序会跟着变。</span><div class="decision-facts" id="decisionFacts"></div></div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="evidence-hint">每条结论都可以点开答主，查看完整主张、使用条件、代价和逐字证据，再跳转到知乎原文。</p>
+  <div id="conflict"></div>
+
+  <div class="tools">
+    <label class="switch"><input type="checkbox" id="onlyReal"><span>只看真实使用经验，过滤导购与教程</span></label>
+    <span id="count"></span>
+  </div>
+
+  <section class="pipeline" id="pipeline" aria-labelledby="pipelineTitle">
+    <div class="section-heading">
+      <h2 id="pipelineTitle">一条知乎结论，如何变成可核对的建议</h2>
+      <p>这里展示真实离线处理链路，不在浏览器里实时调用模型。</p>
+    </div>
+    <div class="pipeline-controls">
+      <label for="pipelineSource">选择来源
+        <select id="pipelineSource"></select>
+      </label>
+      <label for="pipelineClaim">选择主张
+        <select id="pipelineClaim"></select>
+      </label>
+      <span class="offline">AI 离线抽取 → 程序校验 → 页面确定性重排</span>
+    </div>
+    <div class="pipeline-flow" id="pipelineFlow"></div>
+    <p class="pipeline-note">当前审核为两轮独立 AI 审核加 AI 裁决，不等同于真人双人复核。分数只表示页面规则的相对匹配，不是准确率或购买保证。</p>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<div class="drawer-scrim" id="drawerScrim" aria-hidden="true"></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" inert>
+  <div id="drawerBody"></div>
+</div>
+
+<script src="data.js"></script>
+<script>
+const CONDS = [
+  { key:"freq", label:"每天喝几杯", opts:[["low","一杯或更少"],["high","两杯以上"]] },
+  { key:"clean", label:"清洗意愿", opts:[["none","多一分钟都不想"],["daily","愿意每天十分钟"],["weekly","愿意每周大扫除"]] },
+  { key:"play", label:"想不想自己控制萃取", opts:[["none","只想喝到就行"],["learn","想学一点"],["play","就想自己折腾"]] },
+];
+const OPTS = {
+  capsule:{ name:"胶囊机", note:"放胶囊，按按钮，一分钟出杯" },
+  semi:{ name:"半自动", note:"自己磨粉、布粉、压粉、打奶泡" },
+};
+/* 规则：cond 里每个键都命中才算触发；sources 引用 data.js 的真实来源 */
+const RULES = [
+  { id:"c1", opt:"capsule", sign:1, w:2, label:"出杯快、步骤少，早上不占时间",
+    cond:{ freq:["low"] }, sources:["coffee-s8","coffee-s7"] },
+  { id:"c2", opt:"capsule", sign:1, w:3, label:"清洁相对简单，不用自己处理散粉",
+    cond:{ clean:["none"] }, sources:["coffee-s4","coffee-s23"] },
+  { id:"c3", opt:"capsule", sign:1, w:2, label:"不想研究参数也能稳定出一杯",
+    cond:{ play:["none"] }, sources:["coffee-s4","coffee-s17"] },
+  { id:"c4", opt:"capsule", sign:-1, w:3, label:"单杯四到五块，喝得越多越不划算",
+    cond:{ freq:["high"] }, sources:["coffee-s8","coffee-s3","coffee-s5"] },
+  { id:"c5", opt:"capsule", sign:-1, w:2, label:"烘焙和粉量是厂里定好的，浓淡改不了",
+    cond:{ play:["learn","play"] }, sources:["coffee-s5"] },
+
+  { id:"s1r", opt:"semi", sign:1, w:3, label:"研磨、粉量、萃取时间都能自己调",
+    cond:{ play:["play"] }, sources:["coffee-s19","coffee-s27"] },
+  { id:"s2r", opt:"semi", sign:1, w:1, label:"咖啡豆长期成本可低于胶囊，口感也能自己调",
+    cond:{ play:["learn"] }, sources:["coffee-s5","coffee-s19"] },
+  { id:"s3r", opt:"semi", sign:1, w:2, label:"喝得多时，咖啡豆的长期耗材成本更可控",
+    cond:{ freq:["high"] }, sources:["coffee-s5"] },
+  { id:"s4r", opt:"semi", sign:1, w:2, label:"愿意按清单做日常和深度清洁，才能长期保持好用",
+    cond:{ clean:["weekly"] }, sources:["coffee-s9","coffee-s26"] },
+  { id:"s5r", opt:"semi", sign:1, w:1, label:"日常清洁能带走大部分残垢，外露冲煮头更好冲",
+    cond:{ clean:["daily","weekly"] }, sources:["coffee-s9","coffee-s21"] },
+  { id:"s8r", opt:"semi", sign:1, w:1, label:"进阶机型支持温度、萃取量或压力细调",
+    cond:{ play:["learn","play"] }, sources:["coffee-s25","coffee-s28"] },
+  { id:"s6r", opt:"semi", sign:-1, w:4, label:"说明书翻三遍还是盲调，两周塞柜子吃灰",
+    cond:{ play:["none"] }, sources:["coffee-s21","coffee-s29"] },
+  { id:"s7r", opt:"semi", sign:-1, w:3, label:"每次用完要洗手柄、冲煮头、蒸汽棒，奶垢还要处理",
+    cond:{ clean:["none"] }, sources:["coffee-s9","coffee-s26"] },
+];
+
+const state = { freq:"low", clean:"none", play:"none" };
+let prev = { ...state }, onlyReal = false, lastSourceButton = null;
+let pipelineSourceId = "coffee-s8", pipelineClaimId = null;
+
+const $ = (id) => document.getElementById(id);
+const sourceMap = new Map(window.SOURCES.map(s => [s.id, s]));
+const src = (id) => sourceMap.get(id);
+const visible = (id) => !onlyReal || src(id).kind === "experience";
+const hit = (rule, st) => Object.entries(rule.cond).every(([k,v]) => v.includes(st[k]));
+const esc = (value) => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const condDef = (key) => CONDS.find(c => c.key === key);
+const condValue = (key, value) => condDef(key)?.opts.find(o => o[0] === value)?.[1] || value || "未说明";
+const shorten = (value, max=110) => String(value || "").length > max ? String(value).slice(0, max) + "…" : String(value || "");
+const signed = (value) => value > 0 ? "+" + value.toFixed(1) : value.toFixed(1);
+
+function evalOpt(opt, st){
+  let score = 0, lines = [];
+  for (const r of RULES.filter(x => x.opt === opt && hit(x, st))) {
+    const all = r.sources.length;
+    const keep = r.sources.filter(visible);
+    if (!keep.length) continue;
+    const factor = keep.length / all;
+    score += r.sign * r.w * factor;
+    const keys = Object.keys(r.cond);
+    const missing = keep.filter(id => keys.some(k => src(id).known[k] === null)).length;
+    const names = keys.map(k => condDef(k).label);
+    lines.push({ rule:r, keep, factor, missing, names });
+  }
+  return { score, lines };
+}
+
+function render(){
+  const res = { capsule:evalOpt("capsule", state), semi:evalOpt("semi", state) };
+  const max = Math.max(0, res.capsule.score, res.semi.score);
+  const order = res.capsule.score >= res.semi.score ? ["capsule", "semi"] : ["semi", "capsule"];
+  const tied = res.capsule.score === res.semi.score;
+  const winner = tied ? null : order[0];
+  $("grid").innerHTML = order.map(key => {
+    const o = OPTS[key], r = res[key];
+    const pct = max ? Math.round(Math.max(0, r.score) / max * 100) : 0;
+    const pos = r.lines.filter(l => l.rule.sign > 0), neg = r.lines.filter(l => l.rule.sign < 0);
+    const tagClass = tied ? "tie" : key === winner ? "" : "hide";
+    const tagText = tied ? "得分并列，没有单一推荐" : "按你现在的条件，这条排在前面";
+    return `<div class="card ${tied ? "tie" : key === winner ? "win" : ""}">
+      <h2>${o.name}</h2>
+      <div class="tag ${tagClass}">${tagText}</div>
+      <div class="bar"><i style="width:${pct}%"></i></div>
+      <div class="score">相对匹配 ${signed(r.score)}</div>
+      <div class="sec">适合你的地方</div>
+      ${pos.length ? pos.map(line).join("") : '<div class="item"><span class="txt"><em>你选的条件里，没有答主提到它的优势</em></span></div>'}
+      <div class="sec">要接受的代价</div>
+      ${neg.length ? neg.map(line).join("") : '<div class="item"><span class="txt"><em>没有答主提到与你条件冲突的代价</em></span></div>'}
+    </div>`;
+  }).join("");
+
+  const currentCase = CONDS.map(c => `${c.label}「${condValue(c.key, state[c.key])}」`).join("、");
+  $("decisionFacts").innerHTML = `<span><strong>当前条件：</strong>${esc(currentCase)}</span><span><strong>规则分：</strong>胶囊机 ${signed(res.capsule.score)} · 半自动 ${signed(res.semi.score)}</span>`;
+
+  const sameCase = (s) => {
+    const stated = Object.entries(s.known).filter(([,v]) => v !== null);
+    return stated.length > 0 && stated.every(([k,v]) => v === state[k]);
+  };
+  const byVotes = (a,b) => b.votes - a.votes;
+  const pool = window.SOURCES.filter(s => visible(s.id) && s.leans && sameCase(s));
+  let forCap = pool.filter(s => s.leans === "capsule").sort(byVotes);
+  let forSemi = pool.filter(s => s.leans === "semi").sort(byVotes);
+  const exactConflict = !!(forCap.length && forSemi.length);
+  // 没有完全同条件的对立来源时，仍展示真实分歧，但明确标注条件不同或缺失，绝不冒充同条件证据。
+  if (!exactConflict) {
+    const visibleOpposing = window.SOURCES.filter(s => visible(s.id) && s.leans);
+    forCap = visibleOpposing.filter(s => s.leans === "capsule").sort(byVotes);
+    forSemi = visibleOpposing.filter(s => s.leans === "semi").sort(byVotes);
+  }
+  const conflictPool = exactConflict ? pool : [...forCap, ...forSemi];
+  renderConflict(forCap, forSemi, exactConflict);
+
+  const used = new Set([
+    ...Object.values(res).flatMap(r => r.lines.flatMap(l => l.keep)),
+    ...conflictPool.map(s => s.id),
+  ]);
+  $("count").textContent =
+    `${onlyReal ? "当前筛选后引用" : "当前引用"} ${used.size} 条来源，共 ${window.SOURCES.length} 条` +
+    `（真实经验 ${window.SOURCES.filter(s=>s.kind==="experience").length}、导购 ${window.SOURCES.filter(s=>s.kind==="guide").length}、教程 ${window.SOURCES.filter(s=>s.kind==="cleaning").length}）`;
+
+  bindCards();
+  renderPipeline();
+}
+
+function line(l){
+  const r = l.rule;
+  const chips = r.sources.map(id => {
+    const s = src(id);
+    return `<button class="src ${s.kind==="guide"?"guide":""} ${visible(id)?"":"off"}" data-id="${esc(id)}">${esc(s.author || s.title.slice(0,8))} · ${s.votes} 赞</button>`;
+  }).join("");
+  const matched = Object.entries(r.cond).map(([k,values]) => `${condDef(k).label}是「${condValue(k, state[k])}」`).join("、");
+  const note = l.missing ? `<div class="gap">支撑这条的 ${l.keep.length} 位答主里，${l.missing} 位没写清自己的「${l.names.join("、")}」</div>` : "";
+  const half = l.factor < 1 ? `<em>（导购或教程已过滤，权重减半）</em>` : "";
+  return `<div class="item" data-rule="${esc(r.id)}"><span class="txt">${r.label} ${half}</span><div class="rule-cond">命中：${esc(matched)}</div><div class="srcs">${chips}</div>${note}</div>`;
+}
+
+function conditionChips(values){
+  return `<div class="condition-list">${CONDS.map(c => {
+    const value = values[c.key];
+    if (!value) return `<span class="condition-chip">${c.label}：未说明</span>`;
+    const cls = value === state[c.key] ? "match" : "different";
+    const suffix = value === state[c.key] ? " · 与你一致" : " · 与你不同";
+    return `<span class="condition-chip ${cls}">${c.label}：${esc(condValue(c.key, value))}${suffix}</span>`;
+  }).join("")}</div>`;
+}
+
+function leanClaims(source, lean){
+  return source.claims.filter(c => (c.option === lean && c.polarity === "pro") || (c.option !== lean && c.polarity === "con"));
+}
+
+function conflictSide(lean, sources, exact){
+  const name = OPTS[lean].name;
+  const body = sources.slice(0,2).map(s => {
+    const claims = leanClaims(s, lean).slice(0,2);
+    return `<div class="conflict-source">
+      <div class="conflict-author"><b>${esc(s.author)}</b><span>${s.votes} 赞同 · ${esc(window.KIND_LABEL[s.kind])}</span></div>
+      <div class="source-case"><b>答主已说明条件</b>${conditionChips(s.known)}</div>
+      ${claims.map(c => `<div class="conflict-claim">
+        <p><strong>${esc(c.claim)}</strong></p>
+        ${conditionChips(c.conditions)}
+        <div class="claim-cost">${c.cost ? "代价：" + esc(c.cost.text) : "代价：这条主张未记录单独代价"}</div>
+        <div class="mini-evidence">原文：“${esc(shorten(c.evidence_quote, 120))}”</div>
+        <div class="source-actions"><button class="src ${s.kind==="guide"?"guide":""}" data-id="${esc(s.id)}" data-claim="${esc(c.claim_id)}">查看完整证据</button><a href="${esc(s.url)}" target="_blank" rel="noreferrer">知乎原文</a></div>
+      </div>`).join("")}
+    </div>`;
+  }).join("");
+  return `<div class="side ${lean==="capsule"?"cap":"semi"}"><h3>更支持${name}</h3><p class="side-note">${exact ? "以下主张来自当前条件下有明确条件披露的来源。" : "以下为真实相反经验；条件不同或未说明，不作为同条件证据。"}</p>${body}</div>`;
+}
+
+function renderConflict(forCap, forSemi, exact){
+  if (!forCap.length || !forSemi.length){
+    $("conflict").innerHTML = `<section class="conflict-panel" aria-labelledby="conflictTitle"><div class="section-heading"><h2 id="conflictTitle">相同条件下，为什么答案会相反？</h2></div><div class="conflict-empty">当前筛选范围内暂未找到倾向相反且能核对的来源。</div></section>`;
+    return;
+  }
+  $("conflict").innerHTML = `<section class="conflict-panel" aria-labelledby="conflictTitle">
+    <div class="section-heading"><h2 id="conflictTitle">${exact ? "相同条件下，为什么答案会相反？" : "条件不同，经验为什么仍然相反？"}</h2><p>${exact ? "只匹配双方明确说出的条件；未说明的条件不推断。并排核对主张、条件和代价。" : "当前没有完全同条件的对立来源。下面并排展示真实分歧，并逐项标出条件差异与信息缺口，不把不同条件硬凑成同条件证据。"}</p></div>
+    <div class="versus">${conflictSide("capsule", forCap, exact)}${conflictSide("semi", forSemi, exact)}</div>
+  </section>`;
+}
+
+function bindCards(){
+  document.querySelectorAll(".src").forEach(b => b.onclick = () => openDrawer(b.dataset.id, b.dataset.claim));
+  document.querySelectorAll(".trace").forEach(b => b.onclick = () => showPipeline(b.dataset.id, b.dataset.claim));
+}
+
+function claimConditions(values){
+  return CONDS.map(c => {
+    const v = values[c.key];
+    const name = c.opts.find(o => o[0] === v);
+    return v ? `<span class="ok">${c.label}：${esc(name ? name[1] : v)}</span>` : `<span class="miss">${c.label}：这条主张未说明</span>`;
+  }).join("<br>");
+}
+
+function validationSummary(c){
+  const v = c.validation;
+  const conditionOk = v.condition_support.every(x => x.supported);
+  return `程序校验：结构、主证据逐字、条件词面支持${conditionOk ? "通过" : "未通过"}${v.cost_evidence_exact === null ? "；无单独代价证据" : v.cost_evidence_exact ? "；代价证据逐字通过" : "；代价证据未通过"}`;
+}
+
+function openDrawer(id, claimId){
+  const s = src(id);
+  if (!s) return;
+  lastSourceButton = document.activeElement;
+  const claims = Array.isArray(s.claims) ? s.claims : [];
+  const claimHtml = claims.map(c => `
+    <div class="claim ${c.claim_id===claimId?"claim-focus":""}" id="claim-${esc(c.claim_id)}" data-claim-id="${esc(c.claim_id)}">
+      <div class="claim-meta">${esc(OPTS[c.option].name)} · ${c.polarity === "pro" ? "支持" : "反对"} · ${esc(window.KIND_LABEL[c.source_type])} · 模型置信度 ${c.confidence.toFixed(2)}</div>
+      <p class="claim-text">${esc(c.claim)}</p>
+      <div class="condbox">${claimConditions(c.conditions)}</div>
+      <p class="claim-evidence">${esc(c.evidence_quote)}</p>
+      ${c.cost ? `<div class="claim-meta">代价：${esc(c.cost.text)}</div><p class="claim-evidence">${esc(c.cost.evidence_quote)}</p>` : ""}
+      <div class="claim-status">${esc(validationSummary(c))}</div>
+      <button class="trace-button trace" data-id="${esc(s.id)}" data-claim="${esc(c.claim_id)}">查看这条主张的 AI 处理链路</button>
+    </div>`).join("");
+  $("drawerBody").innerHTML = `
+    <div class="drawer-head">
+      <button class="close" id="closeDrawer" type="button">关闭</button>
+      <h4 id="drawerTitle">${esc(s.title)}</h4>
+      <div class="kv">${esc(s.author || "匿名")}${s.badge ? "｜" + esc(s.badge) : ""}｜${s.votes} 赞同｜来源类型：${esc(window.KIND_LABEL[s.kind])}</div>
+      <a class="original-link" href="${esc(s.url)}" target="_blank" rel="noreferrer">在知乎打开原文</a>
+    </div>
+    <div class="condbox"><b>该来源已明确的条件</b><br>${claimConditions(s.known)}</div>
+    <div class="sec">已审核主张与逐字证据（${claims.length} 条）</div>
+    ${claimHtml || '<p class="claim-evidence">该来源暂无可展示的已审核主张。</p>'}`;
+  const drawer = $("drawer");
+  drawer.inert = false;
+  drawer.classList.add("open");
+  drawer.scrollTop = 0;
+  $("drawerScrim").classList.add("open");
+  $("drawerScrim").setAttribute("aria-hidden", "false");
+  document.querySelector(".wrap").inert = true;
+  document.body.classList.add("drawer-body-open");
+  bindCards();
+  $("closeDrawer").onclick = closeDrawer;
+  $("closeDrawer").focus({preventScroll:true});
+  if (claimId) requestAnimationFrame(() => {
+    const target = [...drawer.querySelectorAll("[data-claim-id]")].find(el => el.dataset.claimId === claimId);
+    const head = drawer.querySelector(".drawer-head");
+    if (target && head) {
+      const headTop = Math.max(0, head.getBoundingClientRect().top - drawer.getBoundingClientRect().top);
+      target.style.scrollMarginTop = `${headTop + head.offsetHeight + 18}px`;
+      target.scrollIntoView({block:"start"});
+    }
+  });
+}
+
+function closeDrawer(){
+  const drawer = $("drawer");
+  if (!drawer.classList.contains("open")) return;
+  drawer.classList.remove("open");
+  drawer.inert = true;
+  $("drawerScrim").classList.remove("open");
+  $("drawerScrim").setAttribute("aria-hidden", "true");
+  document.querySelector(".wrap").inert = false;
+  document.body.classList.remove("drawer-body-open");
+  if (lastSourceButton && document.contains(lastSourceButton)) lastSourceButton.focus({preventScroll:true});
+}
+
+function renderConds(){
+  $("conds").innerHTML = CONDS.map(c => `
+    <div class="cond"><h3>${c.label}</h3><div class="pills">
+      ${c.opts.map(([v,t]) => `<button class="pill" data-k="${c.key}" data-v="${v}" aria-pressed="${state[c.key]===v}">${t}</button>`).join("")}
+    </div></div>`).join("");
+  document.querySelectorAll(".pill").forEach(p => p.onclick = () => {
+    prev = { ...state };
+    state[p.dataset.k] = p.dataset.v;
+    document.querySelectorAll(`.pill[data-k="${p.dataset.k}"]`).forEach(x => x.setAttribute("aria-pressed", x.dataset.v === p.dataset.v));
+    explainFlip();
+    render();
+  });
+}
+
+function explainFlip(){
+  const margin = (st) => { const a = evalOpt("capsule", st).score, b = evalOpt("semi", st).score; return a - b; };
+  const now = margin(state), before = margin(prev);
+  const winLabel = (value) => value === 0 ? "两种选择并列" : value > 0 ? "胶囊机" : "半自动";
+  const win = winLabel(now), beforeWin = winLabel(before);
+  let best = null;
+  for (const c of CONDS) {
+    if (state[c.key] === prev[c.key]) continue;
+    const back = { ...state, [c.key]:prev[c.key] };
+    const delta = Math.abs(now - margin(back));
+    if (!best || delta > best.delta) best = { key:c.key, label:c.label, delta };
+  }
+  const tieMessage = "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。";
+  const changeMessage = best ? `改动最大的「${best.label}」让两条建议的差距移动了 ${best.delta.toFixed(1)} 分。` : "";
+  $("flipText").innerHTML = now === 0
+    ? `${tieMessage}${changeMessage}`
+    : best
+      ? (beforeWin !== win
+        ? `推荐从<b>${beforeWin}</b>变为<b>${win}</b>。${changeMessage}`
+        : `现在排在前面的是<b>${win}</b>，顺序没有反转。${changeMessage}`)
+      : `现在的条件组合下，<b>${win}</b>排在前面。`;
+}
+
+function setupPipelineControls(){
+  $("pipelineSource").innerHTML = window.SOURCES.map(s => `<option value="${esc(s.id)}">${esc(s.author)} · ${esc(shorten(s.title, 30))}</option>`).join("");
+  $("pipelineSource").value = pipelineSourceId;
+  $("pipelineSource").onchange = (e) => {
+    pipelineSourceId = e.target.value;
+    setupPipelineClaims();
+    renderPipeline();
+  };
+  $("pipelineClaim").onchange = (e) => { pipelineClaimId = e.target.value; renderPipeline(); };
+  setupPipelineClaims();
+}
+
+function setupPipelineClaims(){
+  const s = src(pipelineSourceId);
+  if (!s) return;
+  if (!s.claims.some(c => c.claim_id === pipelineClaimId)) pipelineClaimId = s.claims[0]?.claim_id || null;
+  $("pipelineClaim").innerHTML = s.claims.map((c,i) => `<option value="${esc(c.claim_id)}">${i+1}. ${esc(shorten(c.claim, 34))}</option>`).join("");
+  $("pipelineClaim").value = pipelineClaimId || "";
+}
+
+function statusHtml(value, na=false){
+  if (na) return '<span class="na">不适用</span>';
+  return value ? '<span class="pass">通过</span>' : '<span class="na">未通过</span>';
+}
+
+function renderPipeline(){
+  const s = src(pipelineSourceId);
+  if (!s) return;
+  const c = s.claims.find(x => x.claim_id === pipelineClaimId) || s.claims[0];
+  if (!c) return;
+  const v = c.validation;
+  const supportText = v.condition_support.length
+    ? v.condition_support.map(x => `${condDef(x.key).label}命中词：${x.matched_terms.join("、")}`).join("；")
+    : "这条主张未声明使用条件，不补猜。";
+  const activeRules = RULES.filter(r => r.sources.includes(s.id) && hit(r, state));
+  const res = { capsule:evalOpt("capsule", state), semi:evalOpt("semi", state) };
+  const scoring = !visible(s.id)
+    ? `<p>该来源已被“只看真实使用经验”过滤，不参与当前计分。</p>`
+    : activeRules.length
+      ? activeRules.map(r => {
+          const keep = r.sources.filter(visible);
+          const factor = keep.length / r.sources.length;
+          const contribution = r.sign * r.w * factor;
+          return `<div class="rule-score"><b>${esc(r.label)}</b><br>命中 ${esc(Object.entries(r.cond).map(([k]) => condDef(k).label).join("、"))}；${r.sign>0?"支持":"反对"}${OPTS[r.opt].name}；规则贡献 ${signed(contribution)}</div>`;
+        }).join("")
+      : `<p>该来源当前没有命中推荐规则；它仍保留在证据库中，供你核对，不强行参与排序。</p>`;
+  $("pipelineFlow").innerHTML = `
+    <article class="pipe-step">
+      <h3><span>1</span>知乎原文</h3>
+      <div class="pipe-kv">${esc(s.author)} · ${s.votes} 赞同 · ${esc(window.KIND_LABEL[s.kind])}<br>${esc(s.title)}</div>
+      <div class="raw-text">${esc(c.raw_excerpt || c.evidence_quote)}</div>
+      <a href="${esc(s.url)}" target="_blank" rel="noreferrer">打开知乎原文核对</a>
+    </article>
+    <article class="pipe-step">
+      <h3><span>2</span>AI 离线抽取</h3>
+      <dl class="structured">
+        <div><dt>主张</dt><dd>${esc(c.claim)}</dd></div>
+        <div><dt>选项与方向</dt><dd>${esc(OPTS[c.option].name)} · ${c.polarity==="pro"?"支持":"反对"}</dd></div>
+        <div><dt>使用条件</dt><dd>${CONDS.map(x => `${x.label}：${condValue(x.key,c.conditions[x.key])}`).join("；")}</dd></div>
+        <div><dt>代价</dt><dd>${c.cost ? esc(c.cost.text) : "未记录"}</dd></div>
+        <div><dt>模型置信度</dt><dd>${c.confidence.toFixed(2)}（仅表示抽取置信度）</dd></div>
+      </dl>
+    </article>
+    <article class="pipe-step">
+      <h3><span>3</span>程序校验</h3>
+      <ul class="check-list">
+        <li><span>固定 JSON Schema</span>${statusHtml(v.schema_valid)}</li>
+        <li><span>主证据是原文逐字子串</span>${statusHtml(v.main_evidence_exact)}</li>
+        <li><span>代价证据是原文逐字子串</span>${statusHtml(v.cost_evidence_exact, v.cost_evidence_exact===null)}</li>
+        <li><span>已声明条件有词面支持</span>${statusHtml(v.condition_support.every(x => x.supported))}</li>
+        <li><span>AI 审核状态</span>${statusHtml(v.review_approved)}</li>
+      </ul>
+      <p class="support-detail">${esc(supportText)}<br>正文指纹：${esc(s.content_sha256.slice(0,16))}…</p>
+    </article>
+    <article class="pipe-step">
+      <h3><span>4</span>确定性重排</h3>
+      <div class="pipe-kv">当前条件：${esc(CONDS.map(x => `${x.label}「${condValue(x.key,state[x.key])}」`).join("、"))}</div>
+      <div class="score-line"><span>胶囊机 <b>${signed(res.capsule.score)}</b></span><span>半自动 <b>${signed(res.semi.score)}</b></span></div>
+      ${scoring}
+      <p class="pipeline-note">同一组条件重复计算，结果一致；页面不调用模型。</p>
+    </article>`;
+}
+
+function showPipeline(id, claimId){
+  if (!src(id)) return;
+  closeDrawer();
+  pipelineSourceId = id;
+  $("pipelineSource").value = id;
+  setupPipelineClaims();
+  if (claimId) pipelineClaimId = claimId;
+  $("pipelineClaim").value = pipelineClaimId || "";
+  renderPipeline();
+  $("pipeline").scrollIntoView({behavior:"smooth", block:"start"});
+  $("pipelineSource").focus({preventScroll:true});
+}
+
+$("onlyReal").onchange = (e) => { onlyReal = e.target.checked; prev = { ...state }; explainFlip(); render(); };
+$("drawerScrim").onclick = closeDrawer;
+document.addEventListener("keydown", e => {
+  const drawer = $("drawer");
+  if (e.key === "Escape") closeDrawer();
+  if (e.key === "Tab" && drawer.classList.contains("open")){
+    const focusable = [...drawer.querySelectorAll('button,a[href],select,input,[tabindex]:not([tabindex="-1"])')].filter(el => !el.disabled);
+    if (!focusable.length) return;
+    const first = focusable[0], last = focusable[focusable.length-1];
+    if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+  }
+});
+
+$("sub").innerHTML =
+  `围绕知乎问题<b>「${window.META.question}」</b>，用${window.META.source}抓取并经 AI 辅助审核，` +
+  `当前展示 ${window.SOURCES.length} 条来源、${window.DEMO_STATS.claim_count} 条主张。数据时间 ${window.META.fetchedAt}。`;
+$("foot").innerHTML =
+  `主张、条件和代价均来自已审核记录，点击来源可逐条查看证据与知乎原链接。<br>` +
+  `审核为两轮独立 AI 审核加 AI 裁决，不等同于真人双人复核；当前集合仅用于开发、回归和演示。<br>` +
+  `AI 负责离线抽取，程序负责证据与条件校验，页面用确定性规则重排；同样的条件组合每次结果一致。`;
+
+renderConds();
+setupPipelineControls();
+render();
+
+/* 演示与自检用：程序化切换条件并读取结果 */
+window.__demo = {
+  set(f, c, p) {
+    prev = { ...state };
+    Object.assign(state, { freq:f, clean:c, play:p });
+    document.querySelectorAll(".pill").forEach(x => x.setAttribute("aria-pressed", state[x.dataset.k] === x.dataset.v));
+    explainFlip();
+    render();
+    return {
+      first: document.querySelector(".card h2").innerText,
+      tied: [...document.querySelectorAll(".card.tie")].length === 2,
+      tieTags: [...document.querySelectorAll(".card.tie .tag")].map(tag => tag.innerText),
+      scores: [...document.querySelectorAll(".score")].map(s => s.innerText.replace("相对匹配 ", "")),
+      conflict: !!document.querySelector(".conflict-panel .versus"),
+      conflictSources: document.querySelectorAll(".conflict-source").length,
+      lines: document.querySelectorAll(".item").length,
+      explanation: $("flipText").innerText,
+      pressed: [...document.querySelectorAll('.pill[aria-pressed="true"]')].map(x => `${x.dataset.k}:${x.dataset.v}`).sort(),
+      pipeline: { source:$("pipelineSource").value, claim:$("pipelineClaim").value, steps:document.querySelectorAll(".pipe-step").length },
+    };
+  },
+  inspect() {
+    const ids = new Set(window.SOURCES.map(s => s.id));
+    const missingRuleSources = RULES.flatMap(r => r.sources).filter(id => !ids.has(id));
+    const claims = window.SOURCES.flatMap(s => s.claims || []);
+    return {
+      sources: window.SOURCES.length,
+      claims: claims.length,
+      expectedClaims: window.DEMO_STATS.claim_count,
+      missingRuleSources,
+      completeBacklinks: window.SOURCES.filter(s => /^https:\/\/(www\.zhihu\.com|zhuanlan\.zhihu\.com)\//.test(s.url)).length,
+      reviewedClaims: claims.filter(c => c.reviewed === true).length,
+      exactMainEvidence: claims.filter(c => c.validation?.main_evidence_exact === true).length,
+      exactCostEvidence: claims.filter(c => c.validation?.cost_evidence_exact === true).length,
+      supportedConditions: claims.flatMap(c => c.validation?.condition_support || []).filter(x => x.supported === true).length,
+      pipelineMode: window.META.pipelineMode,
+      modelCalledInBrowser: window.META.modelCalledInBrowser,
+      humanDoubleReviewCompleted: window.META.humanDoubleReviewCompleted,
+      qualityReportingEligible: window.META.qualityReportingEligible,
+      viewport: { width:innerWidth, height:innerHeight },
+      overflow: document.documentElement.scrollWidth > innerWidth,
+    };
+  },
+};
+</script>
+</body>
+</html>

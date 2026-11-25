@@ -1,0 +1,1622 @@
+{
+  "rows": [
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-7.0"
+      ],
+      "conflict": false,
+      "lines": 7,
+      "explanation": "现在的条件组合下，胶囊机排在前面。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s23",
+        "coffee-s4",
+        "coffee-s17",
+        "coffee-s21",
+        "coffee-s29",
+        "coffee-s9",
+        "coffee-s26"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "现在排在前面的是胶囊机，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 10.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s23",
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s9",
+        "coffee-s26"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "+1.0"
+      ],
+      "conflict": true,
+      "lines": 6,
+      "explanation": "现在排在前面的是胶囊机，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 2.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s23",
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s27",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s22",
+        "coffee-s16"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-3.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是胶囊机，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s17",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s21",
+        "coffee-s29"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "推荐从胶囊机变为半自动。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 10.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 2.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s19",
+        "coffee-s27",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "推荐从半自动变为胶囊机。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s17",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s21",
+        "coffee-s29"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 7,
+      "explanation": "推荐从胶囊机变为半自动。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 10.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 7,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 2.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s19",
+        "coffee-s27",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": true,
+      "lines": 6,
+      "explanation": "推荐从半自动变为胶囊机。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s4",
+        "coffee-s23",
+        "coffee-s4",
+        "coffee-s17",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s21",
+        "coffee-s29",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s22",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "lines": 7,
+      "explanation": "推荐从胶囊机变为半自动。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 10.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s5",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s4",
+        "coffee-s23",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s22",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "lines": 7,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 2.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s19",
+        "coffee-s27",
+        "coffee-s5",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s4",
+        "coffee-s23",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s22",
+        "coffee-s16"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "并列",
+      "tied": true,
+      "tieTags": [
+        "得分并列，没有单一推荐",
+        "得分并列，没有单一推荐"
+      ],
+      "tieCorrect": true,
+      "scores": [
+        "-1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s4",
+        "coffee-s17",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s21",
+        "coffee-s29"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 8,
+      "explanation": "推荐从两种选择并列变为半自动。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 10.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s5",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 8,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 2.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s19",
+        "coffee-s27",
+        "coffee-s5",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s21",
+        "coffee-s29",
+        "coffee-s4",
+        "coffee-s17",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 9,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 10.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s19",
+        "coffee-s5",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+9.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 9,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 2.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s19",
+        "coffee-s27",
+        "coffee-s5",
+        "coffee-s9",
+        "coffee-s26",
+        "coffee-s9",
+        "coffee-s21",
+        "coffee-s25",
+        "coffee-s28",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+4.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "推荐从半自动变为胶囊机。改动最大的「每天喝几杯」让两条建议的差距移动了 7.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 2,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s4"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "+0.5"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是胶囊机，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 2,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是胶囊机，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 0.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是胶囊机，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 4,
+      "explanation": "推荐从胶囊机变为半自动。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "resultLabel": "并列",
+      "tied": true,
+      "tieTags": [
+        "得分并列，没有单一推荐",
+        "得分并列，没有单一推荐"
+      ],
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 4,
+      "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 0.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "resultLabel": "胶囊机",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "推荐从两种选择并列变为胶囊机。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s4"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 4,
+      "explanation": "推荐从胶囊机变为半自动。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "resultLabel": "并列",
+      "tied": true,
+      "tieTags": [
+        "得分并列，没有单一推荐",
+        "得分并列，没有单一推荐"
+      ],
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "lines": 4,
+      "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 0.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s8",
+        "coffee-s7",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-0.5"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "推荐从两种选择并列变为半自动。改动最大的「每天喝几杯」让两条建议的差距移动了 7.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 2,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s4",
+        "coffee-s4",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-3.5"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 2,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s4",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-3.5"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 0.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s4",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "lines": 4,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s4",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 0.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "lines": 4,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.0 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s4",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 6,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 3.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 1,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s5",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "resultLabel": "半自动",
+      "tied": false,
+      "tieTags": [],
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "lines": 5,
+      "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 0.5 分。",
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "overflow": false,
+      "hiddenSources": 0,
+      "activeSourceButtons": [
+        "coffee-s5",
+        "coffee-s8",
+        "coffee-s3",
+        "coffee-s5",
+        "coffee-s5"
+      ]
+    }
+  ],
+  "pathStable": true,
+  "pathA": {
+    "first": "胶囊机",
+    "tied": false,
+    "tieTags": [],
+    "scores": [
+      "+7.0",
+      "-7.0"
+    ],
+    "conflict": false,
+    "lines": 7,
+    "explanation": "推荐从半自动变为胶囊机。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+    "pressed": [
+      "clean:none",
+      "freq:low",
+      "play:none"
+    ]
+  },
+  "drawerChecks": [
+    {
+      "id": "coffee-s1",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s2",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s3",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s4",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s5",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s6",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s7",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s8",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s9",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s10",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s11",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s12",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s13",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s14",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s15",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s16",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s17",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s18",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s19",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s20",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s21",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s22",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s23",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s24",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s25",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s26",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s27",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s28",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s29",
+      "opens": true,
+      "title": true,
+      "author": true,
+      "votes": true,
+      "href": true,
+      "claimCount": true,
+      "evidenceExact": true,
+      "reviewed": true,
+      "closes": true
+    }
+  ],
+  "inspect": {
+    "sources": 29,
+    "claims": 92,
+    "expectedClaims": 92,
+    "missingRuleSources": [],
+    "completeBacklinks": 29,
+    "reviewedClaims": 92,
+    "humanDoubleReviewCompleted": false,
+    "qualityReportingEligible": false,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aiworks-extraction-v1",
+  "title": "知乎决策主张抽取结果",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["candidate_id", "status", "claims"],
+        "properties": {
+          "candidate_id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,160}$"},
+          "status": {"enum": ["extracted", "irrelevant", "insufficient_evidence"]},
+          "claims": {
+            "type": "array",
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["claim", "option", "polarity", "evidence_quote", "conditions", "cost", "source_type", "confidence"],
+              "properties": {
+                "claim": {"type": "string", "minLength": 4, "maxLength": 240},
+                "option": {"enum": ["capsule", "semi"]},
+                "polarity": {"enum": ["pro", "con"]},
+                "evidence_quote": {"type": "string", "minLength": 4, "maxLength": 500},
+                "conditions": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["freq", "clean", "play"],
+                  "properties": {
+                    "freq": {"enum": ["low", "high", null]},
+                    "clean": {"enum": ["none", "daily", "weekly", null]},
+                    "play": {"enum": ["none", "learn", "play", null]}
+                  }
+                },
+                "cost": {
+                  "oneOf": [
+                    {"type": "null"},
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["text", "evidence_quote"],
+                      "properties": {
+                        "text": {"type": "string", "minLength": 2, "maxLength": 240},
+                        "evidence_quote": {"type": "string", "minLength": 4, "maxLength": 500}
+                      }
+                    }
+                  ]
+                },
+                "source_type": {"enum": ["experience", "guide", "cleaning", "other"]},
+                "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {"properties": {"status": {"const": "extracted"}}},
+            "then": {"properties": {"claims": {"minItems": 1}}}
+          },
+          {
+            "if": {"properties": {"status": {"enum": ["irrelevant", "insufficient_evidence"]}}},
+            "then": {"properties": {"claims": {"maxItems": 0}}}
+          }
+        ]
+      }
+    }
+  }
+}

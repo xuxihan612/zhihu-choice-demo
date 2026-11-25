@@ -1,0 +1,371 @@
+{
+  "mobile": {
+    "rows": [
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "none",
+          "play": "none"
+        },
+        "first": "胶囊机",
+        "resultLabel": "胶囊机",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+7.0",
+          "-7.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "none",
+          "play": "learn"
+        },
+        "first": "胶囊机",
+        "resultLabel": "胶囊机",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+3.0",
+          "-1.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "none",
+          "play": "play"
+        },
+        "first": "胶囊机",
+        "resultLabel": "胶囊机",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+3.0",
+          "+1.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "daily",
+          "play": "none"
+        },
+        "first": "胶囊机",
+        "resultLabel": "胶囊机",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+4.0",
+          "-3.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "daily",
+          "play": "learn"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+3.0",
+          "0.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "daily",
+          "play": "play"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+5.0",
+          "0.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "weekly",
+          "play": "none"
+        },
+        "first": "胶囊机",
+        "resultLabel": "胶囊机",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+4.0",
+          "-1.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "weekly",
+          "play": "learn"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+5.0",
+          "0.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "low",
+          "clean": "weekly",
+          "play": "play"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+7.0",
+          "0.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "none",
+          "play": "none"
+        },
+        "first": "胶囊机",
+        "resultLabel": "胶囊机",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+2.0",
+          "-5.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "none",
+          "play": "learn"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+1.0",
+          "-2.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "none",
+          "play": "play"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+3.0",
+          "-2.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "daily",
+          "play": "none"
+        },
+        "first": "胶囊机",
+        "resultLabel": "并列",
+        "tied": true,
+        "tieTags": [
+          "得分并列，没有单一推荐",
+          "得分并列，没有单一推荐"
+        ],
+        "tieCorrect": true,
+        "scores": [
+          "-1.0",
+          "-1.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "daily",
+          "play": "learn"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+5.0",
+          "-5.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "daily",
+          "play": "play"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+7.0",
+          "-5.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "weekly",
+          "play": "none"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+1.0",
+          "-1.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "weekly",
+          "play": "learn"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+7.0",
+          "-5.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      },
+      {
+        "conditions": {
+          "freq": "high",
+          "clean": "weekly",
+          "play": "play"
+        },
+        "first": "半自动",
+        "resultLabel": "半自动",
+        "tied": false,
+        "tieTags": [],
+        "tieCorrect": true,
+        "scores": [
+          "+9.0",
+          "-5.0"
+        ],
+        "overflow": false,
+        "cards": 2
+      }
+    ],
+    "inspect": {
+      "sources": 29,
+      "claims": 92,
+      "expectedClaims": 92,
+      "missingRuleSources": [],
+      "completeBacklinks": 29,
+      "reviewedClaims": 92,
+      "humanDoubleReviewCompleted": false,
+      "qualityReportingEligible": false,
+      "viewport": {
+        "width": 390,
+        "height": 845
+      },
+      "overflow": false
+    },
+    "initialOverflow": false
+  },
+  "clicked": {
+    "result": [
+      "clean:weekly",
+      "freq:high",
+      "play:play"
+    ],
+    "explanation": "现在排在前面的是半自动，顺序没有反转。改动最大的「想不想自己控制萃取」让两条建议的差距移动了 12.0 分。",
+    "overflow": false
+  },
+  "drawer": {
+    "width": 367.02099609375,
+    "viewport": 390,
+    "overflow": false,
+    "focus": "closeDrawer",
+    "claims": 1,
+    "bodyLocked": true
+  },
+  "closed": {
+    "inert": true,
+    "bodyLocked": false,
+    "focus": "coffee-s19"
+  }
+}

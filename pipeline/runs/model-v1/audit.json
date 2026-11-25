@@ -1,0 +1,65 @@
+{
+  "report_version": "1.0",
+  "generated_at": "2026-11-24T13:03:51+00:00",
+  "scenario_id": "coffee",
+  "run_id": "model-v1",
+  "prompt_version": "extract-v1.0.0",
+  "prompt_sha256": "36eda31cfdf1624edf395d996dc875ef305685fb28be67bc8daac6ff85528947",
+  "provider": "agent",
+  "model": "not-disclosed",
+  "fixture_run": false,
+  "candidate_count": 32,
+  "accepted_claim_count": 92,
+  "accepted_candidate_count": 29,
+  "status_counts": {
+    "extracted": 29,
+    "insufficient_evidence": 2,
+    "irrelevant": 1
+  },
+  "error_code_counts": {},
+  "claims_by_option_and_polarity": {
+    "semi:pro": 19,
+    "semi:con": 24,
+    "capsule:con": 13,
+    "capsule:pro": 36
+  },
+  "claims_by_source_type": {
+    "guide": 51,
+    "cleaning": 9,
+    "experience": 32
+  },
+  "claims_with_cost": 29,
+  "condition_value_counts": {
+    "freq": {
+      "low": 2,
+      "high": 1
+    },
+    "clean": {
+      "daily": 3,
+      "none": 1,
+      "weekly": 1
+    },
+    "play": {
+      "play": 3,
+      "none": 2
+    }
+  },
+  "confidence_summary": {
+    "min": 0.88,
+    "max": 0.98,
+    "mean": 0.9484
+  },
+  "pending_claim_count": 92,
+  "integrity": {
+    "candidate_coverage_complete": true,
+    "missing_candidates": [],
+    "unexpected_candidates": [],
+    "duplicate_candidate_outcomes": [],
+    "claim_ids_unique": true,
+    "accepted_count_matches": true,
+    "accepted_claims_revalidate": true,
+    "claims_failing_revalidation": [],
+    "unexpected_revalidated_claims": []
+  },
+  "interpretation": "Programmatic schema, exact-evidence, enum and condition-support checks only. This report does not establish semantic direction, source-type accuracy or model quality; human review is required."
+}

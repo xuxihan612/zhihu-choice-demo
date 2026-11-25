@@ -1,0 +1,217 @@
+{
+  "verifiedAt": "2026-11-25T04:47:35.167Z",
+  "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/",
+  "anonymousAccess": true,
+  "desktopCombinations": 36,
+  "mobileCombinations": 36,
+  "conflictConditionsDesktop": [
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "sources": 2
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "sources": 2
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "sources": 2
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "sources": 3
+    }
+  ],
+  "conflictConditionsMobile": [
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "sources": 2
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "sources": 2
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "sources": 2
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "sources": 3
+    }
+  ],
+  "judgePath": {
+    "afterConditionClicks": {
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:play"
+      ],
+      "first": "半自动",
+      "conflict": true,
+      "conflictSources": 3,
+      "currentConditions": "当前条件：每天喝几杯「两杯以上」、清洗意愿「多一分钟都不想」、想不想自己控制萃取「就想自己折腾」\n规则分：胶囊机 -2.0 · 半自动 +3.0",
+      "overflow": false
+    },
+    "drawerOpenedByCard": {
+      "open": true,
+      "inert": false,
+      "claims": 1
+    },
+    "afterEscape": {
+      "closed": true,
+      "inert": true,
+      "focus": "src guide "
+    }
+  },
+  "checkedSources": 29,
+  "checkedClaims": 92,
+  "completeBacklinks": 29,
+  "data": {
+    "status": 200,
+    "bytes": 171660,
+    "sha256": "233d20867f5adf16ad613399104d1014109c6eb513c23169cc93c0be4918a6cf"
+  },
+  "timings": {
+    "navigation": {
+      "responseEnd": 104.29999999981374,
+      "domContentLoadedEventEnd": 235.70000000018626,
+      "loadEventEnd": 237.09999999962747,
+      "transferSize": 300,
+      "encodedBodySize": 98309,
+      "decodedBodySize": 98309
+    },
+    "paints": {
+      "first-paint": 140,
+      "first-contentful-paint": 140
+    },
+    "resources": [
+      {
+        "name": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/data.js",
+        "initiatorType": "script",
+        "duration": 88.70000000018626,
+        "transferSize": 300,
+        "encodedBodySize": 30362,
+        "decodedBodySize": 171660
+      }
+    ],
+    "inspect": {
+      "sources": 29,
+      "claims": 92,
+      "expectedClaims": 92,
+      "missingRuleSources": [],
+      "completeBacklinks": 29,
+      "reviewedClaims": 92,
+      "exactMainEvidence": 92,
+      "exactCostEvidence": 24,
+      "supportedConditions": 8,
+      "pipelineMode": "offline-reviewed-export",
+      "modelCalledInBrowser": false,
+      "humanDoubleReviewCompleted": false,
+      "qualityReportingEligible": false,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false
+    }
+  },
+  "responseCodes": [
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/data.js",
+      "status": 200,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/favicon.ico",
+      "status": 404,
+      "mimeType": "text/plain"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/data.js",
+      "status": 304,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/data.js",
+      "status": 200,
+      "mimeType": "application/javascript"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/",
+      "status": 200,
+      "mimeType": "text/html"
+    },
+    {
+      "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/data.js",
+      "status": 200,
+      "mimeType": "application/javascript"
+    }
+  ],
+  "failures": {
+    "desktop": [],
+    "mobile": [],
+    "drawers": [],
+    "traces": [],
+    "claims": [],
+    "links": [],
+    "exceptions": [],
+    "consoleErrors": [],
+    "networkFailures": []
+  },
+  "allPassed": true,
+  "limitations": [
+    "This run was performed from the current local network; it is not a multi-region CDN benchmark.",
+    "Zhihu outbound links were structurally verified here; a separate direct HTTP status check is recorded in the acceptance report."
+  ]
+}

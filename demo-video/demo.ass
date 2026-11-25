@@ -1,0 +1,29 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Demo,Microsoft YaHei,32,&H00FFFFFF,&H00FFFFFF,&H00111619,&H90000000,0,0,0,0,100,100,0,0,3,9,0,2,80,80,42,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.38,00:00:04.72,Demo,,0,0,0,,买第一台咖啡机，知乎上的回答为什么总让人更纠结？
+Dialogue: 0,00:00:05.06,00:00:06.18,Demo,,0,0,0,,因为推荐胶囊机的人，
+Dialogue: 0,00:00:06.24,00:00:09.77,Demo,,0,0,0,,和推荐半自动的人，往往生活在不同条件下。
+Dialogue: 0,00:00:10.08,00:00:12.49,Demo,,0,0,0,,知乎选哪边，把二十九个真实回答，
+Dialogue: 0,00:00:12.55,00:00:15.02,Demo,,0,0,0,,拆成九十二条可核对的主张。
+Dialogue: 0,00:00:15.32,00:00:20.79,Demo,,0,0,0,,先告诉我们每天喝几杯、愿不愿意清洗、想不想控制萃取。
+Dialogue: 0,00:00:21.21,00:00:24.42,Demo,,0,0,0,,看，条件一变，推荐顺序和解释也跟着变，
+Dialogue: 0,00:00:24.48,00:00:26.64,Demo,,0,0,0,,不会只给一句空泛答案。
+Dialogue: 0,00:00:26.95,00:00:28.30,Demo,,0,0,0,,这不是模型现场编答案，
+Dialogue: 0,00:00:28.36,00:00:32.19,Demo,,0,0,0,,而是AI离线抽取，再由程序逐条校验。
+Dialogue: 0,00:00:32.54,00:00:34.34,Demo,,0,0,0,,每条主张都必须有原文证据，
+Dialogue: 0,00:00:34.40,00:00:37.25,Demo,,0,0,0,,使用条件也要在回答里找到依据。
+Dialogue: 0,00:00:37.59,00:00:42.35,Demo,,0,0,0,,当来源意见相反，我们把双方的主张、条件和代价放在一起比较。
+Dialogue: 0,00:00:42.65,00:00:47.21,Demo,,0,0,0,,点开来源，还能核对答主、赞数、原文和知乎链接。
+Dialogue: 0,00:00:47.58,00:00:51.99,Demo,,0,0,0,,同样的方法，可以扩展到投影仪、家电等高流量决策问题。
+Dialogue: 0,00:00:52.29,00:00:56.51,Demo,,0,0,0,,知乎选哪边，让知识不止被读到，更能帮你做出选择。

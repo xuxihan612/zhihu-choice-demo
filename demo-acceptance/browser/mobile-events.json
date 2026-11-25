@@ -1,0 +1,273 @@
+[
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameStartedNavigating",
+    "params": {
+      "frameId": "87746BA04AA1732B650C6D99DBC76018",
+      "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+      "loaderId": "D54807885EAE122EFF5101BADD501401",
+      "navigationType": "differentDocument"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "87746BA04AA1732B650C6D99DBC76018"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "D54807885EAE122EFF5101BADD501401",
+      "loaderId": "D54807885EAE122EFF5101BADD501401",
+      "documentURL": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+      "request": {
+        "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+        "method": "GET",
+        "headers": {
+          "sec-ch-ua": "\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\", \"Google Chrome\";v=\"156\"",
+          "sec-ch-ua-mobile": "?0",
+          "sec-ch-ua-platform": "\"Windows\""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 4761.5018,
+      "wallTime": 1795567797.644605,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Document",
+      "frameId": "87746BA04AA1732B650C6D99DBC76018",
+      "hasUserGesture": false
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "D54807885EAE122EFF5101BADD501401",
+      "loaderId": "D54807885EAE122EFF5101BADD501401",
+      "timestamp": 4761.5072,
+      "type": "Document",
+      "response": {
+        "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Content-Type": "text/html",
+          "Last-Modified": "Wed, 25 Nov 2026 00:49:40 GMT"
+        },
+        "mimeType": "text/html",
+        "charset": "",
+        "connectionReused": false,
+        "connectionId": 0,
+        "remoteIPAddress": "",
+        "remotePort": 0,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": -1,
+        "protocol": "file",
+        "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": false,
+      "frameId": "87746BA04AA1732B650C6D99DBC76018"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "87746BA04AA1732B650C6D99DBC76018",
+        "loaderId": "D54807885EAE122EFF5101BADD501401",
+        "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+        "domainAndRegistry": "",
+        "securityOrigin": "file://",
+        "securityOriginDetails": {
+          "isLocalhost": false
+        },
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "Secure",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "type": "Navigation"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.policyUpdated",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "D54807885EAE122EFF5101BADD501401",
+      "timestamp": 4761.512107,
+      "dataLength": 21651,
+      "encodedDataLength": 0
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "8960.8",
+      "loaderId": "D54807885EAE122EFF5101BADD501401",
+      "documentURL": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+      "request": {
+        "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/data.js",
+        "method": "GET",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+          "Referer": ""
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 4761.512595,
+      "wallTime": 1795567797.655409,
+      "initiator": {
+        "type": "parser",
+        "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/index.html",
+        "lineNumber": 101,
+        "columnNumber": 22
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "87746BA04AA1732B650C6D99DBC76018",
+      "hasUserGesture": false,
+      "renderBlockingBehavior": "InBodyParserBlocking"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "D54807885EAE122EFF5101BADD501401",
+      "timestamp": 4761.506371,
+      "encodedDataLength": 21651
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "8960.8",
+      "loaderId": "D54807885EAE122EFF5101BADD501401",
+      "timestamp": 4761.52992,
+      "type": "Script",
+      "response": {
+        "url": "file:///D:/Desktop/%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F/%E7%A0%941/AI%20%E4%BA%A7%E5%93%81/AI%E6%AF%94%E8%B5%9B/%E7%9F%A5%E4%B9%8E%E9%BB%91%E5%AE%A2%E6%9D%BE/deploy/data.js",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Content-Type": "text/javascript",
+          "Last-Modified": "Wed, 25 Nov 2026 00:45:06 GMT"
+        },
+        "mimeType": "text/javascript",
+        "charset": "",
+        "connectionReused": false,
+        "connectionId": 0,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": -1,
+        "protocol": "file",
+        "alternateProtocolUsage": "alternativeJobWonWithoutRace",
+        "securityState": "secure"
+      },
+      "hasExtraInfo": false,
+      "frameId": "87746BA04AA1732B650C6D99DBC76018"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "8960.8",
+      "timestamp": 4761.529944,
+      "dataLength": 73891,
+      "encodedDataLength": 0
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "8960.8",
+      "timestamp": 4761.525829,
+      "encodedDataLength": 73891
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 4761.53292
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 4761.533685
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "87746BA04AA1732B650C6D99DBC76018"
+    },
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  },
+  {
+    "method": "Page.frameResized",
+    "params": {},
+    "sessionId": "B1F805F3B1CC14C914DF9C64D42865DB"
+  }
+]

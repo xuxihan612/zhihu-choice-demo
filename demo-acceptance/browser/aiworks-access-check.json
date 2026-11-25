@@ -1,0 +1,40 @@
+{
+  "verified_at": "2026-11-25T09:22:01.594Z",
+  "method": "anonymous curl without Zhihu cookies plus a fresh anonymous Playwright browser session",
+  "aiworks_preview": {
+    "url": "https://v08hlna9o1wc.preview.aiworks.site/",
+    "html_status": 302,
+    "data_js_status": 302,
+    "redirect_host": "www.zhihu.com",
+    "redirect_path_prefix": "/aiworks/sso/auth/relay",
+    "anonymous_public_demo_verified": false,
+    "expected_behavior": "Author-only preview according to official technical guide section 4.4"
+  },
+  "aiworks_official_public": {
+    "url": "https://v08hlna9o1wc.aiworks.site/",
+    "html_status": 200,
+    "data_js_status": 200,
+    "data_js_bytes": 171660,
+    "data_js_sha256": "233d20867f5adf16ad613399104d1014109c6eb513c23169cc93c0be4918a6cf",
+    "anonymous_browser_access_verified": true,
+    "cookie_list_before_acceptance": "No cookies found",
+    "browser_sources": 29,
+    "browser_claims": 92,
+    "qoder_watermark_present": false,
+    "full_acceptance_report": "demo-acceptance/browser/aiworks-final-anonymous-revalidation.json",
+    "all_passed": true
+  },
+  "official_project_detail": {
+    "url": "https://www.zhihu.com/project/detail/270773",
+    "http_status": 200,
+    "authenticated_browser_status": "可运行",
+    "authenticated_browser_version": "1.0.1"
+  },
+  "legacy_qoder_demo": {
+    "url": "https://zhihu-coffee-choice-snt45f0o3qc.qoder.zone/",
+    "http_status": 200,
+    "mobile_watermark_overlap": "still present",
+    "role": "historical deployment only; not the final competition public URL"
+  },
+  "conclusion": "Official AI Works version 1.0.1 passed review and its non-preview public URL is anonymously accessible. Full desktop/mobile acceptance passed with no Qoder watermark and no mobile title obstruction. The author preview remains intentionally login-only."
+}

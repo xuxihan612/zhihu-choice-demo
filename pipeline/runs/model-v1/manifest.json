@@ -1,0 +1,20 @@
+{
+  "run_id": "model-v1",
+  "prompt_version": "extract-v1.0.0",
+  "prompt_sha256": "36eda31cfdf1624edf395d996dc875ef305685fb28be67bc8daac6ff85528947",
+  "scenario_version": "1.0",
+  "provider": "agent",
+  "model": "not-disclosed",
+  "started_at": "2026-11-24T13:03:10+00:00",
+  "fixture_run": false,
+  "finished_at": "2026-11-24T13:03:26+00:00",
+  "repair_applied_at": "2026-11-24T13:03:26+00:00",
+  "status_counts": {
+    "extracted": 29,
+    "insufficient_evidence": 2,
+    "irrelevant": 1
+  },
+  "accepted_claim_count": 92,
+  "usage": {},
+  "repair_batches": 1
+}

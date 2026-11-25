@@ -1,0 +1,81 @@
+{
+  "verifiedAt": "2026-11-25T09:05:53.762Z",
+  "url": "https://v08hlna9o1wc.preview.aiworks.site/?v=drawer-gap-final-1126",
+  "accessContext": "author-authenticated AI Works preview",
+  "version": "1.0.1 candidate",
+  "revisedConflictFallbackPresent": true,
+  "desktopCombinations": 36,
+  "mobileCombinations": 36,
+  "checkedSources": 29,
+  "checkedClaims": 92,
+  "completeBacklinks": 29,
+  "data": {
+    "status": 200,
+    "bytes": 171660,
+    "sha256": "233d20867f5adf16ad613399104d1014109c6eb513c23169cc93c0be4918a6cf"
+  },
+  "mobileDrawer": {
+    "open": true,
+    "stickyHeaderVisible": true,
+    "originalLinkVisible": true,
+    "overflow": false,
+    "pageOverflow": false
+  },
+  "runtime": {
+    "errors": {
+      "exceptions": [],
+      "consoleErrors": [],
+      "rejections": []
+    },
+    "watermark": false,
+    "resources": [
+      {
+        "name": "https://v08hlna9o1wc.preview.aiworks.site/data.js",
+        "transferSize": 29343,
+        "encodedBodySize": 29043,
+        "decodedBodySize": 171660
+      },
+      {
+        "name": "https://tracking.aiworks.site/api/v1/event_tracking",
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0
+      }
+    ],
+    "navigation": {
+      "responseEnd": 398.59999999962747,
+      "domContentLoadedEventEnd": 852.7999999998137,
+      "loadEventEnd": 854.2999999998137
+    }
+  },
+  "failureCounts": {
+    "desktop": 0,
+    "mobile": 0,
+    "drawers": 0,
+    "traces": 0,
+    "claims": 0,
+    "links": 0,
+    "data": 0,
+    "mobileDrawer": 0,
+    "runtime": 0,
+    "watermark": 0
+  },
+  "failures": {
+    "desktop": [],
+    "mobile": [],
+    "drawers": [],
+    "traces": [],
+    "claims": [],
+    "links": [],
+    "data": [],
+    "mobileDrawer": [],
+    "runtime": [],
+    "watermark": []
+  },
+  "allPassed": true,
+  "limitations": [
+    "Preview is author-authenticated. Anonymous preview access is not accepted as a public-demo check.",
+    "This run does not establish performance across other networks or regions.",
+    "Outbound Zhihu links are structurally checked here; previous direct outbound checks remain recorded separately."
+  ]
+}

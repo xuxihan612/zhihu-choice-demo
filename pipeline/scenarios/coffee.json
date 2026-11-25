@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "id": "coffee",
+  "title": "第一台家用咖啡机",
+  "question": "第一台咖啡机怎么选？",
+  "question_url": "https://www.zhihu.com/question/49701633",
+  "options": [
+    {"id": "capsule", "label": "胶囊机", "aliases": ["胶囊咖啡机", "胶囊式咖啡机", "nespresso", "奈斯派索"]},
+    {"id": "semi", "label": "半自动", "aliases": ["半自动咖啡机", "意式半自动", "半自动意式机"]}
+  ],
+  "conditions": {
+    "freq": {
+      "label": "每天喝几杯",
+      "values": {
+        "low": "一杯或更少",
+        "high": "两杯以上"
+      },
+      "evidence_terms": {
+        "low": ["一杯", "1杯", "一天一", "每天一"],
+        "high": ["两杯", "2杯", "两三杯", "一天两", "每天两"]
+      }
+    },
+    "clean": {
+      "label": "清洗意愿",
+      "values": {
+        "none": "多一分钟都不想",
+        "daily": "愿意每天十分钟",
+        "weekly": "愿意每周大扫除"
+      },
+      "evidence_terms": {
+        "none": ["不想洗", "不愿清洗", "不想清理", "多一分钟", "零清洁", "不用清洗", "不用碰"],
+        "daily": ["每天清", "日常清洁", "日常随手", "每次用", "每次做咖啡"],
+        "weekly": ["每周", "定期", "大扫除", "二十分钟"]
+      }
+    },
+    "play": {
+      "label": "想不想自己控制萃取",
+      "values": {
+        "none": "只想喝到就行",
+        "learn": "想学一点",
+        "play": "就想自己折腾"
+      },
+      "evidence_terms": {
+        "none": ["只想喝", "不想研究", "不想折腾", "傻瓜", "按按钮", "一键"],
+        "learn": ["想学", "学一点"],
+        "play": ["自己控制", "自己调", "控浓度", "操控", "折腾", "亲手", "参与感", "控制萃取"]
+      }
+    }
+  },
+  "source_types": {
+    "experience": "作者明确描述自己或可识别他人的真实使用经历",
+    "guide": "选购指南、榜单、商品推荐或导购测评",
+    "cleaning": "清洁、保养、除垢等操作教程",
+    "other": "有相关主张，但不属于以上三类"
+  },
+  "filter": {
+    "allowed_hosts": ["zhihu.com", "www.zhihu.com", "zhuanlan.zhihu.com"],
+    "coffee_terms_any": ["咖啡", "espresso", "Nespresso", "奈斯派索", "意式浓缩", "拿铁"],
+    "option_terms_any": ["胶囊", "半自动"],
+    "min_content_chars": 80,
+    "max_content_chars": 12000
+  },
+  "limits": {
+    "max_claims_per_candidate": 6,
+    "max_evidence_chars": 500,
+    "min_evidence_chars": 4,
+    "min_confidence": 0
+  }
+}

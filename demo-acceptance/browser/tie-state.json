@@ -1,0 +1,64 @@
+{
+  "desktop": {
+    "first": "胶囊机",
+    "tied": true,
+    "tieTags": [
+      "得分并列，没有单一推荐",
+      "得分并列，没有单一推荐"
+    ],
+    "scores": [
+      "-1.0",
+      "-1.0"
+    ],
+    "conflict": false,
+    "lines": 5,
+    "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。改动最大的「每天喝几杯」让两条建议的差距移动了 7.0 分。",
+    "pressed": [
+      "clean:daily",
+      "freq:high",
+      "play:none"
+    ],
+    "overflow": false
+  },
+  "mobile": {
+    "first": "胶囊机",
+    "tied": true,
+    "tieTags": [
+      "得分并列，没有单一推荐",
+      "得分并列，没有单一推荐"
+    ],
+    "scores": [
+      "-1.0",
+      "-1.0"
+    ],
+    "conflict": false,
+    "lines": 5,
+    "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。",
+    "pressed": [
+      "clean:daily",
+      "freq:high",
+      "play:none"
+    ],
+    "overflow": false
+  },
+  "checks": [
+    {
+      "tied": true,
+      "tags": [
+        "得分并列，没有单一推荐",
+        "得分并列，没有单一推荐"
+      ],
+      "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。改动最大的「每天喝几杯」让两条建议的差距移动了 7.0 分。",
+      "overflow": false
+    },
+    {
+      "tied": true,
+      "tags": [
+        "得分并列，没有单一推荐",
+        "得分并列，没有单一推荐"
+      ],
+      "explanation": "当前两种选择得分相同，没有单一推荐；卡片顺序仅用于稳定展示。",
+      "overflow": false
+    }
+  ]
+}

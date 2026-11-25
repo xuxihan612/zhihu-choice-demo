@@ -1,0 +1,63 @@
+# Local environment
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Credentials and local-only API responses
+zhihu-cli-secret.txt
+resp.json
+sample_search.json
+
+# Generated frontend/deployment copies
+/deploy/
+/dist/
+/deploy-probe/
+/cloudbase-release/
+/.*.qoder.site
+/.*.qoder.site/
+*.zip
+
+# Raw media and video production artifacts
+/demo-video/*
+!/demo-video/知乎选哪边-演示视频.mp4
+!/demo-video/demo.ass
+!/demo-video/demo.srt
+*.webm
+*.wav
+*.mp3
+
+# Browser artifacts; keep acceptance evidence but omit session-specific scripts
+/.playwright-cli/
+/demo-acceptance/browser/*.mjs
+/demo-acceptance-report.md
+
+# Non-source artwork and downloaded helper packages
+/assets/
+/skill-packages/
+/evidence/
+
+# Raw candidate fixtures; only the regression fixture is versioned
+/prototype/data/*
+!/prototype/data/raw_candidates.json
+
+# Raw source responses and intermediate review artifacts
+/pipeline/runs/expansion-v1/raw_candidates_expansion.json
+/pipeline/runs/model-v1/raw/
+/pipeline/review/fixture-v1/
+/pipeline/review/gold-v1/adjudication/
+/pipeline/review/gold-v1/gold-part-*.json
+/pipeline/review/gold-v1/gold-partitions.json
+/pipeline/review/gold-v1/human-review/
+/pipeline/review/gold-v1/independent-ai-a/
+/pipeline/review/gold-v1/independent-ai-b/
+/pipeline/review/model-v1/
+
+# Generated review/build artifacts
+/pipeline/runs/**/*.png
+/pipeline/runs/**/pipeline-data.js
+/pipeline/runs/**/*.stats.json
+/pipeline/runs/approved-v1/demo-data-manifest.json
+/pipeline/review/**/*.html

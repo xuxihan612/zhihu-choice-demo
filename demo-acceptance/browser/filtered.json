@@ -1,0 +1,40 @@
+{
+  "inspect": {
+    "sources": 29,
+    "claims": 92,
+    "expectedClaims": 92,
+    "missingRuleSources": [],
+    "completeBacklinks": 29,
+    "reviewedClaims": 92,
+    "humanDoubleReviewCompleted": false,
+    "qualityReportingEligible": false,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false
+  },
+  "count": "当前筛选后引用 3 条来源，共 29 条（真实经验 6、导购 19、教程 4）",
+  "result": {
+    "first": "半自动",
+    "tied": false,
+    "tieTags": [],
+    "scores": [
+      "+2.0",
+      "-5.0"
+    ],
+    "conflict": false,
+    "lines": 5,
+    "explanation": "现在的条件组合下，半自动排在前面。",
+    "pressed": [
+      "clean:weekly",
+      "freq:high",
+      "play:play"
+    ]
+  },
+  "visibleKinds": [
+    "experience"
+  ],
+  "hiddenCount": 0,
+  "bodyOverflow": false
+}

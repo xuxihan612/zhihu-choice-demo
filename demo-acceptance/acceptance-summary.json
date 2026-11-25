@@ -1,0 +1,95 @@
+{
+  "verified_on": "2026-11-25",
+  "scope": "local-static-candidate",
+  "target": "deploy/index.html",
+  "local_candidate_passed": true,
+  "public_demo_verified": false,
+  "public_demo_url": null,
+  "version": {
+    "deploy_index_sha256": "3198438db34ecd5c7ba6f2f58d84f18865acc8f59c783c289980cf7b43c34fa9",
+    "deploy_data_sha256": "1f464474c1c7340fefc8a01d8f8c1708586c352180fd23edfca902e275f0b306",
+    "prototype_matches_deploy": true,
+    "all_static_data_exports_match": true
+  },
+  "dataset": {
+    "sources": 29,
+    "approved_claims": 92,
+    "source_types": {"experience": 6, "guide": 19, "cleaning": 4},
+    "claim_types": {"experience": 22, "guide": 61, "cleaning": 9},
+    "human_double_review_completed": false,
+    "test_set_locked": false,
+    "quality_reporting_eligible": false
+  },
+  "engineering": {
+    "regression_tests_passed": 34,
+    "regression_tests_total": 34,
+    "delivery_checks_passed": 21,
+    "delivery_checks_total": 21,
+    "schema_valid_claims": 92,
+    "exact_main_evidence_against_captured_text": 92,
+    "exact_cost_evidence_against_captured_text": 24,
+    "supported_condition_fields": 8
+  },
+  "desktop": {
+    "viewport": [1440, 1000],
+    "matrix_rows": 36,
+    "condition_combinations": 18,
+    "modes": ["all-sources", "experience-only"],
+    "repeat_failures": 0,
+    "aria_pressed_failures": 0,
+    "overflow_failures": 0,
+    "tie_rows": 3,
+    "tie_disclosure_failures": 0,
+    "path_a_b_a_stable": true,
+    "drawers_passed": 29,
+    "runtime_exceptions": 0,
+    "console_errors": 0,
+    "local_loading_failures": 0
+  },
+  "mobile": {
+    "viewport": [390, 844],
+    "matrix_rows": 18,
+    "overflow_failures": 0,
+    "tie_rows": 1,
+    "tie_disclosure_failures": 0,
+    "click_flow_passed": true,
+    "drawer_passed": true,
+    "escape_close_and_focus_restore_passed": true,
+    "runtime_exceptions": 0,
+    "console_errors": 0,
+    "local_loading_failures": 0
+  },
+  "live_backlinks": {
+    "checked": 29,
+    "http_200": 29,
+    "navigation_errors": 0,
+    "final_url_matches": 29,
+    "authors_visible": 29,
+    "titles_semantically_match": 29,
+    "main_evidence_claims_checked": 92,
+    "whole_quote_continuous_in_normalized_dom": 84,
+    "all_evidence_text_chunks_located": 92,
+    "noncontinuous_sources": ["coffee-s9", "coffee-s23", "coffee-s26"],
+    "runtime_exceptions": 0,
+    "live_vote_counts_independently_verified": false,
+    "vote_count_note": "Vote counts are verified as captured source snapshots and rendered consistently; live vote controls were not asserted in this browser context."
+  },
+  "fixes": [
+    "upgrade Demo from stale sources to 29 reviewed sources and 92 approved claims",
+    "restrict experience-only filter to experience sources",
+    "remove cross-machine cleaning inference",
+    "replace unsupported capsule cleaning source",
+    "remove invented personal-experience conflict copy",
+    "distinguish order reversal from unchanged order",
+    "disclose score ties as no single recommendation",
+    "render complete claims and exact evidence in source drawer",
+    "add escaping, inert, focus management, and scroll locking"
+  ],
+  "blockers": [
+    "No confirmed public Demo URL or completed public deployment",
+    "deploy-probe tracking ticket remains a placeholder",
+    "Actual HTTPS deployment still needs a post-publish smoke test",
+    "Human double review is incomplete; dataset remains ineligible for quality reporting"
+  ],
+  "report": "demo-acceptance-report.md"
+}

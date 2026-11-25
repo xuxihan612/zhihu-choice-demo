@@ -1,0 +1,14 @@
+{
+  "reviewer": "fixture-regression",
+  "applied_at": "2026-11-24T13:11:25+00:00",
+  "approved_count": 0,
+  "rejected_count": 0,
+  "pending_count": 8,
+  "approved": [],
+  "rejected": [],
+  "metrics": {
+    "reviewed_count": 0,
+    "modified_count": 0,
+    "modification_rate": null
+  }
+}

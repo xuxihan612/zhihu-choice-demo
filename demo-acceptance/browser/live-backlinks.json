@@ -1,0 +1,412 @@
+[
+  {
+    "id": "coffee-s8",
+    "kind": "experience",
+    "author": "剑风",
+    "expectedUrl": "https://www.zhihu.com/question/2019675117643408123/answer/2077754265041477895",
+    "expectedTitle": "家里有必要买咖啡机吗?各位买了的网友,你们经常用吗? - 知乎",
+    "navigationError": null,
+    "observation": {
+      "url": "https://www.zhihu.com/question/2019675117643408123/answer/2077754265041477895",
+      "title": "(2 条消息) 家里有必要买咖啡机吗？各位买了的网友，你们经常用吗？ - 知乎",
+      "text": "关注\n推荐\n热榜\n​\n2\n消息\n私信\n创作中心\n家里有必要买咖啡机吗？各位买了的网友，你们经常用吗？\n关注问题\n​\n写回答\n首页\n专栏\n圈子\n直答\nAI Works\n盐言故事\n付费咨询\n知学堂\n创作\n关于我们\n咖啡机\n小家电\n家用咖啡机\n咖啡机推荐\n家的万物生长\n家里有必要买咖啡机吗？各位买了的网友，你们经常用吗？\n​\n关注问题\n​\n写回答\n​\n邀请回答\n​\n好问题 1\n​\n添加评论\n186 关注\n6.1 万浏览\n​\n分享\n​\n查看全部 176 个回答\n剑风\n​\n 关注\n100 人赞同了该回答\n\n不请自来，家里一台全自动咖啡机用了两三年，说起来也是头脑一热，有次测咖啡机的时候感觉味道还不错，当场就下单一台。现在回头看，算是买得比较值的小家电之一。说说实际体验，给还在犹豫的朋友一点参考。\n\n先说结论，省流：家里有没有必要买咖啡机，核心看你有没有喝咖啡的习惯。如果你一年喝300杯，必买！如果一年喝100杯都不到，那就算了吧，买了大概率放着不用。\n\n我身边就是这样，一类天天用，机器都快包浆了；一类买来用了三次就挂闲鱼，单纯的跟风尝鲜。根源不在于机器买的有多贵，而在于有没有固定喝咖啡的习惯。我知道大家的想法：买之前想着以后每天早上一杯，但实际早上多睡十分钟的选择更多一点，长久下去机器自然就落灰了。\n\n回到正题，我自己这台全自动用了两三年，频率大概一天一到两次，早上出门前必做一杯拿铁，周末偶尔下午再加一杯。全自动的好处就是不用动脑，豆子倒进去，水箱加水，按键，完事。早上满屋子咖啡香确实是最好的精神补给，早起的那点疲惫感都被扫空了。\n\n另外，从机器类型来说，最不容易闲置的是全自动和胶囊机。全自动开机按一下，自己磨豆、萃取，你只需要倒渣盒；胶囊机一颗一分钟，缺点是单杯成本四五块，长期喝不划算，而且胶囊选择有限；最容易吃灰的是半自动，工作流程特别长，一套下来十分钟打底，上班族早上真的扛不住。\n\n再给你算笔账：外卖一杯拿铁算15，一年300杯就是4500。一台靠谱全自动咖啡机也才3000到5000，豆子成本一杯2到3块，一年左右就能回本，但这是建立在你真的天天喝的前提下。很多人买机器花三四千，豆子放潮了都没喝完，那就是纯亏。\n\n所以如果你问我有没有必要，我会说：有每天喝咖啡的习惯，且不想天天外卖花15到25块，家里买一台合适的咖啡机是值得的，而且要选对机型。如果只是偶尔想喝，真没必要买。挂耳、冻干、法压壶甚至楼下便利店都能解决，成本低还不占地方。\n\n想买之前，先记录自己两周内有多少天主动想喝咖啡，超过10天，可以买；低于5天，先别买。新手也可以先从法压壶或手冲壶入手，成本一两百，看看自己能不能坚持。千万别把家里有咖啡机当做万能神器，它就是个工具，能坚持下来常用才值。\n\n发布于2026-08-31 13:46\n・广东\n​\n赞同 100​\n​\n1 条评论\n​\n7\n​\n4\n​\n分享",
+      "hasAnswerHeading": true
+    },
+    "httpStatus": 200,
+    "mimeType": "text/html",
+    "loadingFailures": [
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.837",
+          "timestamp": 3814.258076,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.859",
+          "timestamp": 3814.484336,
+          "type": "XHR",
+          "errorText": "net::ERR_FAILED",
+          "canceled": false,
+          "corsErrorStatus": {
+            "corsError": "MissingAllowOriginHeader",
+            "failedParameter": ""
+          }
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.864",
+          "timestamp": 3814.530809,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.866",
+          "timestamp": 3814.530977,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.873",
+          "timestamp": 3814.53576,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.870",
+          "timestamp": 3814.535882,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.876",
+          "timestamp": 3816.814633,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      }
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "coffee-s21",
+    "kind": "guide",
+    "author": "kk的家",
+    "expectedUrl": "https://zhuanlan.zhihu.com/p/2078543368867599294",
+    "expectedTitle": "半自动咖啡机对新手友好吗? - 知乎",
+    "navigationError": null,
+    "observation": {
+      "url": "https://zhuanlan.zhihu.com/p/2078543368867599294",
+      "title": "(4 条消息) 半自动咖啡机对新手友好吗？ - 知乎",
+      "text": "关注\n推荐\n热榜\n​\n4\n消息\n私信\n创作中心\n半自动咖啡机对新手友好吗？\n首页\n专栏\n圈子\n直答\nAI Works\n盐言故事\n付费咨询\n知学堂\n创作\n关于我们\n半自动咖啡机对新手友好吗？\nkk的家\n咖啡爱好者，在咖啡里寻找松弛感\n​\n关注他\n结论先说。半自动没传说中那么吓人，怕的是买错机器。我把\"友好度\"拆成五个维度——上手难不难、能不能看见萃取、好不好洗、占不占台面、出杯要不要等——按这几条把主流半自动横测一遍，新手能轻松上手的其实不少，先搞懂什么才算\"友好\"。\n\n我刚玩半自动那阵也怂。第一台是金属机身、按键密密麻麻带集成电子秤的那类，说明书翻三遍还是盲调，称完粉计时萃取手忙脚乱，奶泡还因为蒸汽棒角度不对打不发，两周就塞柜子吃灰。后来才明白，对新手来说\"看得见、调得动、好收拾、不排队\"比参数漂亮重要十倍。参数表上 20 bar、58 mm 那些数字，你用不顺手全是废的。\n\n聊点干货，友好度到底看什么：\n\n上手门槛。一键美式、预设程序按下去就出杯，新手零门槛；要自己称粉、布粉、压粉、计时、看曲线，门槛陡。但全傻瓜也不行，得留个微调口子，不然换个豆子就废。\n\n信息反馈。有没有数显压力表、彩屏引导，决定你萃过头还是欠萃时能不能察觉。黑盒机器最劝退——出问题你连错在哪都不知道，只能怪豆子怪水，最后弃了。\n\n清洁。这是闲置第一推手。冲煮头露外面、带独立热水口的，冲完按一下出股热水把粉渣冲掉，十秒收工；奶路藏机器里的全自动，一周不拆洗就串味长垢。新手八成栽在这，因为\"洗\"每天都有，难洗等于迟早不吃。\n\n占地。小台面租屋，机器加磨两套直接劝退。一体、小巧优先；分体（磨机分开）再强也慎选，台面战争会让你闲置。\n\n出杯效率。双泵双加热边萃边打，两分钟一杯；单泵得等萃取完才能打奶，早上赶时间就废。别小看这两分钟，它决定你能不能坚持每天用。\n\n按预算给新手落点：\n\n2k 档——露茉Pro 二代。这档对新手最友好的其实是它：数显压力表让你看得见萃取，不用盲调；独立热水口十秒收工，清洁不劝退；多段预浸泡 1-10 秒把粉饼先润后萃，容错高，浅烘深烘都能找到舒服浓度；双泵双加热边萃边打，早上不排队。想在家稳定喝到不输小店的奶咖和美式，这台省心。\n\n讲真，新手买半自动，别冲参数冲\"友好\"。看得见、好洗、不排队，你才愿意天天碰，机器才不闲置。\n\n发布于 2026-09-02 18:06・广东\n咖啡机\n​\n赞同​\n​\n添加评论\n​\n1\n​\n喜欢\n​\n分享\n​\n申请转载\n​\n​\n理性发言，友善互动\n\n\n还没有评论，发表第一个评论吧\n推荐阅读\n如何挑选一款适合自己的咖啡机？7种常见款式|测评\n王森咖啡西...\n发表于烘焙一锅鲜\n最不该被忽略的意式咖啡机配件（1）粉碗 详解\n特级咖啡师\n我的夏日露营搭子| 随时随地让你喝上“黄金意式浓缩”，膳魔师便携式咖啡机真实体验分享！\n小雨要勇往直前\n关于",
+      "hasAnswerHeading": true
+    },
+    "httpStatus": 200,
+    "mimeType": "text/html",
+    "loadingFailures": [
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.885",
+          "timestamp": 3816.932892,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.890",
+          "timestamp": 3816.941919,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.888",
+          "timestamp": 3816.942045,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.889",
+          "timestamp": 3816.942146,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1690",
+          "timestamp": 3820.178334,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1731",
+          "timestamp": 3820.728677,
+          "type": "XHR",
+          "errorText": "net::ERR_FAILED",
+          "canceled": false,
+          "corsErrorStatus": {
+            "corsError": "MissingAllowOriginHeader",
+            "failedParameter": ""
+          }
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1735",
+          "timestamp": 3820.73921,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1738",
+          "timestamp": 3820.739975,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1749",
+          "timestamp": 3820.740485,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1737",
+          "timestamp": 3820.740779,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      }
+    ],
+    "exceptions": []
+  },
+  {
+    "id": "coffee-s9",
+    "kind": "cleaning",
+    "author": "枸杞枸杞Yeah",
+    "expectedUrl": "https://www.zhihu.com/question/626975755/answer/3411516621",
+    "expectedTitle": "你在日常生活中使用半自动咖啡机后该怎么保养和清洁? - 知乎",
+    "navigationError": null,
+    "observation": {
+      "url": "https://www.zhihu.com/question/626975755/answer/3411516621",
+      "title": "(4 条消息) 你在日常生活中使用半自动咖啡机后该怎么保养和清洁？ - 知乎",
+      "text": "关注\n推荐\n热榜\n​\n4\n消息\n私信\n创作中心\n你在日常生活中使用半自动咖啡机后该怎么保养和清洁？\n关注问题\n​\n写回答\n首页\n专栏\n圈子\n直答\nAI Works\n盐言故事\n付费咨询\n知学堂\n创作\n关于我们\n咖啡\n咖啡机\n百胜图\n你在日常生活中使用半自动咖啡机后该怎么保养和清洁？\n​\n关注问题\n​\n写回答\n​\n邀请回答\n​\n好问题\n​\n添加评论\n11 关注\n9686 浏览\n​\n分享\n​\n查看全部 8 个回答\n枸杞枸杞Yeah​\n家居等 2 个话题下的优秀答主\n​\n 关注\n谢邀 @Barsetto百胜图咖啡\n收录于 · 咖啡机与咖啡测评\n20 人赞同了该回答\n\n和家里其他地方清洁一样，日常随手，隔段时间大扫除。\n\n和商用咖啡机不同，家用咖啡机一般不需要请专业的维修团队来处理，自己在家就可以完成。那么要清洁什么？怎么清洁？\n\n这是一篇以半自动咖啡机为例，会持续完善的咖啡机清洗记录文章，用来提醒自己要定期清洗咖啡机。\n\n如果对大家有帮助，欢迎点赞收藏~也欢迎大家留言指正。\n\nTips：清洁家用咖啡机，最稳妥的方式是参考咖啡机说明书清洗，也可找客服，有的品牌会提供视频或图片参考，省心很多。\n一、咖啡机清洁，在清洁什么？\n\n家用咖啡机的清洁，主要是清洁咖啡渣、奶垢、水垢等。和家里清洁一样，咖啡机清洁最好也是平时随手清洁（手柄、冲煮头还有蒸汽棒等）+定期的大扫除，让咖啡机保持最好的状态。\n\n二、半自动咖啡机清洁清单\n\n以半自动咖啡机为例，除了日常随手清洁，还有些定期要做的清洁工作，我整理在下图：\n\n根据咖啡机情况，灵活调整清洁周期\n\n下文配图中，我会以百胜图二代S的半自动咖啡机为例。\n\n1、日常随手清洁\n\n每次做完咖啡，随手倒掉粉饼，冲洗手柄、擦净咖啡机外部。除此以外，以下部位的清洁也很重要。\n\n冲煮头：\n\n每次做完咖啡，用清洁刷快速刷一下，再按一下萃取键，能冲出来不少残渣。\n\n清洁刷快速刷一下\n\n如果家里有冲牙器，建议也可以喷一下，有惊喜。\n\n冲牙器是个神器\n\n以为日常随手用清洁刷维护得很干净了，直到第一次用冲牙器冲刷冲煮头时，惊呆了，还是可以冲刷出很多咖啡粉。\n\n动手能力强的朋友，咖啡机用了很久以后，如果感觉萃取不顺畅，可以用螺丝刀把冲煮头拆开再刷一下。\n\n\n\n\n蒸汽棒：奶垢\n\n最好的清洗时间就是刚打完奶泡的时候，顺手用湿布从上到下擦一下，在蒸汽棒出口位置左右旋转一下，再打开蒸汽功能，把蒸汽棒里残留的奶冲出来，就可以了。\n\n如果奶垢已经形成，可以把蒸汽棒在热水里泡十分钟，再按照以上步骤，用湿布擦一下，开蒸汽冲出残留奶垢即可。\n\n直接用咖啡机的热水功能接热水\n\n蒸汽棒的头可以旋转打开，清洗擦干。\n\n用的时间久了，如果觉得蒸汽头力不够，可以在用针扎一下蒸汽棒上的出气孔。\n\n百胜图赠送的工具里有这种小针\n沥水盘\n\n日常做完咖啡，把沥水盘里的水顺手倒掉。\n\n像百胜图这种咖啡",
+      "hasAnswerHeading": true
+    },
+    "httpStatus": 200,
+    "mimeType": "text/html",
+    "loadingFailures": [
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1759",
+          "timestamp": 3820.873719,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1764",
+          "timestamp": 3820.880133,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.1771",
+          "timestamp": 3821.416996,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2693",
+          "timestamp": 3823.899503,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2735",
+          "timestamp": 3824.014562,
+          "type": "XHR",
+          "errorText": "net::ERR_FAILED",
+          "canceled": false,
+          "corsErrorStatus": {
+            "corsError": "MissingAllowOriginHeader",
+            "failedParameter": ""
+          }
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2740",
+          "timestamp": 3824.017612,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2741",
+          "timestamp": 3824.018627,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2743",
+          "timestamp": 3824.235534,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2742",
+          "timestamp": 3824.235757,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2756",
+          "timestamp": 3825.437267,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2757",
+          "timestamp": 3825.43744,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2758",
+          "timestamp": 3825.446193,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2761",
+          "timestamp": 3825.506947,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      },
+      {
+        "method": "Network.loadingFailed",
+        "params": {
+          "requestId": "17596.2763",
+          "timestamp": 3825.507132,
+          "type": "Fetch",
+          "errorText": "net::ERR_ABORTED",
+          "canceled": true
+        },
+        "sessionId": "505CDE25477DE3F650FD5C812BE63D77"
+      }
+    ],
+    "exceptions": []
+  }
+]

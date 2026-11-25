@@ -1,0 +1,1501 @@
+{
+  "rows": [
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-7.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "+1.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictClaims": 4,
+      "conditionChips": 12,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-3.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictClaims": 3,
+      "conditionChips": 9,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictClaims": 3,
+      "conditionChips": 9,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "conflictSources": 3,
+      "conflictClaims": 5,
+      "conditionChips": 15,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "-1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+9.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "+0.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-0.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-3.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-3.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictClaims": 0,
+      "conditionChips": 0,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "pipelineSteps": 4,
+      "pipelineFailures": 1,
+      "overflow": false
+    }
+  ],
+  "drawerChecks": [
+    {
+      "id": "coffee-s1",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s2",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s3",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s4",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s5",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s6",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s7",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s8",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s9",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s10",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s11",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s12",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s13",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s14",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s15",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s16",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s17",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s18",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s19",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s20",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s21",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s22",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s23",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s24",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s25",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s26",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s27",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s28",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    },
+    {
+      "id": "coffee-s29",
+      "opens": true,
+      "claims": true,
+      "traces": true,
+      "originalLink": true,
+      "focus": true,
+      "closes": true
+    }
+  ],
+  "pipelineChecks": [
+    {
+      "id": "coffee-s1",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s2",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s3",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s4",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s5",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s6",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s7",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s8",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s9",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s10",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s11",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s12",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s13",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s14",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s15",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s16",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s17",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s18",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s19",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s20",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s21",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s22",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s23",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s24",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s25",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s26",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s27",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s28",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    },
+    {
+      "id": "coffee-s29",
+      "claimSelected": true,
+      "steps": 4,
+      "rawText": true,
+      "schemaPass": true,
+      "mainPass": true,
+      "costPass": true,
+      "conditionsPass": true,
+      "reviewPass": true,
+      "noFailureLabel": true
+    }
+  ],
+  "inspect": {
+    "sources": 29,
+    "claims": 92,
+    "expectedClaims": 92,
+    "missingRuleSources": [],
+    "completeBacklinks": 29,
+    "reviewedClaims": 92,
+    "exactMainEvidence": 92,
+    "exactCostEvidence": 24,
+    "supportedConditions": 8,
+    "pipelineMode": "offline-reviewed-export",
+    "modelCalledInBrowser": false,
+    "humanDoubleReviewCompleted": false,
+    "qualityReportingEligible": false,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "overflow": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "verified_at": "2026-11-25T04:46:00+00:00",
+  "dataset_role": "ai-assisted-development-set",
+  "checks": {
+    "actions_cover_all_original_claims": true,
+    "approved_ids_unique_and_from_run": true,
+    "all_approved_records_explicitly_reviewed": true,
+    "reviewer_is_not_misrepresented_as_human": true,
+    "approved_records_match_final_actions": true,
+    "rejected_actions_are_absent_from_approved": true,
+    "approved_claims_revalidate": true,
+    "dataset_contains_exactly_approved_claim_ids": true,
+    "dataset_fields_match_approved_records": true,
+    "dataset_meta_reviewed_only": true,
+    "dataset_counts_match": true,
+    "dataset_contains_no_pending_review_flag": true,
+    "approved_sources_have_complete_backlinks": true,
+    "development_set_has_50_unique_cases": true,
+    "development_candidate_coverage_exact": true,
+    "development_cases_revalidate": true,
+    "development_set_role_is_explicit": true,
+    "development_set_not_eligible_for_quality_reporting": true,
+    "seed_cases_remain_covered_as_regression_reference": true,
+    "model_evaluation_is_diagnostic_only": true,
+    "model_evaluation_candidate_coverage_disclosed": true
+  },
+  "all_passed": true,
+  "counts": {
+    "original_claims": 92,
+    "reviewed_actions": 92,
+    "approved_claims": 92,
+    "rejected_claims": 0,
+    "dataset_sources": 29,
+    "dataset_claims": 92,
+    "prepared_candidates": 32,
+    "approved_candidates": 29,
+    "development_cases": 50,
+    "development_claims": 228,
+    "seed_reference_cases": 5
+  },
+  "engineering_metrics": {
+    "schema_valid_approved_claims": 92,
+    "schema_pass_rate": 1.0,
+    "approved_claims_checked": 92,
+    "main_evidence_quotes_checked": 92,
+    "main_evidence_quotes_exact": 92,
+    "main_evidence_exact_rate": 1.0,
+    "cost_evidence_quotes_checked": 24,
+    "cost_evidence_quotes_exact": 24,
+    "cost_evidence_exact_rate": 1.0,
+    "condition_fields_checked": 8,
+    "condition_fields_supported": 8,
+    "condition_support_rate": 1.0,
+    "complete_zhihu_backlinks": 92,
+    "backlink_complete_rate": 1.0,
+    "approved_candidate_coverage": 0.9062,
+    "development_candidate_coverage": 1.0
+  },
+  "option_counts": {
+    "semi": 43,
+    "capsule": 49
+  },
+  "polarity_counts": {
+    "pro": 55,
+    "con": 37
+  },
+  "source_type_counts": {
+    "guide": 61,
+    "cleaning": 9,
+    "experience": 22
+  },
+  "model_evaluation": {
+    "evaluated_candidates": 32,
+    "development_candidates": 50,
+    "missing_candidates": 18,
+    "quality_reporting_eligible": false,
+    "interpretation": "AI-assisted development set explicitly marked ineligible for quality reporting; metrics are diagnostic only"
+  },
+  "quality_reporting_eligible": false,
+  "limitations": [
+    "Semantic review was performed by two independent AI passes plus AI adjudication, not by two humans.",
+    "The 50-case set is an AI-assisted development set for regression and demonstrations; human double review is not planned for the current delivery.",
+    "Model-evaluation metrics are diagnostic only and must not be presented as model-quality claims."
+  ]
+}

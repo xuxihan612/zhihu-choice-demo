@@ -1,0 +1,16 @@
+{
+  "run_id": "fixture-v1",
+  "prompt_version": "extract-v1.0.0",
+  "prompt_sha256": "36eda31cfdf1624edf395d996dc875ef305685fb28be67bc8daac6ff85528947",
+  "scenario_version": "1.0",
+  "provider": "fixture",
+  "model": "hand-labelled-fixture",
+  "started_at": "2026-11-24T12:42:28+00:00",
+  "fixture_run": true,
+  "finished_at": "2026-11-24T12:42:28+00:00",
+  "status_counts": {
+    "extracted": 5
+  },
+  "accepted_claim_count": 8,
+  "usage": {}
+}

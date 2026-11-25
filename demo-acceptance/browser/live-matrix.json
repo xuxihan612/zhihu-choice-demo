@@ -1,0 +1,2166 @@
+{
+  "desktop": [
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-7.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "+1.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictColumns": 2,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-3.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictColumns": 2,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictColumns": 2,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "conflictSources": 3,
+      "conflictColumns": 2,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "-1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 8,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 8,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 9,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+9.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 9,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "+0.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-0.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-3.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-3.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 2,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    }
+  ],
+  "mobile": [
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-7.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "+1.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictColumns": 1,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-3.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictColumns": 1,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "conflictSources": 2,
+      "conflictColumns": 1,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "-2.0"
+      ],
+      "conflict": true,
+      "conflictSources": 3,
+      "conflictColumns": 1,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 7,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "-1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+5.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 8,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 8,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.0",
+        "-1.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+7.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 9,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": false,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+9.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 9,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+4.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "+0.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+1.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "胶囊机",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+3.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+0.5",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:learn"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "low",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "胶囊机",
+      "tied": true,
+      "tieCorrect": true,
+      "scores": [
+        "0.0",
+        "0.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:low",
+        "play:play"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-0.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-3.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "none",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-3.5"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:none",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "daily",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:daily",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "none"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-2.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:none"
+      ],
+      "lines": 4,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "learn"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.5",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:learn"
+      ],
+      "lines": 6,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    },
+    {
+      "onlyReal": true,
+      "conditions": {
+        "freq": "high",
+        "clean": "weekly",
+        "play": "play"
+      },
+      "first": "半自动",
+      "tied": false,
+      "tieCorrect": true,
+      "scores": [
+        "+2.0",
+        "-5.0"
+      ],
+      "conflict": false,
+      "conflictSources": 0,
+      "conflictColumns": 0,
+      "gridColumns": 1,
+      "pressed": [
+        "clean:weekly",
+        "freq:high",
+        "play:play"
+      ],
+      "lines": 5,
+      "repeatStable": true,
+      "pressedCorrect": true,
+      "explanationPresent": true,
+      "pipelineSteps": 4,
+      "overflow": false
+    }
+  ]
+}

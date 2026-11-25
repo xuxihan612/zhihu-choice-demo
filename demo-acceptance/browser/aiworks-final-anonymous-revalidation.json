@@ -1,0 +1,83 @@
+{
+  "verifiedAt": "2026-11-25T09:22:01.594Z",
+  "url": "https://v08hlna9o1wc.aiworks.site/",
+  "accessContext": "anonymous fresh Playwright browser; cookie-list reported no cookies before acceptance",
+  "projectVersion": "1.0.1",
+  "projectStatus": "可运行",
+  "desktopCombinations": 36,
+  "mobileCombinations": 36,
+  "checkedSources": 29,
+  "checkedClaims": 92,
+  "completeBacklinks": 29,
+  "revisedConflictFallbackPresent": true,
+  "data": {
+    "status": 200,
+    "bytes": 171660,
+    "sha256": "233d20867f5adf16ad613399104d1014109c6eb513c23169cc93c0be4918a6cf"
+  },
+  "mobileDrawer": {
+    "open": true,
+    "stickyHeaderVisible": true,
+    "selectedBelowHeader": true,
+    "originalLinkVisible": true,
+    "overflow": false,
+    "pageOverflow": false
+  },
+  "environment": {
+    "url": "https://v08hlna9o1wc.aiworks.site/?v=anonymous-final-1126",
+    "title": "第一台咖啡机怎么选？｜知乎选哪边",
+    "watermark": false,
+    "sources": 29,
+    "claims": 92,
+    "resources": [
+      {
+        "name": "https://v08hlna9o1wc.aiworks.site/data.js",
+        "transferSize": 0,
+        "encodedBodySize": 171660,
+        "decodedBodySize": 171660
+      },
+      {
+        "name": "https://tracking.aiworks.site/api/v1/event_tracking",
+        "transferSize": 0,
+        "encodedBodySize": 0,
+        "decodedBodySize": 0
+      }
+    ]
+  },
+  "errors": {
+    "pageErrors": [],
+    "consoleErrors": [],
+    "requestFailures": []
+  },
+  "failureCounts": {
+    "desktop": 0,
+    "mobile": 0,
+    "drawers": 0,
+    "traces": 0,
+    "claims": 0,
+    "links": 0,
+    "data": 0,
+    "mobileDrawer": 0,
+    "runtime": 0,
+    "network": 0,
+    "watermark": 0
+  },
+  "failures": {
+    "desktop": [],
+    "mobile": [],
+    "drawers": [],
+    "traces": [],
+    "claims": [],
+    "links": [],
+    "data": [],
+    "mobileDrawer": [],
+    "runtime": [],
+    "network": [],
+    "watermark": []
+  },
+  "allPassed": true,
+  "limitations": [
+    "This run is from the current local network and is not a multi-region CDN or weak-network benchmark.",
+    "Outbound Zhihu links are structurally checked here; previous direct outbound checks remain recorded separately."
+  ]
+}

@@ -1,0 +1,3819 @@
+{
+  "suite_version": "2.0",
+  "scenario_id": "coffee",
+  "dataset_role": "ai-assisted-development-set",
+  "annotation_status": "dual-independent-ai-annotation-with-ai-adjudication; seed manual references preserved where available",
+  "human_double_review_completed": false,
+  "test_set_locked": false,
+  "quality_reporting_eligible": false,
+  "target_size": 50,
+  "actual_size": 50,
+  "candidate_manifest_sha256": "73f07732660a4a37506ee1e465cd34d0dd8d9f8e07f719aa4deaef9d09affd6f",
+  "note": "AI-assisted development set for regression, debugging and product demonstrations. Human double review is not planned for the current delivery, and this set must not be used to claim model quality.",
+  "review_summary": {
+    "agreed_count": 1,
+    "divergent_count": 49,
+    "agreement_rate": 0.02,
+    "agreement_definition": "Exact equality of canonical case status and every claim field after sorting claims by evidence_quote; this is not a semantic-agreement or model-quality metric.",
+    "reviewer_a_annotations_sha256": "baa3e458bb6cb0d1e423c9685af87863d1d9a2b6d205bc7ec17fbeb4b430709d",
+    "reviewer_b_annotations_sha256": "dc65fc960e944ac6100c831ba63db9a4819c7731cac9cf6b4b7c646bde755cfd",
+    "adjudications_sha256": "948383a5e836dcd6c9555fe2b8a29d1d1084320861aced93cfd659009698763c",
+    "reviewer_types": {
+      "reviewer_a": "AI",
+      "reviewer_b": "AI",
+      "adjudicator": "AI"
+    }
+  },
+  "cases": [
+    {
+      "candidate_id": "coffee-answer-1096389850747347916",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者实际使用胶囊机后认为，平时喜欢喝咖啡的人使用它幸福感较高。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "我自家的是Nespresso的入门款胶囊咖啡机，使用频率还挺高，如果平时就喜欢喝咖啡，那么胶囊咖啡机用着幸福感还是挺高的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者饮用后认为胶囊机出品不逊于咖啡店，并优于挂耳和速溶咖啡。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "我自己喝下来感觉是不比咖啡店的差，比挂耳咖啡、速溶咖啡都要好。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者认为每天有喝咖啡习惯且使用时间够长时，胶囊机长期成本比去咖啡店点咖啡划算。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机主要耗材就是胶囊咖啡，这个有便宜有贵，算上促销打折，便宜的不到2块钱一颗胶囊，贵一点的三四块一颗这样，如果平时每天都有喝咖啡习惯的，只要使用时间够长，算下来肯定比咖啡店点咖啡要划算。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "促销时胶囊每颗不到2元，贵一些约三四元。",
+            "evidence_quote": "便宜的不到2块钱一颗胶囊，贵一点的三四块一颗这样"
+          },
+          "source_type": "experience",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为用胶囊咖啡机冲咖啡具有仪式感。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机冲咖啡的时候，我觉得是有仪式感的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.94
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-1904860165712377357",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为胶囊咖啡机制作速度最快、最方便，放入胶囊即可一键萃取。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "优点：制作速度最快、最方便的咖啡机，放入胶囊一键萃取。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "none"
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为半自动咖啡机可控性强，能调节多项参数以更符合个人口味。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "优点：可控性强，用户能够设置研磨粗细程度、粉量、压饼力度、萃取温度、萃取时间等等，从而制作出更符合个人口味的咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "购机价格通常介于胶囊机与全自动机之间，维护成本低于全自动机。",
+            "evidence_quote": "价格一般位于胶囊咖啡机和全自动咖啡机之间，维护成本比全自动咖啡机低。"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "只追求喝一杯且方便赶时间时，作者推荐价格较便宜的胶囊咖啡机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果只是追求“喝一杯”，方便赶时间，推荐使用胶囊咖啡机（价格较便宜）；",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊咖啡机价格较便宜。",
+            "evidence_quote": "价格较便宜"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "对咖啡口味有追求时，作者明确推荐选择价格适中的半自动咖啡机。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果对咖啡的口味有追求，那肯定就要选择半自动咖啡机了（价格适中）。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "半自动咖啡机价格适中。",
+            "evidence_quote": "价格适中"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出半自动咖啡机每个步骤都需要手动操作，上手还需要练习。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "缺点：每个步骤都需要手动操作；上手需要练习。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "各步骤需手动操作，且需花时间练习上手。",
+            "evidence_quote": "每个步骤都需要手动操作；上手需要练习。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出胶囊咖啡新鲜度不如现磨、口味无法自调，且胶囊价格相对较高。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "缺点：胶囊咖啡新鲜度不如现磨咖啡；口味无法自调，只能选择成本咖啡胶囊；胶囊的价格相对较高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊价格相对较高。",
+            "evidence_quote": "胶囊的价格相对较高。"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-2655682959",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为半自动及研磨一体机操作性和可玩性突出，适合热衷自己操作或想练家庭咖啡馆的人。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机/研磨一体机突出操作性和可玩儿性。适合热衷自己操作或者有意搞个家庭咖啡馆的朋友买来练手。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为会用机器的前提下，半自动几乎可实现咖啡馆常见美式和奶咖，但需另购磨豆机并掌握操作技能。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机：需要额外购置咖啡磨豆机，需要具备一定的咖啡机操作技能，咖啡馆里出品的美式、奶咖用半自动咖啡机几乎都可实现。前提是你得会用机器。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需要额外购置磨豆机并掌握操作技能。",
+            "evidence_quote": "需要额外购置咖啡磨豆机，需要具备一定的咖啡机操作技能"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为半自动熟练操作有技术门槛，还需定期清洁保养，低频使用容易闲置。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "缺点是熟练操作需要掌握一定的制作技术，对新手有些难度。还要定期清洁、保养。使用频次低，角落吃灰的可能性大。",
+          "conditions": {
+            "freq": null,
+            "clean": "weekly",
+            "play": null
+          },
+          "cost": {
+            "text": "需要掌握制作技术，并定期清洁保养。",
+            "evidence_quote": "还要定期清洁、保养。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊咖啡机使用方便。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "美式滴滤机/胶囊咖啡机使用方便。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者提醒购买胶囊咖啡机前需确认不同品牌胶囊与机器是否兼容。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "胶囊咖啡机购买前问清楚不同品牌的胶囊能否和机器兼容，基本上也就不用操心了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "购买前需核实胶囊与机器的兼容性。",
+            "evidence_quote": "胶囊咖啡机购买前问清楚不同品牌的胶囊能否和机器兼容"
+          },
+          "source_type": "guide",
+          "confidence": 0.93
+        },
+        {
+          "claim": "作者提醒对咖啡新鲜度有要求的人慎选胶囊咖啡机。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "胶囊咖啡机：操作简单。对咖啡新鲜度有要求的朋友慎选。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-2711914420",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者将半自动机称为真正专业的咖啡机，认为其水温、泵压和蒸汽稳定，正确使用可制作高品质意大利咖啡。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机才是专业的咖啡机，因为半自动咖啡机需要操作者自己填粉和压粉，这就涉及到咖啡制作的工艺了，故称之为真正专业的咖啡机。它的特点有：1、水温恒定；2、泵压稳定；3、蒸汽恒压且干燥，操作方便等：半自动咖啡机主要是意大利生产，其结构简单、维护保养容易，按照正确的使用方法可以制作出高品质意大利咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者认为胶囊机只需放入胶囊即可冲煮，特点是方便快捷。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "想喝咖啡的时候只需要把胶囊转入胶囊咖啡机内即可，特点就是非常的方便快捷",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出格米莱CRM3200C不支持研磨一体，使用者仍需单独配备磨豆机。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "格米莱这款在这个价位段内的表现还算可以，可惜仍然不支持研磨一体，也就是说你还是要单独配备一台研磨机",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需额外单独配备一台研磨机。",
+            "evidence_quote": "你还是要单独配备一台研磨机"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出胶囊机并不适用市面上所有胶囊，选购时需要慎重确认兼容性。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "缺点就是每台胶囊咖啡机并不适用市面上的所有胶囊咖啡，所以选择胶囊咖啡机的时候一定要慎重。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "在两千至三千元入门半自动机中，作者因设计和操作感更推荐百胜图BAE-M2。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "这个价位段算是意式半自动的入门级了，配置也跟着提高了，例如这两款都是用的PID的控温技术，能够很好的帮助你调节到你想要的温度，功能上这两款没有太大的差异，在外观设计方面，百胜图的设计感会强烈一些，操作起来更有意式的感觉，格米莱的设计则过于单调冰冷，家用的话少了些家用的感觉，所以更推荐大家选择百胜图这款。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为半自动机适合享受手动制作过程、爱好咖啡且追求品质的人。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "适用人群：享受自己手动制作咖啡的过程、咖啡爱好者、对咖啡品质有追求的朋友。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-3079502601",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "文章转述NESPRESSO Mini声音偏大，摆放时需要考虑区域。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但有很多人说它声音有些大，所以放置的话要考虑好区域哦。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.91
+        },
+        {
+          "claim": "作者认为NESPRESSO Mini操作方便，萃取效果和咖啡油脂表现不错。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "只要把胶囊咖啡放入盖中，关闭盖子，按下按钮静待咖啡制作完成，非常方便。\n\n咖啡液的油脂蛮丰富的，喝一口忍不住砸吧嘴。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者建议不差钱但对咖啡了解不多的人先入手胶囊咖啡机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果你不差钱，但是对咖啡不是很了解，那可以先入手一套胶囊咖啡机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为多趣酷思比NESPRESSO Mini更小巧、总体方便，但萃取油脂较弱。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "比之上面那款NESPRESSO还要再小巧一些，不过萃取的压力是15bar，萃取油脂会比上面那台弱一些，总体还是比较方便的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为小熊半自动机萃取油脂和口感层次较好，可高效制作两杯，也能通过胶囊盒作为胶囊机使用。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "能达到20bar的高压，同样带与预浸泡模式，萃取油脂较丰富，因此咖啡口感层次比上面几个都好些。\n\n咖啡柄能一柄三用，分别是：手柄+单杯滤网、手柄+双杯滤网，以及手柄+胶囊盒。\n\n也就是说，它可以高效制作两杯咖啡，还可以当作胶囊咖啡机来使用~",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为柏翠小白醒醒虽易上手、噪音小且萃取口感较好，但打出的奶泡较粗糙。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "落实到使用上，同样也给力。\n\n操作非常简单，比一般的半自动咖啡机更容易上手，分为手动模式、自动模式、奶泡模式，可以根据自己需求灵活选择。\n\n使用时声音也比较小，放在办公室也不会打扰到其他同事。\n\n同样有专业的预浸泡系统，让萃取更加极致，油脂比较丰富，很好地提升了咖啡口感。\n\n打出来的奶比较粗糙，但聊胜于无，增加点奶味口感也会更丰富。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-3522066614",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "约三千元预算下，作者建议选择研磨一体半自动机，以节省另购磨豆机的费用和空间。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "但如果是我今天这篇文章聊的预算区间，3000元左右，想要选择专业性高、性价比高的意式咖啡机，我建议选择研磨一体半自动咖啡机。\n\n一方面，这样的咖啡机买回来绝不是一个大玩具，是有着很多操作空间、可以制作出好喝的、可以媲美外面精品咖啡店的好咖啡的。\n\n另一方面，传统半自动咖啡机是不带磨豆功能的，除了咖啡机还要额外花时间花功夫去挑选磨豆机，可能又要纠结半天，专业好用的磨豆机价格至少也要小一千，再加上半自动咖啡机的花费，很容易远超3000预算，如果选对研磨一体咖啡机，省钱还省空间。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "分体式另购专业好用的磨豆机至少约需一千元。",
+            "evidence_quote": "专业好用的磨豆机价格至少也要小一千"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊单杯成本较高且咖啡粉量少，咖啡因需求大时需喝多杯而进一步增加成本。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但它的缺点也很明显，一方面是平均每一杯咖啡的成本比较高，一颗胶囊咖啡成本在4-8块钱之间，但胶囊里咖啡粉比较少，一般只有5g，像我这种对于咖啡因需求量比较大的人，每天如果就喝一颗胶囊咖啡的量，感觉跟没喝一样，所以至少会喝2-3杯，成本直接就up了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每颗胶囊成本4至8元，高需求时还需增加饮用杯数。",
+            "evidence_quote": "一颗胶囊咖啡成本在4-8块钱之间"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动机需要专业知识和操作经验，不适合懒人及手残党，出品稳定性主要取决于个人技术。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "半自动咖啡机的操作需要一些咖啡的专业知识和操作经验，不适合懒人和手残党，需要自己设定磨粉的刻度，自己掌握萃取的时间和出水量，自己磨豆子、装粉、压粉、自己打奶泡，出品的品质和稳定性主要看个人技术水平，可以制作出来100分，甚至200分口味绝佳的咖啡，也可以制作出-100分糟糕的喝不下去的咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需学习专业知识，并自行完成磨豆、装粉、压粉、萃取及打奶泡。",
+            "evidence_quote": "半自动咖啡机的操作需要一些咖啡的专业知识和操作经验"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊机受品牌兼容限制、口味固定且非现磨，风味层次稍差。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "另外胶囊咖啡机还有个问题就是，每个品牌的胶囊咖啡机只能匹配同品牌或者兼容品牌的咖啡胶囊，这样受限很多，口味也都是限定好的，加上胶囊内的咖啡并不是现磨的，风味层次上还是差点意思。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者建议追求浓郁意式口感和精美拉花的人选择半自动意式机，但达到精品咖啡馆拉花水准需要大量练习。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果你喜欢意式咖啡浓郁醇厚的口感，又想自己在家做出媲美外面精品咖啡馆里有着好看拉花的咖啡，建议选择半自动意式咖啡机，什么胶囊咖啡机，哪怕几万块的全自动咖啡机，都因为没有独立的蒸汽锅炉，而无法提供打发优质奶泡的条件，所以无法实现那种精美的拉花图案。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "达到精品咖啡店拉花水准需要一定时间的大量练习。",
+            "evidence_quote": "这个需要一定时间的大量练习"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者结合忙碌居家办公时的使用经历，认为胶囊机省事、出品稳定且几乎不用清洗。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "我自己有两台胶囊咖啡机，其实在我工作特别忙，又是居家办公那段时间，胶囊咖啡机用的很频繁，因为很省事。胶囊咖啡机，英文是 Capsule Coffee Machine/Maker，只需要加清水、放入胶囊，按运行键，一两分钟就可以得到一杯香浓的意式浓缩咖啡，而且咖啡壶基本不用清洗，绝对是懒人的福音，另外胶囊咖啡机本身的机器也比较便宜，大概500-2000之间，每杯咖啡出品品质也比较稳定，这些都是它的优势所在。",
+          "conditions": {
+            "freq": null,
+            "clean": "none",
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-5183657756812266904",
+      "status": "insufficient_evidence",
+      "claims": []
+    },
+    {
+      "candidate_id": "coffee-answer-5672540042924520436",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为Original胶囊每颗4至5元且一颗不够，每次需要两颗，成本偏高并因此升级到Vertuo。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "Original胶囊一颗4-5元，一颗根本不够，我每次放两颗，成本有点高，升级到了Vertuo咖啡机，到位了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "Original胶囊每颗4至5元，每次用两颗，成本偏高。",
+            "evidence_quote": "Original胶囊一颗4-5元，一颗根本不够，我每次放两颗，成本有点高"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出半自动机器约1000至2000元，还需单独磨粉，另购磨豆机约1000元或购买预磨粉。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "再高级一点是半自动咖啡机（装好粉就行），成本1000-2000。半自动是因为还需要单独磨粉。相当于还要自己购买磨豆机，磨豆机动辄1000一台。\n否则得网购已经磨好的粉。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "机器约1000至2000元，另购磨豆机约1000元，或需购买预磨粉。",
+            "evidence_quote": "成本1000-2000。半自动是因为还需要单独磨粉。相当于还要自己购买磨豆机，磨豆机动辄1000一台。"
+          },
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者选择Nespresso胶囊机作为每天一杯的入门傻瓜机，认为600至700元的价格性价比较高。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "后来我还是选择了雀巢旗下nespresso胶囊咖啡机，这是咖啡爱好者的入门/傻瓜机。是培养每天一杯喝咖啡习惯的。成本600-700元。性价比高。",
+          "conditions": {
+            "freq": "low",
+            "clean": null,
+            "play": "none"
+          },
+          "cost": {
+            "text": "胶囊机成本约600至700元。",
+            "evidence_quote": "成本600-700元"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-617608860889977744",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为传统半自动机需研究多项研磨和萃取参数，赶时间或只想喝一杯提神时没有必要搞得那么复杂。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "传统半自动咖啡机想要做好一杯咖啡，得先研究咖啡豆、磨豆机、研磨粗细、粉量、布粉、压粉、萃取时间、水温等等。要是早上赶着上班，或者下午只想喝一杯提提神，实在没必要搞得那么复杂。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "none"
+          },
+          "cost": {
+            "text": "需研究咖啡豆、磨豆机及研磨、布粉、压粉、萃取和水温等环节。",
+            "evidence_quote": "得先研究咖啡豆、磨豆机、研磨粗细、粉量、布粉、压粉、萃取时间、水温等等"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者基于长期使用经验，推荐Nespresso给只想获得稳定、好喝、省事咖啡的人。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "但如果有人问我，平时只是想喝一杯稳定、好喝、省事的咖啡，买什么机器好？我大概率还是会推荐Nespresso。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为原装铝制胶囊对氧气、湿气和外界气味有较好阻隔，具有保鲜优势。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "其次就是胶囊的保鲜能力。\nNespresso原装胶囊采用铝制包装，对氧气、湿气和外界气味有不错的阻隔效果。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者认为Nespresso风味上限并非最高，但下限较高，能以低操作门槛获得稳定咖啡。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "我觉得Nespresso最大的优点，并不是咖啡风味的上限有多高，而是它的下限比较高，我可以拿它用很低的操作门槛，获得稳定的咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为Nespresso放入胶囊按键即可出杯，同款胶囊表现稳定，废胶囊定期倒掉即可，清理简单。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "而Nespresso就简单多了。放入胶囊，按下按键，一杯咖啡就出来了。只要机器工作正常，同款胶囊的出杯表现就有不错的一致性，不太容易因为操作问题翻车。至于清理更简单，废胶囊直接落入回收仓，定期倒掉就行。",
+          "conditions": {
+            "freq": null,
+            "clean": "weekly",
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-6214933638573724422",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为胶囊单杯成本高，长期使用比咖啡豆贵，一天两三杯的家庭会有明显开销。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "一是单杯成本高，胶囊长期摊下来比豆子贵出一截，一天两三杯的家庭一个月也是笔钱。",
+          "conditions": {
+            "freq": "high",
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊长期单杯成本高于咖啡豆。",
+            "evidence_quote": "单杯成本高，胶囊长期摊下来比豆子贵出一截"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出带奶管的胶囊机奶泡厚薄不可调，内置奶管还需拆洗，否则会串味。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "三是奶咖受限，带奶管的胶囊机奶泡厚薄是死参数，想绵想厚自己说了不算，而且那根奶管藏在机器里，一周不拆洗就串味。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "内置奶管需要拆洗，否则会串味。",
+            "evidence_quote": "一周不拆洗就串味"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊风味受预设烘焙和拼配限制，无法自行改变研磨、粉量和浓淡。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "二是风味封顶，胶囊里的粉是厂里定好的烘焙和拼配，你改不了研磨改不了粉量，喝久了就那一个味儿，想换浅烘果香?没有，想调浓淡?也调不了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为新手容易被盲调困扰，研磨过粗或过细都会造成萃取不足或过度，影响口感。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "很多人被\"半自动门槛高\"劝退，我倒觉得新手最怕的不是难，是盲调。一杯正经咖啡底子是浓缩，标准做法18克粉、25到30秒出大概36克液，差不多1比2的萃取比。粉太粗水走得快，萃取不足，尖酸寡淡；粉太细水过不去，萃取过度，焦苦还涩嘴。新手十有八九栽在研磨度，今天还香明天就苦，多半是豆子养到位了（养豆几天排气稳定）你却没动研磨度。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需掌握研磨度，否则容易出现尖酸寡淡或焦苦涩口。",
+            "evidence_quote": "粉太粗水走得快，萃取不足，尖酸寡淡；粉太细水过不去，萃取过度，焦苦还涩嘴。"
+          },
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者因想喝干净单品并自行控制浓度，从使用两个月的胶囊机换成半自动机。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "我当初第一台就是胶囊机，新鲜俩月就腻了——不是机不好，是我开始想喝干净的单品、想自己控浓度，它给不了。出了闲鱼，换的半自动。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "play"
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者建议新手第一台半自动机具备可视压力和数显压力表，并肯定多段预浸泡对均匀萃取的作用。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "所以新手第一台得有个能看压力的东西。\nPro二代带个数显压力表，萃取时压力曲线看得清清楚楚，再配多段预浸泡，粉饼先润个几秒再慢慢加压，均匀太多。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-7368801404592587669",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者推荐车载Nespresso胶囊机，认为其价格较低、品质稳定且占地不大，可放在后备箱。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "nespresso最便宜的胶囊机，品质稳定，占地不大，轻轻松松放在后备箱。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出车载胶囊机使用车内220V插座供电，日常插着即可随时制作咖啡。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "供电走的是车上内置220V插座，日常就插着，随时都能来一杯。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为在服务区休息时用车载胶囊机做咖啡成本较低，牛奶加胶囊合计约4.3元。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "服务区歇息的时候，做杯咖啡只需要2块钱的牛奶+2.3元的咖啡胶囊，成本很低。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每杯需2元牛奶和2.3元咖啡胶囊。",
+            "evidence_quote": "2块钱的牛奶+2.3元的咖啡胶囊"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-7705168486572425140",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者指出每颗胶囊4元，自己加浓时通常一次用两颗，实际单次胶囊支出会翻倍。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "一颗胶囊4元，一般我会一次用两颗相同的胶囊加浓。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每颗4元，加浓通常一次使用两颗。",
+            "evidence_quote": "一颗胶囊4元，一般我会一次用两颗相同的胶囊加浓。"
+          },
+          "source_type": "experience",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出胶囊机储水罐略小，不几天就要加水，且一次加太多不卫生。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "储水罐略小，不几天就要加一次水（当然，一次加太多放在里面也不卫生）。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需每隔几天加水，且不能一次加太多。",
+            "evidence_quote": "储水罐略小，不几天就要加一次水"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为如果不是必须现磨咖啡粉，胶囊机并不是智商税。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果你不是一定要先磨咖啡粉的话，这真的不是智商税….",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊机成本低，小杯4元、大杯8元，约一分钟即可做完一杯。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "成本低，一小杯4元、一大杯8元。\n很方便，1min就给你做完一杯咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "作者所述小杯4元、大杯8元。",
+            "evidence_quote": "一小杯4元、一大杯8元"
+          },
+          "source_type": "experience",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为在600至700元价位，Nespresso胶囊机是可买到的性价比最高的咖啡机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "综上所述，这是你在6-700元价位可以买到的性价比最高的一款咖啡机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者称Nespresso C30可以兼容各种各样品牌的咖啡胶囊。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "而且，各种各样品牌的咖啡胶囊，全都能兼容…..",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.88
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-7708145715068464628",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为胶囊机与全自动机一样，属于最不容易闲置的咖啡机类型。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "另外，从机器类型来说，最不容易闲置的是全自动和胶囊机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为半自动机制作流程长、至少十分钟，上班族早上难以承受，也最容易闲置。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "最容易吃灰的是半自动，工作流程特别长，一套下来十分钟打底，上班族早上真的扛不住。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "完整制作流程至少需要十分钟。",
+            "evidence_quote": "一套下来十分钟打底"
+          },
+          "source_type": "experience",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊机一颗胶囊约一分钟即可制作，使用便捷。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊机一颗一分钟",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者指出胶囊机单杯成本四五元，长期喝不划算，而且胶囊选择有限。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "胶囊机一颗一分钟，缺点是单杯成本四五块，长期喝不划算，而且胶囊选择有限",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "单杯成本四五元，长期饮用不划算。",
+            "evidence_quote": "缺点是单杯成本四五块，长期喝不划算"
+          },
+          "source_type": "experience",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-9215252576469745162",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者指出半自动机使用很久后若萃取不顺畅，可拆开冲煮头刷洗，但这是额外的维护操作。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "动手能力强的朋友，咖啡机用了很久以后，如果感觉萃取不顺畅，可以用螺丝刀把冲煮头拆开再刷一下。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "可能需要用螺丝刀拆开冲煮头进行刷洗。",
+            "evidence_quote": "可以用螺丝刀把冲煮头拆开再刷一下"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.95
+        },
+        {
+          "claim": "作者以半自动机为例指出，清洁需平时随手处理手柄、冲煮头和蒸汽棒，并定期大扫除。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "家用咖啡机的清洁，主要是清洁咖啡渣、奶垢、水垢等。和家里清洁一样，咖啡机清洁最好也是平时随手清洁（手柄、冲煮头还有蒸汽棒等）+定期的大扫除，让咖啡机保持最好的状态。",
+          "conditions": {
+            "freq": null,
+            "clean": "weekly",
+            "play": null
+          },
+          "cost": {
+            "text": "需日常清洁多个部件并定期大扫除。",
+            "evidence_quote": "平时随手清洁（手柄、冲煮头还有蒸汽棒等）+定期的大扫除"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出半自动机蒸汽棒应在刚打完奶泡后及时擦洗；若已形成奶垢，还需热水浸泡并擦洗清理。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "最好的清洗时间就是刚打完奶泡的时候，顺手用湿布从上到下擦一下，在蒸汽棒出口位置左右旋转一下，再打开蒸汽功能，把蒸汽棒里残留的奶冲出来，就可以了。\n如果奶垢已经形成，可以把蒸汽棒在热水里泡十分钟，再按照以上步骤，用湿布擦一下，开蒸汽冲出残留奶垢即可。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "奶垢形成后需热水浸泡十分钟并再次擦洗。",
+            "evidence_quote": "可以把蒸汽棒在热水里泡十分钟"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者提醒半自动机水箱应根据做咖啡频率和本地气候控制水量，避免久置产生细菌。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "根据自己做咖啡的频率和本地气候，水箱不要放太多的水，避免时间太久产生的细菌等问题。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "cleaning",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-answer-966316577",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "对不爱折腾、缺乏足够耐心时间精力或很重视质量稳定性的人，作者建议选择胶囊机以方便快捷获得咖啡。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "不爱好折腾、尝试，或没有足够的耐心、时间和精力，或对咖啡的质量和稳定性要求很高的知友，请不要买玩具机！建议买胶囊机或者去咖啡店，可以方便快捷的给你提供咖啡",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者实际使用一个月后认为低端半自动玩具机明显超出预期，提高了咖啡质量并带来动手乐趣。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "但是从我这个月的使用感受来看，我是觉得这个咖啡机是大大超出了我的期望的，是确确实实的提高了我喝的咖啡的质量，也满足了自己动手的乐趣，我老婆喝到咖啡也很满意。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者认为对口味有要求时，必须用意式半自动咖啡机才能把咖啡做好喝。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "但是如果你对口味有点要求，那就必须要用意式半自动才能做的好喝。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者明确提醒不爱折腾、没有足够耐心时间精力或高度重视质量稳定性的人不要买低端半自动玩具机。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "因此郑重提醒⚠：不爱好折腾、尝试，或没有足够的耐心、时间和精力，或对咖啡的质量和稳定性要求很高的知友，请不要买玩具机！",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者推荐想低成本体验的人购买四五百元、标识压力达到15bar或20bar的玩具机作为主力机。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果有朋友也想像我一样低成本玩玩，我是推荐买个这样四五百块钱左右的玩具机作为主力机就够了，只要看准它标识压力能达到15bar或者20bar的就行",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "主力机购置价格约四五百元。",
+            "evidence_quote": "四五百块钱左右的玩具机"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出低端半自动玩具机蒸汽太小、打奶泡效果不行，需要改用微波炉热奶和法压壶打奶泡。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "最后打奶泡，玩具机的蒸汽太小，打奶泡实在不行，建议用微波炉热奶后用法压壶打奶泡，这个很简单",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需额外用微波炉热奶并用法压壶打奶泡。",
+            "evidence_quote": "建议用微波炉热奶后用法压壶打奶泡"
+          },
+          "source_type": "experience",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-1108280113144995944",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为半自动咖啡机用久后应通过清洁保养维持性能，这种方式既省钱又省心。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "工欲善其事，必先利其器 咖啡机用久了，性能下降怎么办？ 换咖啡机，贵！修咖啡机，贵！ 别担心，学会清洁与保养！ 既省钱又省心！",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "cleaning",
+          "confidence": 0.83
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-1932515176627702982",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "清洁教程要求半自动咖啡机的手柄和粉碗每次用完必须清洗，否则下次萃取会有陈旧杂味。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "🥤半自动/全自动咖啡机｜核心清洁 \n✅手柄/粉碗（每次用完必洗！） 取掉粉饼后，热水冲洗粉碗、手柄缝隙 擦掉咖啡油脂残留，不然下次萃取全是陈旧杂味",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每次用完都需清洗手柄和粉碗。",
+            "evidence_quote": "每次用完必洗"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-1934655873894052688",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为胶囊多为预先研磨的中深烘豆，风味层次和个性较弱，不同品牌胶囊互不兼容也会限制口味选择。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "不过，胶囊里的粉是预先研磨好的，多数胶囊选用的是中深烘焙豆，口感偏浓厚稳定，适合日常速饮，但层次感和个性风味会弱一些，另外不同品牌的胶囊互不兼容（例如雀巢、星巴克、illy都有自己的胶囊规格），对喜欢尝试不同豆子、不同风味的用户来说，选择会比较受限。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动门槛较高，温度和时间需靠经验掌握，奶泡操作也容易失败。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "但对部分人来说，这类机器的门槛有点高;豆子要选对、研磨要调准、粉饼要压实、温度和时间还得靠经验掌握，奶泡更是手残重灾区，一不小心就是水奶、炸奶、奶渣。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需要经验积累，且奶泡操作失败风险较高。",
+            "evidence_quote": "温度和时间还得靠经验掌握，奶泡更是手残重灾区，一不小心就是水奶、炸奶、奶渣"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为有一定咖啡基础且喜欢手动操作、调试风味的人更适合半自动；更看重效率和稳定出杯的人则更适合全自动。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果你有一定咖啡基础，喜欢手动操作、调试风味的过程，半自动更适合你；但如果更看重效率、稳定出杯，全自动其实是更好的选择。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动可精细调节研磨、水粉比例、萃取时间和奶泡质地，适合喜欢动手钻研的用户。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "它最大的优势就是可控性强：研磨粗细、水粉比例、萃取时间、奶泡质地都能按个人口味精细调节。对于喜欢动手、愿意钻研的用户来说，这类机器就像一个“风味调试平台”，越用越上头。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊机投胶囊后一键出咖啡，几十秒即可喝上，操作简单且清洗很少，适合赶时间或不想动手折腾的人。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机，说白了就是“投颗胶囊，一键出咖啡”的机器。咖啡粉预先封在胶囊里，插进去、按一下，连粉都不用碰，几十秒就能喝上。操作确实简单到极致，清洗几乎为零。对于早上赶时间或者不太想自己动手折腾的人来说，这种便利性是很大的吸引力。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "none"
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-1951680520401421765",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为胶囊机约30秒出杯、风味稳定，每周清洁一次即可且体积小，适合租房搬家。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "30秒出杯，早上完全不用动脑子\n风味稳定，不会因为手法问题翻车\n清洁简单，一周清一次就够了\n体积小，租房搬家很方便",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者建议上班族、租房党和图省心者选择胶囊机，并推荐小熊KFJ-E12Q5。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "上班族/租房党/图省心：选胶囊机，推荐小熊（Bear）KFJ-E12Q5",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出胶囊机长期单杯成本较高、口味选择有限，废胶囊还会带来心理负担。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "单杯成本较高，长期使用有点肉疼\n口味选择有限，喝腻了也没办法换\n胶囊废料问题，虽然可以回收但还是有心理负担",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "长期单杯成本较高。",
+            "evidence_quote": "单杯成本较高，长期使用有点肉疼"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "喜欢拿铁且愿意花时间学习的人，作者建议选择半自动并推荐Breville 870。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "喜欢拿铁/愿意花时间学习：选半自动，推荐Breville 870",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出半自动学习曲线陡峭，每次使用后都要清洁，还需另配磨豆机，总投入不低。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "学习曲线陡峭，前期做的都很难喝\n每次使用后都要清洁，比较麻烦\n需要配磨豆机，总投入不低",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需每次使用后清洁，并另配磨豆机，整套投入不低。",
+            "evidence_quote": "每次使用后都要清洁，比较麻烦\n需要配磨豆机，总投入不低"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动完全可控、可玩性高且有成就感，只计算咖啡豆时单杯成本相对最低。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "完全可控，能做出咖啡店水准的咖啡\n每杯都是手工制作，很有成就感\n可玩性极高，能不断学习进步\n相对来说单杯成本最低（只算咖啡豆）",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "单杯成本最低的比较仅计算咖啡豆。",
+            "evidence_quote": "相对来说单杯成本最低（只算咖啡豆）"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-1974153806464972110",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "半自动用户必须每周至少清洗一次，否则机器容易堵塞、发霉。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "半自动/全自动机用户，必须养成每周至少清洗1次的习惯，否则机器容易堵塞、发霉。",
+          "conditions": {
+            "freq": null,
+            "clean": "weekly",
+            "play": null
+          },
+          "cost": {
+            "text": "每周至少清洗一次",
+            "evidence_quote": "每周至少清洗1次"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "对每天喝一两杯的普通用户，作者认为花5000元买机器可能不如500元的胶囊机实用。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果你只是每天喝1-2杯咖啡的普通用户，花5000块买一台机器，可能还不如500块的胶囊机实用！",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "喜欢DIY咖啡的爱好者适合半自动意式机，因其可调节萃取参数并呈现不同风味，但学习成本高。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果你喜欢DIY咖啡，半自动意式机是优选，但要做好学习成本高的准备。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "学习成本高",
+            "evidence_quote": "学习成本高"
+          },
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "半自动操作繁琐、容易闲置，作者提醒懒人和上班族避开。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "懒人/上班族\t胶囊咖啡机\t操作简单，30秒出咖啡，清洗方便\t避免半自动，操作繁琐易闲置",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "操作繁琐且容易闲置",
+            "evidence_quote": "操作繁琐易闲置"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者把胶囊机列为懒人首选，认为其几乎不用清洗。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "懒人首选胶囊机，几乎不用清洗。",
+          "conditions": {
+            "freq": null,
+            "clean": "none",
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机依赖胶囊，长期使用成本略高。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "🚫 缺点：依赖胶囊，长期成本略高",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "依赖胶囊导致长期成本略高",
+            "evidence_quote": "依赖胶囊，长期成本略高"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-2019422918380140161",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者建议享受自己动手调整参数的咖啡爱好者选择半自动，认为每一步都可掌控、可玩性更高。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果你是咖啡爱好者，享受自己动手调整参数的乐趣，那就选半自动咖啡机，研磨、布粉、压粉、萃取，每一步都由你掌控，可玩性更高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动出品上限高、制作有趣，预算两千多元且想体验专业流程的人可以考虑。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "当然，半自动咖啡机并非一无是处，最大的优势就是出品上限高，而且制作过程充满乐趣。如果你预算2000多，想体验专业级的制作流程，那可以看看半自动。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "体验专业制作流程的预算约两千多元。",
+            "evidence_quote": "预算2000多"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "在懒人、效率党和办公室的推荐顺序中，作者将胶囊机列为次于全自动机的选择。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "简单总结一下： 懒人/效率党/办公室推荐顺序：全自动咖啡机 > 胶囊咖啡机； 咖啡爱好者/发烧友/时间充裕者：半自动咖啡机；",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者指出半自动需自行磨粉、压粉、装手柄并萃取，喝完还要敲掉粉饼和清洗配件。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "而半自动需要你先用磨豆机把豆子磨成粉，再用压粉锤把粉压实，再装到手柄上，再锁到机器上萃取，喝完还要自己敲掉粉饼、清洗配件。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需完成多步手动制作，并在饮用后敲掉粉饼、清洗配件。",
+            "evidence_quote": "喝完还要自己敲掉粉饼、清洗配件。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者推荐雪特朗517ED作为入门半自动机，认为其双锅炉、150档研磨等配置接近专业水平。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "这款是2000元价位段非常有竞争力的半自动咖啡机。它采用了双锅炉系统，意味着你可以一边萃取咖啡，一边打奶泡，效率极高，这是很多高端机才有的配置。\n\n研磨部分更是夸张，给了150档精钢锥刀研磨，调节范围巨大。58mm的商用级萃取头、双NTC精准控温、可视化的压力和时间显示，所有配置都向专业看齐。如果你想入门半自动，这款是非常好的选择。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "属于2000元价位段的半自动咖啡机。",
+            "evidence_quote": "这款是2000元价位段非常有竞争力的半自动咖啡机。"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-2027840743692051626",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "胶囊成本高且口味受品牌绑定，长期花费不低，还需频繁更换胶囊和清洗设备。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但胶囊成本真的很高，因为胶囊口味被品牌绑定，长期花费不低。胶囊咖啡机通常体积较小，不能存放大量咖啡豆或咖啡粉，需要频繁更换胶囊和清洗设备。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊成本高，长期花费不低，并需频繁更换和清洗",
+            "evidence_quote": "胶囊成本真的很高，因为胶囊口味被品牌绑定，长期花费不低"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "半自动需要自己填咖啡粉和压粉，对技术及耐心有一定要求。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "半自动的意式咖啡机需要你自己动手填咖啡粉和压粉，这可得有点技术和耐心",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需动手填粉压粉，并具备技术与耐心",
+            "evidence_quote": "需要你自己动手填咖啡粉和压粉，这可得有点技术和耐心"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "半自动意式咖啡机可玩性高，较高级配置还能制作意式、美式和拉花咖啡。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动的意式咖啡机需要你自己动手填咖啡粉和压粉，这可得有点技术和耐心，但正因为这样，它的可玩性就更高了，配置稍微高级一点的，还能做意式、美式、拉花等各种咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "凯度灵萃MR2可同步萃取和打发奶泡，整个制作过程不到两分钟。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "在机器准备就绪后，按下萃取键，另一边也同时放下蒸汽棒开始打奶泡。萃取浓缩的25秒，正好也是打发好一缸绵密奶泡的时间。两边同步完成，这一整个制作过程连2分钟都不到。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "胶囊咖啡机操作极其简单，可一键萃取、约一分钟出杯，出品稳定且体积小巧。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "就是使用预装好咖啡粉的胶囊，操作极其简单，一键萃取，1分钟这样就出杯，出品稳定，体积小巧。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "none"
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-2619001277843423918",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为几百元的胶囊机若能让人多睡二十分钟并喝到不错的咖啡，就非常值得。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "一台几百块钱的胶囊机，如果说能够让你多睡20分钟，还能喝到一杯不错的咖啡，那肯定是非常值的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为只喝美式时不必购买意式机，滴滤机和胶囊机就足够。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "只要喝美式的就没必要买意式机，滴滤机和胶囊机就够了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为早上只有五分钟做咖啡时，两三万的专业半自动机也会成为摆设。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "比如说一台两三万的专业半自动咖啡机，如果说你早上只有5分钟的做咖啡的时间，那么他一定是台摆设。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "购机两三万元，而早晨制作时间仅五分钟",
+            "evidence_quote": "一台两三万的专业半自动咖啡机，如果说你早上只有5分钟的做咖啡的时间"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-2982867242196127823",
+      "status": "insufficient_evidence",
+      "claims": []
+    },
+    {
+      "candidate_id": "coffee-article-3162126309572851414",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "半自动操作相对复杂，但能体验制作咖啡的乐趣，适合追求品质并喜欢钻研的爱好者。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机：需要自己研磨咖啡豆、压粉、控制萃取时间和温度等，操作相对复杂一些，但能让你体验到制作咖啡的乐趣，适合对咖啡品质有追求，喜欢钻研的咖啡爱好者。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "play"
+          },
+          "cost": {
+            "text": "需自己研磨、压粉并控制萃取时间和温度",
+            "evidence_quote": "需要自己研磨咖啡豆、压粉、控制萃取时间和温度等"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "这款胶囊机只能使用配套胶囊，但胶囊种类较丰富，能制作多种奶咖和美式。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "虽然它只能用配套的胶囊，但胜在胶囊种类还算丰富，拿铁、美式、卡布奇诺都能做，偶尔还能换换口味。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "只能使用配套胶囊",
+            "evidence_quote": "只能用配套的胶囊"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "东菱胶囊机适合刚接触咖啡且预算有限的人，操作简单、价格实惠且不到一分钟即可制作一杯。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "这款胶囊咖啡机特别适合刚接触咖啡，预算又有限的朋友。它的操作简单到极致，插上电源，放入胶囊，按下按钮，不到一分钟，一杯香浓的咖啡就好了。而且它的外观小巧可爱，放在厨房的角落里不占地方，颜色也很清新，能给厨房增添一抹亮色。虽然它只能用配套的胶囊，但胜在胶囊种类还算丰富，拿铁、美式、卡布奇诺都能做，偶尔还能换换口味。价格实惠，就算是学生党或者租房一族，入手也毫无压力，性价比超高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-370204902",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "多趣酷思Genio胶囊机可一分钟萃取并一体打奶泡，无需另外打奶泡，适合奶咖需求。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "1分钟萃取，8段控水；奶泡一体，无需打奶泡；",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "时间精力充沛、喜欢研究制作且已有基础技术的人，作者认为只有半自动咖啡机才能满足需求。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "三、如果生活中，你的时间和精力都充沛，喜欢研究和制作咖啡，同时也有制作咖啡的基础和技术。那么，相信只有一台半自动咖啡机才能够满足你了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机只能匹配指定品牌或系统的胶囊，后续耗材成本被绑定，单杯成本较高。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "不过，因为市面上胶囊系统不同，咖啡机对于咖啡胶囊有局限性，机器只匹配同品牌或指定匹配的咖啡胶囊，对后续的胶囊成本进行绑定，从而会导致成本增加，单杯成本高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "指定胶囊绑定后续耗材成本，单杯成本高",
+            "evidence_quote": "对后续的胶囊成本进行绑定，从而会导致成本增加，单杯成本高"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "预算有限、同时想喝美式和意式且要求操作简单时，作者推荐选择胶囊机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "二、如果你的预算有限，既喜欢喝美式咖啡，也喜欢喝意式咖啡，同时，操作上要简单方便一些。那么，推荐选择：胶囊咖啡机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "用半自动制作高品质咖啡需要考究技术，绝大多数工序都必须由操作者完成。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "但，想要用半自动咖啡机制作出一杯高品质的咖啡，就不得不考究你的技术了。从机器调试，到机器调试、称豆磨豆、装粉压粉、机器预热、萃取、温度压力监控、打奶泡、清洗机器等这些工序都需要由操作者完成，机器只能完成萃取的步骤。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需掌握技术并亲自完成大量制作与清洗工序",
+            "evidence_quote": "从机器调试，到机器调试、称豆磨豆、装粉压粉、机器预热、萃取、温度压力监控、打奶泡、清洗机器等这些工序都需要由操作者完成"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-386407110",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者明确否认胶囊咖啡机是智商税。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "3.1 胶囊咖啡机是智商税吗？\n\n绝对不是。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出胶囊机咖啡品质一般，且胶囊价格高于咖啡豆和咖啡粉。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但缺点就是咖啡品质一般，咖啡胶囊价格比咖啡豆、咖啡粉贵。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊价格高于咖啡豆和咖啡粉。",
+            "evidence_quote": "咖啡胶囊价格比咖啡豆、咖啡粉贵"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者不建议家用用户购买半自动咖啡机，尤其是刚入门的小白。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "对于家用咖啡机，不是很建议半自动咖啡机，尤其是小白入门级选手。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为三千元以内的意式全自动机不值得推荐，不如购买胶囊机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "所以，3000元内的意式全自动咖啡机，不推荐啦，还不如去买个胶囊咖啡机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为咖啡新手可以先把胶囊机作为入门选择，再考虑半自动或全自动机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机是入门咖啡机比较好的一个选择，咖啡新手小白，可以先尝试入手胶囊咖啡机，再考虑半自动、全自动咖啡机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊机适合家用，具有价格便宜、操作简单、口味标准化、易做花式咖啡和维护成本低等优势。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机是非常适合家用的一类咖啡机。它有比较明显的几个优势：价格便宜、操作简单、口味标准化、容易制作花式咖啡、机器维护成本低。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-4368546457737851418",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为可爱多5820的58mm商用全金属冲煮头受水均匀，压粉不稳时也不易出现通道效应，新手更易得到黄金油脂。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "58mm 商用全金属冲煮头：萃取面积增大 13%，粉饼受水均匀，压粉力度不稳也不容易出现通道效应，新手更容易直出黄金油脂——这是最容易让人有成就感的一环。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为可爱多5820的OPV稳压阀可把压力锁在金杯区间，减少对手感和运气的依赖，避免浓度波动。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "• OPV 稳压阀：自动把压力锁在 9–12bar 金杯区间，不用你靠手感和运气，避免一杯浓一杯淡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者认为容错好的入门半自动机虽需几分钟和练习，但新手也能稳定出品，且风味上限更高、有动手乐趣。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动把过程交还给你，出杯要几分钟、需要练习，但容错做得好的入门机，新手也能很快稳定出品，而且风味上限更高、有动手的乐趣。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "出杯需几分钟并需要练习。",
+            "evidence_quote": "出杯要几分钟、需要练习"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者建议愿意学习磨豆压粉、偶尔练拉花的新手选择半自动咖啡机。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "愿意学着磨豆压粉、偶尔练个拉花，选半自动；只想按一下就出杯、清洁越省事越好，选全自动。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为不愿动手的人即使买简单的半自动机，也会觉得是负担。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "愿意，半自动的入门机完全能托住你；不愿意，再简单的半自动也是负担。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者将美的可爱多MA-ECE5820列为想体验动手乐趣又怕难的新手首选，官网价1799元。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "新手其实有两条都很好走的路：想体验动手乐趣又怕难，半自动首选美的可爱多 MA-ECE5820（1799 元）；只想彻底省心，全自动首选美的小魔方 X10S。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "该推荐机型官网价为1799元。",
+            "evidence_quote": "美的可爱多 MA-ECE5820（1799 元）"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-503076180",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为东菱DL-5700P性价比高，价格适中、性能中上，新手小白也值得入手。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "个人觉得，东菱的DL-5700P在三款咖啡机里算是性价比较高的一款，颜值高，价格也适中，性能算得上是中上水平，品牌方面东菱产品的质量也是很有保证的，就算不是咖啡爱好者，新手小白也很值得入手的一款。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "胶囊咖啡机需额外购买与机器匹配的一次性胶囊，因此会增加耗材花销。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但是胶囊咖啡机也有个缺点，就是胶囊咖啡是需要另外购买的，是一次性使用的，而且也需要跟机器进行匹配，所以在胶囊咖啡上就多了另外的花销。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需另购匹配的一次性胶囊，增加耗材花销。",
+            "evidence_quote": "胶囊咖啡是需要另外购买的，是一次性使用的，而且也需要跟机器进行匹配"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "对品质有要求但预算不高时，作者推荐胶囊机，认为其省时省力且新手也能快速上手。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果对咖啡品质有点要求的，但是预算又不是很高的，胶囊咖啡机你值得拥有，省时省力，方便快捷，胶囊安上去之后按键就可以出咖啡了，新手小白也可以快速上手。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "家用且对方是咖啡爱好者时，作者建议选择半自动；手动研磨填粉压粉滤煮符合爱好者兴趣，但不如全自动方便。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果是家用咖啡机，本身又是咖啡爱好者，建议选择半自动咖啡机。半自动虽没有全自动那么方便但是咖啡的研磨、填粉、压粉、滤煮这些小事情不正是咖啡爱好者所向往的嘛？",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "便利性不如全自动，需要手动完成多道工序。",
+            "evidence_quote": "半自动虽没有全自动那么方便但是咖啡的研磨、填粉、压粉、滤煮这些小事情不正是咖啡爱好者所向往的嘛？"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者实际使用东菱DL-5700P后认为其萃取稳定、油脂丰富、蒸汽足且奶泡细腻。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "而且令我感到意外的是，自带的研磨机磨出来的粉质居然非常细腻，省去一个磨豆机的钱，简直是赚死了！\n\n而且，不管是萃取还是打奶泡，加热速度都非常快。\n\n萃取稳定，油脂也丰富，蒸汽很足，打出来的奶泡也非常细腻。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为半自动咖啡机比全自动便宜，设备维护保养花费也较少，家里使用已经足够。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "而且半自动比全自动便宜阿！！设备维护保养那些花费也没有全自动多，家里用已经足够了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-5613008392433587946",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "胶囊机需提前购买对应机型可用的专业胶囊，咖啡口味选择也会略有局限。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但是需要提前购买对应咖啡机能使用的专业胶囊，而且在咖啡口味方面也会略有局限。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需要提前购买对应机型使用的专业胶囊。",
+            "evidence_quote": "需要提前购买对应咖啡机能使用的专业胶囊"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "Nespresso C40小巧轻便，0.7L水箱可连续制作近10杯，废胶囊仓便于后续清理。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "奈斯派索这款 C40 胶囊咖啡机，机身做的特别小巧，放在家里台面或者办公室工位上完全不占地方，整机净重才 2.4kg，女生单手就能轻松挪动。它是经典的简约造型，有多种亮眼的配色可选，机身带可折叠的杯架，大小咖啡杯都能适配。它还配了 0.7L 的分离式水箱，加满一次水能连续做近 10 杯咖啡，用完的胶囊收纳仓能装下 9 到 11 颗废胶囊，后续清理起来也特别方便。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "Nespresso C40采用19Bar高压泵和25秒快速预热，早上洗漱时即可做好一杯咖啡。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "它搭载了 19Bar 的高压萃取泵，这可是专业意式咖啡机的标准压力，搭配 25 秒快速预热技术，早上起床插电，洗漱的功夫就能做好一杯咖啡，完全不用久等。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者认为胶囊咖啡机体型较小，通过预制胶囊制作，操作更简单且用时更短。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机的体型会更小一些，主要是通过预制的咖啡胶囊来制作咖啡成品，整个操作过程会更加简单，用时也更短",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "小米S1胶囊机具有25秒快速预热和稳定萃取压力，可提供浓郁咖啡风味。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "这款咖啡机内置进口高压水泵，确保了稳定的萃取压力，从而能够从咖啡胶囊中提取出丰富的油脂，带来浓郁的咖啡风味。快速预热功能短短25秒内即可享受一杯香气四溢的咖啡，极大地缩短了等待时间。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为不愿过多动手且想极短时间喝到咖啡的人适合胶囊机，并推荐Nespresso和雀巢。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "适合于那些不愿意过多动手，倾向极短时间内即可喝到咖啡的懒人伙伴。胶囊咖啡机这一类产品里Nespresso、雀巢品牌做得也都还不错。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-58253818991204631",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "预算1000元以内且只是偶尔喝咖啡的人，作者认为胶囊机比较合适。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "・第三点预算1000以内，只是偶尔喝喝，你就可以买那种胶囊机也比较合适。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者认为半自动的萃取上限高于同价位飞利浦全自动，想玩萃取参数和练拉花的人不宜把飞利浦作为最优解。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "第一点就是萃取上限不如同价位的半自动。飞利浦全系列都是全自动路线，没有半自动产品线，Baristina算是个新尝试但定位不同，如果你是想玩萃取参数、练拉花，飞利浦不是最优解。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者认为手动蒸汽棒打出的奶泡密度优于飞利浦LatteGo，追求极高奶泡品质的用户可据此考虑半自动。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "第二点奶泡密度有天花板，LatteGo的旋风发泡技术打出来的奶泡，日常喝拿铁卡布完全够用，但是如果你追求咖啡馆那种每天就能拉天鹅绒的天鹅级别的奶泡品质，它和蒸汽棒手动打出来还是有差距的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.82
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-5839401774439179532",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者以自己从半自动换到全自动的经历，表达半自动缺少全自动所带来的懒人式便利。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "第五款给大家说一下，我家这款美的X30，当时买的价格好像是3000出头，以前我用的是半自动咖啡机，自从换了这款全自动咖啡机，终于体会到懒人的终极快乐了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.86
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-5924974977068188244",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "一体式半自动集研磨、萃取和蒸汽于一体，省空间且方便快捷，适合入门或进阶爱好者。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "一体式半自动咖啡机集研磨、萃取、蒸汽功能于一身，一机多能，更节省空间。非常适合入门或进阶的咖啡爱好者，方便、快捷，居家或办公使用都很合适。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为半自动保养频率适中且清理方便，是一大优点。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机的保养频率适中，清理方便，也算是其一大优点。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为半自动比全自动参与感更高，适合对咖啡出品有操控需求的爱好者。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机相比全自动参与感更高，适合对咖啡出品有操控需求的爱好者",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "play"
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "半自动操作步骤比其他咖啡机复杂，想要参与乐趣就需要付出相应时间和精力。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "当然相应的，操作步骤相较于其他三种咖啡机，也要复杂一些。毕竟想要参与的乐趣，自然要付出相对应的时间和精力。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "操作更复杂，需付出相应时间和精力。",
+            "evidence_quote": "操作步骤相较于其他三种咖啡机，也要复杂一些。毕竟想要参与的乐趣，自然要付出相对应的时间和精力"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动适合喜欢多种花式咖啡并想亲手体验制作乐趣的咖啡爱好者。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "所以半自动咖啡机非常适合喜欢喝包括意式浓缩、拿铁、摩卡、卡布奇诺、美式等等各种各样花式咖啡，并且想要体验亲手制作咖啡乐趣的咖啡爱好者。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "play"
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "胶囊咖啡机的出品类型完全取决于胶囊品种，且咖啡胶囊是各类耗材中最贵的。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "胶囊咖啡机出品类型完全取决于胶囊品种，咖啡胶囊是各类耗材中最贵的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "咖啡胶囊是各类耗材中最贵的。",
+            "evidence_quote": "咖啡胶囊是各类耗材中最贵的"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-6148311405930339341",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "半自动意式机的奶泡需要自己动手打发，而胶囊机可通过预先制作的胶囊冲出奶泡。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "区别在于半自动意式咖啡机的奶泡需要自己动手打发；全自动咖啡机一般会配备一个奶缸自动给你打发奶泡；而胶囊咖啡机则是通过事先就制作好的胶囊来冲出一杯奶泡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "奶泡需要自己动手打发。",
+            "evidence_quote": "半自动意式咖啡机的奶泡需要自己动手打发"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "喜欢喝奶咖的人可优先选择雀巢多趣酷思胶囊机，大促时可多囤优惠胶囊。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "喜欢喝奶咖的优先选择下面的雀巢多趣酷思，大促期间胶囊优惠力度不错可以多屯点。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.95
+        },
+        {
+          "claim": "单颗咖啡胶囊成本约四五元，虽然较高，但相比点外卖仍便宜不少。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "缺点在于单颗咖啡胶囊成本比较高，大概四五块钱左右，但相比点外卖还是便宜不少。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "单颗胶囊成本约四五元，但比外卖便宜。",
+            "evidence_quote": "单颗咖啡胶囊成本比较高，大概四五块钱左右"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊咖啡机最适合新手小白，操作简单、节约时间且胶囊口味选择较多。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机最适合新手小白，优势是操作简单，节约时间，可选择的胶囊口味也比较多。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-6544703000873094558",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "半自动虽然零件较多，但拆卸简单，清洗也较容易。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机虽然零件较多，但是拆卸起来比较简单，清洗也比较容易。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "想要基础版、简单易用的咖啡机时，胶囊机是比较合适的选择。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果你想要基础版的、简单易用的咖啡机，那么胶囊咖啡机或美式咖啡机是比较合适的选择。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊机虽然比直接冲泡略好，但口感不如意式咖啡经典新鲜。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "如果你想要基础版的、简单易用的咖啡机，那么胶囊咖啡机或美式咖啡机是比较合适的选择。这类咖啡机虽然制作出来的咖啡口感比直接冲泡的咖啡好些，但是相比于意式咖啡更加缺乏经典和新鲜的感觉。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.95
+        },
+        {
+          "claim": "想要更好的口感和咖啡体验时，作者建议选择意式半自动或全自动，但操作稍有难度。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果你想要更好的口感和咖啡体验，建议选择意式半自动或全自动咖啡机。这类咖啡机操作稍有难度，但是可以制作出更加独特的咖啡口感，非常适合咖啡爱好者或专业咖啡师使用。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "操作稍有难度",
+            "evidence_quote": "操作稍有难度"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "半自动需要人工研磨咖啡豆并掌握研磨技巧和操作方法，操作难度相对较高。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "意式半自动咖啡机需要人工研磨咖啡豆，需要掌握一定的研磨技巧和操作方法，因此操作难度相对较高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需学习研磨技巧和操作方法",
+            "evidence_quote": "需要掌握一定的研磨技巧和操作方法"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机清洁相对简单，只需定期清洗水箱和滴水盘。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机和美式咖啡机的清洁相对比较简单，只需要定期清洗水箱和滴水盘即可。",
+          "conditions": {
+            "freq": null,
+            "clean": "weekly",
+            "play": null
+          },
+          "cost": {
+            "text": "需定期清洗水箱和滴水盘",
+            "evidence_quote": "定期清洗水箱和滴水盘"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-6555425863654906043",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者提醒部分半自动意式机不带磨豆功能，需另购磨豆机并增加成本。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "注意目前市面上的半自动意式咖啡机有部分机器是不带磨豆功能的，还需要单独购买磨豆机，也会增加成本哦。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需单独购买磨豆机并增加成本。",
+            "evidence_quote": "还需要单独购买磨豆机，也会增加成本哦。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出半自动咖啡机通常较占空间，需要一定技术并存在学习成本。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "缺点：一般产品的外观都比较大会占据一定的空间，并且需要一定的技术含量，有一定的学习成本。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需要一定技术并存在学习成本。",
+            "evidence_quote": "并且需要一定的技术含量，有一定的学习成本。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为三千多元的宜盾普半自动机集萃取、磨豆、压粉和打奶于一体，可调饮品多、可玩性强且颜值高。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "这款宜盾普的咖啡机是我经过各种对比后入手的一款半自动的意式咖啡机，在三千多的价位内就可以选购到一款具备了具备萃取、磨豆、压粉、打奶的功能，在家里也可以调制出各种各样的咖啡可玩性非常强，关键是外观颜值还很高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为半自动咖啡机可玩性极高、出品上下限大，可通过调整做出适合个人口味的咖啡。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "这种机器的可玩性极高，上下限也很大，你可以做出来一杯苦水，当然也可以做出一杯惊艳的意式浓缩，各种排列组合，随你调整，总能找到适合自己口味的咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-665807218",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "半自动意式咖啡机制作耗时较长，需磨豆、填粉、压粉、萃取和清洗，且要求操作技巧，新手容易翻车。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "半自动意式咖啡机：家用或者办公室用，2000以内选择比较多，制作一杯咖啡耗时相对比较长，需要磨豆、填粉、压粉、萃取、清洗冲煮头。需要一定的操作技巧，新手前几次做咖啡可能会翻车，遇到流速过快或者根本不出液的情况也非常常见，慢慢调整咖啡粉的粗细和量就可以，多试几次就上手了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "制作耗时较长，需手动完成多步操作和清洗",
+            "evidence_quote": "制作一杯咖啡耗时相对比较长，需要磨豆、填粉、压粉、萃取、清洗冲煮头"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "单颗胶囊成本相对较高，但比点外卖便宜，大促时可适当囤货。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "单颗胶囊成本相对较高，但比点外卖还是会便宜不少，遇到大促可以适当多囤一点。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "单颗胶囊成本相对较高",
+            "evidence_quote": "单颗胶囊成本相对较高"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "没时间做咖啡的人购买多趣酷思Genio Basic足够，制作一杯可在两分钟内完成，家用选mini即可。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "没时间用咖啡机做咖啡的友子们买它足够。做一杯咖啡2分钟以内就能搞定~\n\n家用的话选mini就可以了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "胶囊咖啡机省时省力，适合上班忙、没时间鼓捣又想喝咖啡的人。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机的优势在于制作一杯咖啡非常省时省力，有的还能做花式咖啡。适合平时上班忙，没时间鼓捣又想喝咖啡的朋友。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "不同品牌乃至同品牌不同型号的胶囊机，使用的胶囊系统可能不同，选购需注意兼容性。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "胶囊咖啡机需要搭配咖啡胶囊来使用，不同品牌使用的胶囊系统会有所不同，同一品牌旗下两个不同型号的胶囊咖啡机用的胶囊都可能是不一样的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "500至1000元半自动机虽操作体验一般、蒸汽和震动有短板，但对只想喝一杯的人仍具性价比。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "这个价位段的咖啡机可以用，但操作体验一般，比如蒸汽力道不足，打奶泡比较费劲；比如做咖啡的时候整个机器都会震动；但毕竟价格就摆在这里，对于只想喝一杯咖啡的朋友来讲这就是最具性价比的想选择，想要更好的体验完全可以加钱买更好的咖啡机。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "none"
+          },
+          "cost": {
+            "text": "蒸汽力道不足且机器震动，更高体验需加价",
+            "evidence_quote": "蒸汽力道不足，打奶泡比较费劲；比如做咖啡的时候整个机器都会震动"
+          },
+          "source_type": "guide",
+          "confidence": 0.96
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-6721934032450173927",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为意式半自动适合有动手能力且喜欢浓缩、拿铁和卡布奇诺的人。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "・意式半自动：需要手动磨豆、填粉、压粉、冲泡、打奶、清洗等，机器只完成高压萃取工艺，需要有动手能力、喜欢和浓缩、拿铁、卡布奇诺的朋友。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需手动完成磨豆、填粉、压粉、冲泡、打奶和清洗等环节。",
+            "evidence_quote": "需要手动磨豆、填粉、压粉、冲泡、打奶、清洗等"
+          },
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者认为胶囊式咖啡机操作简单且价格便宜。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "・胶囊式：近年出现的新型咖啡机，操作简单，价格便宜",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出胶囊机需使用对应系统的专用胶囊，不同系统适用于不同咖啡类型。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "不过需要对应的专用胶囊，常见的胶囊系统有Nespresso（浓缩）、Dolcegusto（花式）和illy（黑咖）。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需购买并使用对应系统的专用胶囊。",
+            "evidence_quote": "需要对应的专用胶囊"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊式、滴滤式和便携式咖啡机结构简单、硬件要求不高，选购时主要注意材质和售后。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "滴滤式、胶囊式和便携式咖啡机结构简单，对硬件要求不高，选购时注意下材质和售后问题即可，想要品质更靠谱些可以选择大品牌，比如：",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者指出意式半自动需手动完成磨豆到清洗的多个步骤，机器只负责高压萃取。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "需要手动磨豆、填粉、压粉、冲泡、打奶、清洗等，机器只完成高压萃取工艺",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需手动完成磨豆、填粉、压粉、冲泡、打奶和清洗等环节。",
+            "evidence_quote": "需要手动磨豆、填粉、压粉、冲泡、打奶、清洗等"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-675252389",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "半自动从磨豆到打奶都需要手工操作，虽能按喜好调出口味，但需要一定制作技巧和经验。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "从磨豆、填粉、提取咖啡、控制温度、打奶等环节，都需要操作者手工操作。可以根据操自己的喜好进行调整，做出喜欢口味的咖啡，需要一定的制作技巧和经验。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "多道工序需手工完成，并需制作技巧和经验。",
+            "evidence_quote": "都需要操作者手工操作。可以根据操自己的喜好进行调整，做出喜欢口味的咖啡，需要一定的制作技巧和经验"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "只想方便喝咖啡的人适合全自动；想享受动手过程、研究制作和拉花的人应选半自动。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动和全自动，怎么选？总结成一句话就是：如果需求只是喝咖啡，不想麻烦的操作，要方便，选全自动咖啡机；如果想享受动手的过程，热衷于研究做咖啡、拉花的，选半自动的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者称半自动不能研磨咖啡豆，还需粉锤、粉碗和设备架，咖啡角要足够大，喝完清洗的器具也多。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "半自动，就是说它不能研磨咖啡豆，所以买的不单是一台咖啡机，是一堆咖啡设备，粉锤、粉碗，还要一个放设备的架子。一个是你的咖啡角空间要够大，另外喝完咖啡清洗的器具也多。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需额外配套设备，占用空间且增加清洗量。",
+            "evidence_quote": "买的不单是一台咖啡机，是一堆咖啡设备，粉锤、粉碗，还要一个放设备的架子。一个是你的咖啡角空间要够大，另外喝完咖啡清洗的器具也多"
+          },
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "有些胶囊机只能使用一种或几种固定口味，选择时需要特别注意。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "咖啡口感上，很接近咖啡店的咖啡的风味，胶囊各式各样，有很多不一样的口味，但有些胶囊咖啡机只能使用一种或者几种固定的咖啡口味，所以选胶囊咖啡机时要注意这点。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "喜欢咖啡店口感又图方便的人，可以考虑购买能用通用胶囊的胶囊机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "喜欢咖啡店口感，图方便的，可以考虑买胶囊咖啡机，但一定要买那种可以用通用胶囊的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机本身价格不贵，但长期饮用需要不断购买胶囊，成本很高。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "胶囊咖啡机本身不是很贵，但是长期喝胶囊咖啡成本很高，因为喝咖啡后期要不断买胶囊。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "后期需持续购买胶囊，长期成本高。",
+            "evidence_quote": "长期喝胶囊咖啡成本很高，因为喝咖啡后期要不断买胶囊"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-679604536837096763",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "数显压力表或彩屏引导能帮助新手察觉萃取问题，提升半自动机友好度。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "信息反馈。有没有数显压力表、彩屏引导，决定你萃过头还是欠萃时能不能察觉。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "experience",
+          "confidence": 0.94
+        },
+        {
+          "claim": "作者认为小台面或租屋摆放半自动机和磨豆机两套设备会直接劝退。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "小台面租屋，机器加磨两套直接劝退。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "咖啡机与磨豆机需占用两套设备空间",
+            "evidence_quote": "机器加磨两套"
+          },
+          "source_type": "experience",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者第一台半自动机操作复杂、难以盲调，奶泡打不发，两周就闲置。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "我刚玩半自动那阵也怂。第一台是金属机身、按键密密麻麻带集成电子秤的那类，说明书翻三遍还是盲调，称完粉计时萃取手忙脚乱，奶泡还因为蒸汽棒角度不对打不发，两周就塞柜子吃灰。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "首次使用操作学习困难，奶泡失败，两周即闲置",
+            "evidence_quote": "说明书翻三遍还是盲调，称完粉计时萃取手忙脚乱，奶泡还因为蒸汽棒角度不对打不发，两周就塞柜子吃灰"
+          },
+          "source_type": "experience",
+          "confidence": 0.99
+        },
+        {
+          "claim": "冲煮头外露且带独立热水口的半自动机，冲完按热水清渣约十秒，清理较省事。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "清洁。这是闲置第一推手。冲煮头露外面、带独立热水口的，冲完按一下出股热水把粉渣冲掉，十秒收工；",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每次冲完需按热水清渣，约十秒",
+            "evidence_quote": "冲完按一下出股热水把粉渣冲掉，十秒收工"
+          },
+          "source_type": "experience",
+          "confidence": 0.95
+        },
+        {
+          "claim": "需要自己称粉、布粉、压粉、计时和看曲线的半自动操作门槛陡。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "要自己称粉、布粉、压粉、计时、看曲线，门槛陡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需自行完成称粉、布粉、压粉、计时和看曲线",
+            "evidence_quote": "要自己称粉、布粉、压粉、计时、看曲线"
+          },
+          "source_type": "experience",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-6816845253643365047",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "胶囊机虽然机器便宜、不用洗碗，但胶囊贵且口味固定，长期饮用成本高。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "● 胶囊机 = 精装外卖：机器便宜，胶囊贵。口味固定，不用洗碗（清洁），但长期吃（喝）成本高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊贵，长期饮用成本高。",
+            "evidence_quote": "机器便宜，胶囊贵。口味固定，不用洗碗（清洁），但长期吃（喝）成本高"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机无法调整浓度和水温，只适合对口味要求达到尚可即可的人。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但你想调整浓度、水温？没戏。它适合对口味要求还不错就行的人。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机几乎零清洁，没有粉渣、不用洗配件，适合早上争分夺秒或晚上疲惫的职场人。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "几乎零清洁，没有粉渣，不用洗配件。这对早上争分夺秒、晚上累成狗的职场人来说，它提供了巨大的情绪价值。",
+          "conditions": {
+            "freq": null,
+            "clean": "none",
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机从开机、放胶囊、按键到喝完扔胶囊全程约30秒，流程快速。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "开机 → 放胶囊 → 按键 → 喝完扔胶囊。全程 30 秒，一气呵成。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机是标准化出品，大厂胶囊品质稳定、油脂丰富，作者认为优于速溶和大部分外卖。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊机：咖啡标准化出品。它的逻辑是：胶囊里有什么，你就喝什么。Nespresso、illy 这些大厂的胶囊品质很稳，油脂（Crema）丰富，能秒杀速溶和大部分外卖。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-709077203",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "胶囊机长期使用成本较高，且可提供的咖啡口味有限，风味多样性存在短板。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "但从整体使用来看，胶囊的成本比较高，长期使用下来整体花费较高，同时胶囊机可以提供的咖啡口味也比较有限，在风味的多样化方面确实存在一定短板。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "胶囊成本高，长期整体花费较高",
+            "evidence_quote": "胶囊的成本比较高，长期使用下来整体花费较高"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "百胜图V1可能存在磨豆机卡死、萃取压力不足等反复故障，导致作者闲置并打算低价转卖，但作者不确定是否为个例。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "但！我不确定是不是个例现象，我自己手上这一台经常性会出现磨豆机卡死、萃取压力不足等等现象，每次我快受不了想要把它送去维修时它就自己好了，然后后面不知道什么时候又坏了，反反复复几次真的很让我心烦，这也是我后面闲置它最大的原因，写完这篇文章我就打算骨折价放海鲜市场了......",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "反复故障、可能送修，并导致闲置和低价转卖",
+            "evidence_quote": "想要把它送去维修时它就自己好了，然后后面不知道什么时候又坏了，反反复复几次真的很让我心烦，这也是我后面闲置它最大的原因"
+          },
+          "source_type": "guide",
+          "confidence": 0.91
+        },
+        {
+          "claim": "作者认为佩罗奇S1几乎无短板，适合进阶咖啡爱好者或想一步到位的新手。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "总之，佩罗奇的这款S1几乎可以称得上是没有短板，就很适合进阶咖啡爱好者，或小白想要一步到位选择。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者最推荐半自动，认为其可灵活调节粉度、水量和浸泡时间，制作符合个人口味的咖啡。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "最后一种常见的咖啡机类型就是半自动咖啡机，也就是我们在咖啡店里常见的那种需要手动参与咖啡制作过程的专业级咖啡机，同样也是我最推荐的咖啡机类型。\n\n这种类型的咖啡机往往都具有高度的灵活性，使用的时候可以根据个人口味调节咖啡豆的粉度、水量和浸泡时间等等一系列参数，从而制作出符合自己口味的咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "半自动价格比全自动适中，适合入门爱好者，熟练后可享受制作乐趣且出品品质较高。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "而且相较于全自动咖啡机，半自动咖啡机的价格更加适中，就很适合入门爱好者选择，在操作熟练后，不仅可以享受自己手工制作的乐趣，而且出杯的咖啡品质也是其他种类咖啡机很难比拟的。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "胶囊咖啡机无需研磨、操作简便且节省时间。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机是最近几年火起来的一种咖啡机类型，只要将配套的胶囊安装到固定位置，即可一键制备咖啡，其优点就在于操作简便，无需研磨咖啡豆，使用起来节省时间。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "none"
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-7100155077916891740",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "胶囊机可以做奶咖，但需确认胶囊系统和奶泡配置，热拿铁需独立奶泡器或带奶系统的机型。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "2、能不能做奶咖\n可以，但要看胶囊系统和奶泡配置。\n冰拿铁：用适合做浓缩的胶囊萃取，再加冷牛奶和冰块。\n热拿铁：使用独立奶泡器，或选择带奶系统的机型。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "热拿铁需独立奶泡器或带奶系统的机型。",
+            "evidence_quote": "热拿铁：使用独立奶泡器，或选择带奶系统的机型。"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者提醒胶囊机需先选择胶囊系统，不同系统通常不能随意通用。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "先选胶囊系统：不同系统通常不能随意通用。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "胶囊机虽不用处理散粉，但仍需清理废胶囊盒和滴水盘，并按说明冲洗、除垢。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "平时清理废胶囊盒和滴水盘，按说明冲洗、除垢，不需要自己处理散粉。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需清理废胶囊盒和滴水盘，并冲洗、除垢。",
+            "evidence_quote": "平时清理废胶囊盒和滴水盘，按说明冲洗、除垢"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者建议想少收拾的人选择胶囊咖啡机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "想少收拾，看胶囊机；",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者指出半自动即使采用研磨一体机，通常也需自己接粉、压粉和装手柄，用后还需清理粉碗、冲煮头和蒸汽棒。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "研磨一体机通常也要自己接粉、压粉、装手柄；辅助压粉机型会简化部分步骤。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需手动接粉、压粉、装手柄，用后还需清理粉碗、冲煮头和蒸汽棒。",
+            "evidence_quote": "用完要清理粉碗和冲煮头；蒸汽棒使用后及时擦净，并按说明排汽。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者提醒半自动使用非加压粉碗时通常需搭配合适的意式磨豆机，预算要按整套计算。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "磨豆配置：非加压粉碗通常需要适合意式的磨豆机，预算要算整套。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需将适合意式的磨豆机计入整套预算。",
+            "evidence_quote": "非加压粉碗通常需要适合意式的磨豆机，预算要算整套"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-756138187916159450",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为半自动意式机可DIY拉花、风味上限高，适合爱折腾的发烧友，但需手动磨粉和打奶泡。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "・半自动意式机：可 DIY 拉花、风味上限高，需手动磨粉 / 打奶泡，适合爱折腾的咖啡发烧友。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "play"
+          },
+          "cost": {
+            "text": "需要手动磨粉和打奶泡。",
+            "evidence_quote": "需手动磨粉 / 打奶泡"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊机一键出品、清洁压力小、口味稳定，适合忙碌上班族，但单杯成本稍高。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "・胶囊机：一键出品、零清洁压力，口味稳定但单杯成本稍高，适合忙碌上班族。",
+          "conditions": {
+            "freq": null,
+            "clean": "none",
+            "play": "none"
+          },
+          "cost": {
+            "text": "单杯成本稍高。",
+            "evidence_quote": "单杯成本稍高"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者建议常喝黑咖啡的人选择美式或胶囊咖啡机。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "・选购建议：常喝黑咖选美式 / 胶囊，爱喝奶咖必选带蒸汽棒的意式；懒人选全自动，追求仪式感选手动。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者推荐美的MA-GE5110半自动机，认为其千元内、温控可调、预浸泡充分且机身小巧，适合预算有限的新手和租房党。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "上榜理由：千元内爆款半自动咖啡机，京东10万+真实好评背书，大品牌售后有保障。20bar高压萃取+NTC+PID双控温，温度五档可调，能适配不同烘焙度的咖啡豆。\n预浸泡8档可调，能充分唤醒咖啡粉香气，油脂在线，冷热双萃适配四季，机身小巧，适合预算有限的新手、租房党。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "属于千元内机型。",
+            "evidence_quote": "千元内爆款半自动咖啡机"
+          },
+          "source_type": "guide",
+          "confidence": 0.97
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-7991654565415612763",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "百胜图二代S集成咖啡称，制作咖啡时无需在旁边单独放电子秤。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "咖啡机自带了咖啡称，最直观的好处是，做咖啡时不需要在旁边单独放个称了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "百胜图二代S双加热双水泵可同时萃取和打奶泡，开机后半分钟内可完成磨豆加萃取，效率高。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "开机快：不用等，日常上班前想快速做个咖啡带走，开机后磨豆加萃取，半分钟内就能搞定。\n咖啡萃取和打奶泡互不干扰：咖啡萃取的同时，就可以拿着奶缸在侧面打起了奶泡，咖啡萃取完成的同时，直接把奶泡加进去。效率很高。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "百胜图二代S的接水盘可取出擦洗，冲泡头可通过再次萃取和小刷子清理。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "每次萃取完，可以将接水盘取出，打开盖子倒掉残液，用配好的布擦干净。\n2）冲泡头\n做完咖啡，可以再开启一次单杯或者双杯萃取，可以发现冲出来的水里会有部分咖啡粉。\n然后用小刷子刷一刷，用布擦干就好了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每次萃取后需清理接水盘和冲泡头",
+            "evidence_quote": "每次萃取完，可以将接水盘取出，打开盖子倒掉残液，用配好的布擦干净"
+          },
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为百胜图二代S清洗较友好，购买时已配好大部分清洁工具。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "百胜图二代 S咖啡机在清洗方面也属于比较友好的。关于半自动咖啡机的清洗，在另外一篇文章里有更详细的分享：\n所有的清洗，在购买这台咖啡机时，已经配好了大部分的工具，布、小刷子.... 这个细节确实很 nice.",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "百胜图二代S采用PID恒温并支持定制萃取温度和萃取量，可提高口感可控性。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "这种温度控制方式，可以让温度控制得更加精准和稳定，让在家做咖啡的爱好者们更好地控制咖啡萃取的温度，提高咖啡口感的可控性。\n・定制化：此外，还支持萃取温度以及萃取量的定制。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-8401125245234615220",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "清洁清单要求半自动每次做完咖啡后倒掉粉饼、冲洗手柄、擦净机身并刷洗冲煮头。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "1、日常随手清洁\n每次做完咖啡，随手倒掉粉饼，冲洗手柄、擦净咖啡机外部。除此以外，以下部位的清洁也很重要。\n・冲煮头：\n每次做完咖啡，用清洁刷快速刷一下，再按一下萃取键，能冲出来不少残渣。",
+          "conditions": {
+            "freq": null,
+            "clean": "daily",
+            "play": null
+          },
+          "cost": {
+            "text": "每次制作后需倒掉粉饼、冲洗手柄并擦净机身。",
+            "evidence_quote": "每次做完咖啡，随手倒掉粉饼，冲洗手柄、擦净咖啡机外部。"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者要求日常做完咖啡后倒掉半自动咖啡机沥水盘中的积水，有浮标提示时可等待浮标浮起后集中处理。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "・沥水盘\n日常做完咖啡，把沥水盘里的水顺手倒掉。\n像百胜图这种咖啡机有红色浮标提示的，也可以等到浮标浮起来后，再把攒的水一起倒掉。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "日常需清理沥水盘积水。",
+            "evidence_quote": "日常做完咖啡，把沥水盘里的水顺手倒掉。"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为家用半自动咖啡机可以自行在家清洁，无需请专业维修团队。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "和商用咖啡机不同，家用咖啡机一般不需要请专业的维修团队来处理，自己在家就可以完成。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "cleaning",
+          "confidence": 0.96
+        },
+        {
+          "claim": "作者建议半自动咖啡机结合平时随手清洁与定期大扫除，让机器保持最佳状态。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "和家里清洁一样，咖啡机清洁最好也是平时随手清洁（手柄、冲煮头还有蒸汽棒等）+定期的大扫除，让咖啡机保持最好的状态。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需要平时随手清洁并定期大扫除。",
+            "evidence_quote": "平时随手清洁（手柄、冲煮头还有蒸汽棒等）+定期的大扫除"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者要求半自动打完奶泡后立即擦净蒸汽棒并开蒸汽冲残奶，形成奶垢后还需热水浸泡十分钟。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "最好的清洗时间就是刚打完奶泡的时候，顺手用湿布从上到下擦一下，在蒸汽棒出口位置左右旋转一下，再打开蒸汽功能，把蒸汽棒里残留的奶冲出来，就可以了。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需及时擦洗并开蒸汽冲净；奶垢形成后还需浸泡十分钟和再次清洁。",
+            "evidence_quote": "如果奶垢已经形成，可以把蒸汽棒在热水里泡十分钟，再按照以上步骤，用湿布擦一下，开蒸汽冲出残留奶垢即可。"
+          },
+          "source_type": "cleaning",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-8418088110929187000",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为想要基础版、简单易用的咖啡机时，胶囊机是较合适的选择。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "如果你想要基础版的、简单易用的咖啡机，那么胶囊咖啡机或美式咖啡机是比较合适的选择。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊机或美式机虽然比直接冲泡口感稍好，但相比意式咖啡缺乏经典和新鲜感。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "如果你想要基础版的、简单易用的咖啡机，那么胶囊咖啡机或美式咖啡机是比较合适的选择。这类咖啡机虽然制作出来的咖啡口感比直接冲泡的咖啡好些，但是相比于意式咖啡更加缺乏经典和新鲜的感觉。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者建议追求更好口感和咖啡体验的人选择意式半自动或全自动机，认为其能制作更独特的口感，但操作稍有难度。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "如果你想要更好的口感和咖啡体验，建议选择意式半自动或全自动咖啡机。这类咖啡机操作稍有难度，但是可以制作出更加独特的咖啡口感，非常适合咖啡爱好者或专业咖啡师使用。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "操作稍有难度。",
+            "evidence_quote": "这类咖啡机操作稍有难度"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动机更注重个性化口感，可按个人喜好调整，适合动手能力强且追求口感的爱好者。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "需要自己研磨咖啡豆，粉的粗细需要自己调节，奶泡也需要自己打发。相比全自动咖啡机，半自动咖啡机更加注重个性化的口感，可以根据个人喜好进行调整。适合动手能力强和对咖啡口感追求高的咖啡爱好者使用。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": "play"
+          },
+          "cost": {
+            "text": "需自行研磨、调节研磨粗细和打发奶泡。",
+            "evidence_quote": "需要自己研磨咖啡豆，粉的粗细需要自己调节，奶泡也需要自己打发。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-863146990986010169",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者推荐德龙EC9155.W，认为其兼具专业萃取、紧凑设计、礼物所需的颜值和实用性，并能制作绵密微泡练习拉花。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "1、德龙EC9155.W：兼具专业萃取与紧凑设计，雪山白哑光机身搭配不锈钢材质，作为礼物兼具颜值与实用性。它内置一体式圆锥研磨器，提供8档研磨度调节，配合3档萃取温度选择（92/94/96℃），可灵活适配不同烘焙度的咖啡豆。15巴泵压与Thermoblock加热系统协同工作，智能温控在萃取过程中保持水温稳定，保障出杯一致性。MyLatte Art手动奶泡系统可打发绵密微泡，轻松练习拉花；",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者推荐铂富BES876，认为其一键式专业压粉系统能保持填压力度一致，大幅降低新手门槛。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "1、铂富BES876：一款主打“一键式专业压粉”的半自动研磨一体家用咖啡机，核心创新在于Impress Puck System（IPS咖啡师系统），内置智能压粉器可模拟专业咖啡师的压粉动作，保证每次填压力度一致，大幅降低新手入门门槛。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "格米莱云象G3028A凭双PID、可调压和自动打奶，适合想复刻咖啡馆又不愿过度占地的进阶用户。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "3、格米莱云象G3028A：核心优势在于混合式锅炉系统与双PID独立控温，萃取与蒸汽温度均可1度1调，保障连续出杯的稳定性。专利复合式冲煮头将550ml萃取锅炉与58mm商用冲煮头合二为一，缩短水路、减少失温，提升萃取一致性。双模式OPV支持萃取前预设或萃取中实时调压，灵活适配不同烘焙度咖啡豆的风味表达。蒸汽棒支持定温自动打奶，达到设定温度自动停止，新手也能稳定打出绵密奶泡。机身以不锈钢为主材，尺寸265×335×376 mm，在锅炉机中保持相对紧凑的占位。凭借专业级温控、可调控压与自动化奶泡体验，适合希望在家中复刻咖啡馆出品、又不想过度牺牲厨房空间的进阶用户。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者推荐格米莱小钢炮G3007L，认为其专业、紧凑，24.5厘米宽机身能节省厨房空间。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "机身采用优质不锈钢材质，耐磨耐腐蚀，且宽度仅24.5cm（“小钢炮”设计），节省厨房空间；该机型凭借稳定的萃取表现、灵活的操控性及易维护特点，成为追求专业咖啡制作体验的消费者优选。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-8940674025",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者认为新手更适合一体式半自动机，可缩短工序、降低操作复杂度并改善使用体验。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "PS：但要注意的是半自动咖啡机又分为分体式和一体式，从学习成本和操作便携性方面，新手更推荐一体式半自动咖啡机，可以缩短工序降低操作复杂度，使用体验会更好。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者根据自己的饮用经历认为，半自动机每月比外购咖啡省大几百，味道不输星巴克，还能体验不同豆子风味。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "但用半自动咖啡机的话，每月喝咖啡钱会比平时省大几百，而且味道一点不输外面星巴克，同时还能享受自制咖啡的乐趣和体验不同豆子的风味。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.97
+        },
+        {
+          "claim": "作者认为半自动机口感最好、香浓醇厚且接近精品咖啡馆，多参数可调，适合追求口感的手动DIY用户。",
+          "option": "semi",
+          "polarity": "pro",
+          "evidence_quote": "半自动咖啡机口感是市面咖啡机中最好的，做出的咖啡口感更香浓醇厚，最接近手工咖啡店和精品咖啡馆口味。而且多参数可调，可玩性更高，更能满足手动党DIY做咖啡乐趣，非常适合日常对咖啡口感有点小追求的朋友。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.98
+        },
+        {
+          "claim": "作者认为胶囊机口味选择有限，每颗胶囊3至7元，每月支出对重度咖啡用户不友好。",
+          "option": "capsule",
+          "polarity": "con",
+          "evidence_quote": "当然缺点也很明显，口味选择很有限，而且胶囊咖啡本身不便宜，一颗3-7元不等，每月也是一笔不小的支出，对重度咖啡奴很不友好。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "每颗胶囊3至7元，每月形成不小支出。",
+            "evidence_quote": "一颗3-7元不等，每月也是一笔不小的支出"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者指出半自动机学习成本高，设计不合理还容易飞粉、堵粉并增加清洁麻烦。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "很多咖友想买半自动咖啡机被劝退最多的就是1、学习成本高，买回去不会用；2、设计不合理容易飞粉、堵粉，清洁很麻烦。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "学习成本高，且可能因飞粉、堵粉增加清洁负担。",
+            "evidence_quote": "学习成本高，买回去不会用；2、设计不合理容易飞粉、堵粉，清洁很麻烦。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为胶囊机操作便捷、价格相对偏低，放入胶囊后轻按即可萃取。",
+          "option": "capsule",
+          "polarity": "pro",
+          "evidence_quote": "胶囊咖啡机优点是操作便捷，价格相对偏低，使用只需要把胶囊咖啡放入胶囊机，然后轻轻一按就能萃取出一杯咖啡。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": null,
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    },
+    {
+      "candidate_id": "coffee-article-9137788802236293960",
+      "status": "extracted",
+      "claims": [
+        {
+          "claim": "作者根据自身使用经历认为，半自动机需要手动研磨和冲泡，过程繁琐且难以保证每杯口感稳定。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "最开始选择的半自动咖啡机，可手动研磨、冲泡，过程繁琐不说，还很难保证每杯的口感稳定。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需手动研磨、冲泡，过程繁琐且稳定性不足。",
+            "evidence_quote": "可手动研磨、冲泡，过程繁琐不说，还很难保证每杯的口感稳定。"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        },
+        {
+          "claim": "作者认为半自动机需磨豆、布粉、萃取等一系列流程，消耗时间比全自动机长。",
+          "option": "semi",
+          "polarity": "con",
+          "evidence_quote": "这一点可以说比半自动咖啡机方便多了，半自动咖啡机需要磨豆、布粉、萃取一系列流程，消耗时间比较长，全自动咖啡机可以说就是懒人必备。",
+          "conditions": {
+            "freq": null,
+            "clean": null,
+            "play": null
+          },
+          "cost": {
+            "text": "需完成磨豆、布粉和萃取流程，消耗时间较长。",
+            "evidence_quote": "半自动咖啡机需要磨豆、布粉、萃取一系列流程，消耗时间比较长"
+          },
+          "source_type": "guide",
+          "confidence": 0.99
+        }
+      ]
+    }
+  ]
+}

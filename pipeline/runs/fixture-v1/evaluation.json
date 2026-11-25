@@ -1,0 +1,24 @@
+{
+  "run_id": "fixture-v1",
+  "prompt_version": "extract-v1.0.0",
+  "provider": "fixture",
+  "model": "hand-labelled-fixture",
+  "fixture_run": true,
+  "interpretation": "fixture regression only; not a model quality estimate",
+  "metrics": {
+    "evaluated_candidates": 5,
+    "gold_candidates": 5,
+    "gold_claims": 8,
+    "candidate_status_accuracy": 1.0,
+    "evidence_recall": 1.0,
+    "evidence_precision_on_gold_candidates": 1.0,
+    "matched_claim_count": 8,
+    "source_type_accuracy_on_exact_evidence": 1.0,
+    "option_accuracy_on_exact_evidence": 1.0,
+    "polarity_accuracy_on_exact_evidence": 1.0,
+    "condition_accuracy_on_exact_evidence": 1.0,
+    "condition_fields_checked": 24,
+    "missing_candidates": []
+  },
+  "usage": {}
+}

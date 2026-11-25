@@ -1,0 +1,27 @@
+{
+  "run_id": "model-v1",
+  "prompt_version": "extract-v1.0.0",
+  "provider": "agent",
+  "model": "not-disclosed",
+  "fixture_run": false,
+  "gold_suite_version": "1.0",
+  "gold_annotation_status": "seed-set-manually-annotated",
+  "quality_reporting_eligible": false,
+  "interpretation": "seed-set metrics only; expand and freeze a 50-case gold set before reporting model quality",
+  "metrics": {
+    "evaluated_candidates": 5,
+    "gold_candidates": 5,
+    "gold_claims": 8,
+    "candidate_status_accuracy": 1.0,
+    "evidence_recall": 0.5,
+    "evidence_precision_on_gold_candidates": 0.2222,
+    "matched_claim_count": 4,
+    "source_type_accuracy_on_exact_evidence": 1.0,
+    "option_accuracy_on_exact_evidence": 1.0,
+    "polarity_accuracy_on_exact_evidence": 1.0,
+    "condition_accuracy_on_exact_evidence": 0.9167,
+    "condition_fields_checked": 12,
+    "missing_candidates": []
+  },
+  "usage": {}
+}
